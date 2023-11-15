@@ -4,19 +4,7 @@
 "section-number" :  "R162-2f-401a", 
 "section-title": "Affirmative Duties Required of Licensed Individuals. An indivdual licensee shall",
 "section-clarifier": "An indivdual licensee shall:  ",
-"law-section": "(1)  uphold the following fiduciary duties in the course of representing a principal:
-(a)  loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;
-(b)  obedience, which obligates the agent to obey any lawful instructions from the principal;
-(c)  full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:
-(i)  the other party; or
-(ii)  the transaction;
-(d)  confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken 
-the principal's bargaining position if it were known, but excepting any known material fact concerning:
-(i)  a defect in the property; or
-(ii)  the client's ability to perform on the contract;
-(e)  reasonable care and diligence;
-(f)  holding safe and accounting for any money or property entrusted to the agent; and
-(g)  any additional duties created by the agency agreement;"
+"law-section": "(1)  uphold the following fiduciary duties in the course of representing a principal:(a)  loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;(b)  obedience, which obligates the agent to obey any lawful instructions from the principal;(c)  full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:(i)  the other party; or(ii)  the transaction;(d)  confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken the principal's bargaining position if it were known, but excepting any known material fact concerning:(i)  a defect in the property; or(ii)  the client's ability to perform on the contract;(e)  reasonable care and diligence;(f)  holding safe and accounting for any money or property entrusted to the agent; and(g)  any additional duties created by the agency agreement;"
 },
 {  
 "section-number" :  "R162-2f-401a", 
@@ -124,13 +112,13 @@ the principal's bargaining position if it were known, but excepting any known ma
 "section-number" :  "R162-2f-401a", 
 "section-title": "Affirmative Duties Required of Licensed Individuals",
 "section-clarifier": "An indivdual licensee shall:  ",
-"law-section":"(19)  before signing or initialing a document on behalf of a principal in a sales transaction:(a)  obtain prior written authorization in the form of a power of attorney executed by the principal;(b)  retain in the file for the transaction a copy of said power of attorney;(c)  attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;(d)  sign as follows:  "(Principal's Name) by (Licensee's Name), Attorney-in-Fact;" and(e)  initial as follows:  "(Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);""
+"law-section":"(19)  before signing or initialing a document on behalf of a principal in a sales transaction:(a)  obtain prior written authorization in the form of a power of attorney executed by the principal;(b)  retain in the file for the transaction a copy of said power of attorney;(c)  attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;(d)  sign as follows:  '(Principal's Name) by (Licensee's Name), Attorney-in-Fact;' and(e)  initial as follows:  '(Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);'"
 },
 {
 "section-number" :  "R162-2f-401a", 
 "section-title": "Affirmative Duties Required of Licensed Individuals",
 "section-clarifier": "An indivdual licensee shall:  ",
-"law-section":"(20)  before signing or initialing a document on behalf of a principal in a property management transaction:(a)  obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;(b)  retain in the file for the transaction a copy of the written authorization;(c)  sign as follows: "by (Licensee's Name), on behalf of Owner;" and(d)  initial as follows: "by (Licensee's initials), on behalf of Owner;""
+"law-section":"(20)  before signing or initialing a document on behalf of a principal in a property management transaction:(a)  obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;(b)  retain in the file for the transaction a copy of the written authorization;(c)  sign as follows: 'by (Licensee's Name), on behalf of Owner;' and(d)  initial as follows: 'by (Licensee's initials), on behalf of Owner;'"
 },
 {
 "section-number" :  "R162-2f-401a", 
@@ -256,7 +244,7 @@ the principal's bargaining position if it were known, but excepting any known ma
     "section-number" :  "R162-2f-401h", 
     "section-title": "Requirements and Restrictions in Advertising.",
     "section-clarifier": "",
-    "law-section": "(3)  A licensee is not required to identify the name of the brokerage with which the licensee is affiliated if:(a)  the licensee advertises a property not currently listed with the brokerage with which the licensee is affiliated;(b)  the licensee has an ownership interest in the property; and(c)  the advertisement identifies the name of the individual licensee as "owner-agent" or "owner-broker.""
+    "law-section": "(3)  A licensee is not required to identify the name of the brokerage with which the licensee is affiliated if:(a)  the licensee advertises a property not currently listed with the brokerage with which the licensee is affiliated;(b)  the licensee has an ownership interest in the property; and(c)  the advertisement identifies the name of the individual licensee as 'owner-agent' or 'owner-broker.'"
 },
 {
     "section-number" :  "R162-2f-401h", 
@@ -328,7 +316,7 @@ the principal's bargaining position if it were known, but excepting any known ma
     "section-number" :  "R162-2f-403a", 
     "section-title": "Trust Accounts - Real Estate Company.",
     "section-clarifier": "The principal broker of a real estate company shall: ",
-    "law-section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term "void" and the original instrument retained pursuant to Section R162-2f-401k." 
+    "law-section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term 'void' and the original instrument retained pursuant to Section R162-2f-401k." 
 },
 {
     "section-number" :  "R162-2f-403a", 
@@ -448,7 +436,7 @@ the principal's bargaining position if it were known, but excepting any known ma
     "section-number" :  "R162-2f-403b", 
     "section-title": "Trust Accounts - Property Management Company.",
     "section-clarifier": "The principal broker of a property management company shall: ",
-    "law-section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term "void" and the original instrument retained pursuant to Section R162-2f-401k."
+    "law-section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term 'void' and the original instrument retained pursuant to Section R162-2f-401k."
 },
 {
     "section-number" :  "R162-2f-403b", 
