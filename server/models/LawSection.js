@@ -9,7 +9,7 @@ const lawSectionSchema = new Schema({
         type: String,
         required: true,
     },
-    "section-calrifier": {
+    "section-clarifier": {
         type: String,
         required: true,
     },
