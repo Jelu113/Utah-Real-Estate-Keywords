@@ -13,11 +13,12 @@ const lawSectionSchema = new Schema({
         type: String,
         required: true,
     },
-    "law-section": {
+    "law-sections": [{
         type: String,
         required: true
-    }
+    }]
 });
+
 
 const LawSection = model('LawSection', lawSectionSchema);
 module.exports = LawSection;
