@@ -1,155 +1,165 @@
 
 [
+  
   {
     "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals. An indivdual licensee shall",
+    "section-title": "Affirmative Duties Required of Licensed Individuals.",
     "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(1)  uphold the following fiduciary duties in the course of representing a principal:(a)  loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;(b)  obedience, which obligates the agent to obey any lawful instructions from the principal;(c)  full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:(i)  the other party; or(ii)  the transaction;(d)  confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken the principal's bargaining position if it were known, but excepting any known material fact concerning:(i)  a defect in the property; or(ii)  the client's ability to perform on the contract;(e)  reasonable care and diligence;(f)  holding safe and accounting for any money or property entrusted to the agent; and(g)  any additional duties created by the agency agreement;"
+    "law-sections" : [{
+      "law-section": "(1)  uphold the following fiduciary duties in the course of representing a principal: ",
+      "law-section-a":"(a)  loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;",
+      "law-section-b":"(b)  obedience, which obligates the agent to obey any lawful instructions from the principal;",
+      "law-section-c":"(c)  full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:(i)  the other party; or(ii)  the transaction;",
+      "law-section-d":"(d)  confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken the principal's bargaining position if it were known, but excepting any known material fact concerning:(i)  a defect in the property; or(ii)  the client's ability to perform on the contract;",
+      "law-section-e":"(e)  reasonable care and diligence;",
+      "law-section-f":"(f)  holding safe and accounting for any money or property entrusted to the agent; and",
+      "law-section-g":"(g)  any additional duties created by the agency agreement;"
+      },
+    {
+      "law-section": "(2)  define the scope of the individual's agency by executing execute a written agency agreement between the individual and the individual's principal, including:",
+      "law-section-a":"(a)  sellers the individual represents;",
+      "law-section-b": "(b)  buyers the individual represents;",
+      "law-section-c":"(c)  buyers and sellers the individual represents as a limited agent in the same transaction pursuant to Subsection",
+      "law-section-d":"(4);(d)  the owner of a property for which the individual will provide property management services; and(e)  a tenant whom the individual represents;"
+    },
+    {
+      "law-section": "(3)  if representing both principals in a transaction as a limited agent, obtain prior informed consent by:",
+      "law-section-a": "(a)  clearly explaining in writing to both parties:(i)  that each may be represented by a separate agent;(ii)  the type of information that will be held confidential;(iii)  the type of information that will be disclosed; and(iv)  the circumstances under which the withholding of information would constitute a material misrepresentation regarding the property or regarding the abilities of the parties to fulfill their obligations;",
+      "law-section-b": "(b)  obtaining a written acknowledgment from each party affirming that the party waives the right to:(i)  undivided loyalty;(ii)  absolute confidentiality; and(iii)  full disclosure from the licensee; and",
+      "law-section-c": "(c)  obtaining a written acknowledgment from each party affirming that the party understands that the licensee will act in a neutral capacity to advance the interests of each party;"
+    },
+    {
+      "law-section": "(4)  when acting under a limited agency agreement:",
+      "law-section-a" :"(a)  act as a neutral third party; and",
+      "law-section-b": "(b)  uphold the following fiduciary duties to both parties:(i)  obedience, which obligates the limited agent to obey any lawful instructions from the parties, consistent with the agent's duty of neutrality;(ii)  reasonable care and diligence;(iii)  holding safe any money or property entrusted to the limited agent; and(iv)  any additional duties created by the agency agreement;"
+    },
+    {
+      "law-section": "(5)  when making an offer or solicitation to buy, sell, lease or rent real property as a principal, either directly or indirectly, or as an agent for a client, a licensee shall disclose in the initial contact with the other party the fact that the licensee holds a license with the division, whether the license status is active or inactive;"
+    },
+    {
+      "law-section": "(6)before the execution of a binding purchase or lease agreement, disclose in writing to clients, agents for other parties, and unrepresented parties:",
+      "law-section-a" : "(a)  the licensee's position as a principal in any transaction where the licensee operates either directly or indirectly to buy, sell, lease, or rent real property;",
+      "law-section-b" : "(b)  the fact that the licensee holds a license with the division, whether the license status is active or inactive, in any circumstance where the licensee is a principal in an agreement to buy, sell, lease, or rent real property;",
+      "law-section-c" : "(c)  the licensee's agency relationships; and(d)(i)  the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and(ii)  the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;"
+    },
+    {
+      "law-section": "(7)  before offering any property for sale or lease, make reasonable efforts to verify the accuracy and content of the information and data to be used in the marketing of the property;"
+    },
+    {
+      "law-section": "(9)  upon initial contact with another agent in a transaction, disclose the agency relationship between the licensee and the client;"
+    },
+    {
+      "law-section": "(10)  when executing a binding agreement in a sales transaction, confirm the prior agency disclosure:",
+      "law-section-a" :"(a)  in the currently approved Real Estate Purchase Contract; or",
+      "law-section-b" :"(b)  in a separate provision with substantially similar language incorporated in or attached to the binding agreement;"
+    },
+    {
+      "law-section": "(11)  when executing a lease or rental agreement, confirm the prior agency disclosure by:",
+      "law-section-a" :"(a)  incorporating it into the agreement; or",
+      "law-section-b" :"(b)  attaching it as a separate document;"
+    },
+    {
+      "law-section": "(12)  if the licensee desires to act as a sub-agent for showing property owned by a seller who is under contract with another brokerage, before showing the seller's property:",
+      "law-section-a":"(a)  notify the listing brokerage that sub-agency is requested; and",
+      "law-section-b":"(b)  enter into a written agreement with the listing brokerage with which the seller has contracted:(i)  consenting to the sub-agency; and(ii)  defining the scope of the agency;",
+      "law-section-c":"(c)  obtain from the listing brokerage any available information about the property; and",
+      "law-section-d":"(d)  uphold the same fiduciary duties outlined in Subsection (1);"
+    },
+    {
+      "law-section": "(13)  provide copies of a lease or purchase agreement, properly signed by each party, to the party for whom the licensee acts as an agent;"
+    },
+    {
+      "law-section": "(14)",
+      "law-section-a":"(a)  in identifying the seller's brokerage in paragraph 5 of the approved Real Estate Purchase Contract, use:(i)  the principal broker's individual name; or(ii)  the principal broker's brokerage name; and",
+      "law-section-b": "(b)  personally fulfill the licensee's agency relationship with the client, notwithstanding the information used to complete paragraph 5;"
+    },
+    {
+      "law-section": "(15)  timely inform the licensee's principal broker or branch broker of real estate transactions in which:",
+      "law-section-a": "(a)  the licensee is involved as agent or principal;",
+      "law-section-b": "(b)  the licensee has received funds on behalf of the principal broker; or",
+      "law-section-c": "(c)  an offer has been written;" 
+    },
+    {
+      "law-section": "(16)",
+      "law-section-a":"(a)  disclose in writing to each party to a transaction any compensation in addition to any real estate commission that will be received in connection with a real estate transaction; and",
+      "law-section-b":"(b)  ensure that any such compensation is paid to the licensee's principal broker;"
+    },
+  {
+    "law-section": "(17)",
+    "law-section-a":"(a) in negotiating and closing a transaction, a licensee may fill out those legal forms as provided for in Section 61-2f-306;"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(2)  define the scope of the individual's agency by executing execute a written agency agreement between the individual and the individual's principal, including:(a)  sellers the individual represents;(b)  buyers the individual represents;(c)  buyers and sellers the individual represents as a limited agent in the same transaction pursuant to Subsection (4);(d)  the owner of a property for which the individual will provide property management services; and(e)  a tenant whom the individual represents;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(3)  if representing both principals in a transaction as a limited agent, obtain prior informed consent by:(a)  clearly explaining in writing to both parties:(i)  that each may be represented by a separate agent;(ii)  the type of information that will be held confidential;(iii)  the type of information that will be disclosed; and(iv)  the circumstances under which the withholding of information would constitute a material misrepresentation regarding the property or regarding the abilities of the parties to fulfill their obligations;(b)  obtaining a written acknowledgment from each party affirming that the party waives the right to:(i)  undivided loyalty;(ii)  absolute confidentiality; and(iii)  full disclosure from the licensee; and(c)  obtaining a written acknowledgment from each party affirming that the party understands that the licensee will act in a neutral capacity to advance the interests of each party;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(4)  when acting under a limited agency agreement:(a)  act as a neutral third party; and(b)  uphold the following fiduciary duties to both parties:(i)  obedience, which obligates the limited agent to obey any lawful instructions from the parties, consistent with the agent's duty of neutrality;(ii)  reasonable care and diligence;(iii)  holding safe any money or property entrusted to the limited agent; and(iv)  any additional duties created by the agency agreement;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(5)  when making an offer or solicitation to buy, sell, lease or rent real property as a principal, either directly or indirectly, or as an agent for a client, a licensee shall disclose in the initial contact with the other party the fact that the licensee holds a license with the division, whether the license status is active or inactive;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(6)  before the execution of a binding purchase or lease agreement, disclose in writing to clients, agents for other parties, and unrepresented parties:(a)  the licensee's position as a principal in any transaction where the licensee operates either directly or indirectly to buy, sell, lease, or rent real property;(b)  the fact that the licensee holds a license with the division, whether the license status is active or inactive, in any circumstance where the licensee is a principal in an agreement to buy, sell, lease, or rent real property;(c)  the licensee's agency relationships; and(d)(i)  the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and(ii)  the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(7)  before offering any property for sale or lease, make reasonable efforts to verify the accuracy and content of the information and data to be used in the marketing of the property;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(8)  before offering a residential property for sale, disclose the source on which the licensee relies for any square footage data that will be used in the marketing of the property:(a)  in the written agreement, executed with the seller, through which the licensee acquires the right to offer the property for sale; and(b)  in a written disclosure provided to the buyer, at the licensee's direction, at or before the deadline for the seller's disclosure per the contract for sale;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(9)  upon initial contact with another agent in a transaction, disclose the agency relationship between the licensee and the client;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(10)  when executing a binding agreement in a sales transaction, confirm the prior agency disclosure:(a)  in the currently approved Real Estate Purchase Contract; or(b)  in a separate provision with substantially similar language incorporated in or attached to the binding agreement;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(11)  when executing a lease or rental agreement, confirm the prior agency disclosure by:(a)  incorporating it into the agreement; or(b)  attaching it as a separate document;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(12)  if the licensee desires to act as a sub-agent for showing property owned by a seller who is under contract with another brokerage, before showing the seller's property:(a)  notify the listing brokerage that sub-agency is requested; and(b)  enter into a written agreement with the listing brokerage with which the seller has contracted:(i)  consenting to the sub-agency; and(ii)  defining the scope of the agency;(c)  obtain from the listing brokerage any available information about the property; and(d)  uphold the same fiduciary duties outlined in Subsection (1);"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(13)  provide copies of a lease or purchase agreement, properly signed by each party, to the party for whom the licensee acts as an agent;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(14)(a)  in identifying the seller's brokerage in paragraph 5 of the approved Real Estate Purchase Contract, use:(i)  the principal broker's individual name; or(ii)  the principal broker's brokerage name; and(b)  personally fulfill the licensee's agency relationship with the client, notwithstanding the information used to complete paragraph 5;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(15)  timely inform the licensee's principal broker or branch broker of real estate transactions in which:(a)  the licensee is involved as agent or principal;(b)  the licensee has received funds on behalf of the principal broker; or(c)  an offer has been written;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(16)(a)  disclose in writing to each party to a transaction any compensation in addition to any real estate commission that will be received in connection with a real estate transaction; and(b)  ensure that any such compensation is paid to the licensee's principal broker;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(17)(a)  in negotiating and closing a transaction, a licensee may fill out those legal forms as provided for in Section 61-2f-306;"
-  },
-  {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
     "law-section": "(18)  use an approved addendum form to make a counteroffer or any other modification to a contract;"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(19)  before signing or initialing a document on behalf of a principal in a sales transaction:(a)  obtain prior written authorization in the form of a power of attorney executed by the principal;(b)  retain in the file for the transaction a copy of said power of attorney;(c)  attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;(d)  sign as follows:  '(Principal's Name) by (Licensee's Name), Attorney-in-Fact;' and(e)  initial as follows:  '(Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);'"
+    "law-section": "(19)  before signing or initialing a document on behalf of a principal in a sales transaction:",
+    "law-section-a": "(a)  obtain prior written authorization in the form of a power of attorney executed by the principal;",
+    "law-section-b": "(b)  retain in the file for the transaction a copy of said power of attorney;",
+    "law-section-c": "(c)  attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;",
+    "law-section-d": "(d)  sign as follows:  '(Principal's Name) by (Licensee's Name), Attorney-in-Fact;' and",
+    "law-section-e": "(e)  initial as follows:  '(Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);'"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(20)  before signing or initialing a document on behalf of a principal in a property management transaction:(a)  obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;(b)  retain in the file for the transaction a copy of the written authorization;(c)  sign as follows: 'by (Licensee's Name), on behalf of Owner;' and(d)  initial as follows: 'by (Licensee's initials), on behalf of Owner;'"
+    "law-section": "(20)  before signing or initialing a document on behalf of a principal in a property management transaction:",
+    "law-section-a":"(a)  obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;",
+    "law-section-b":"(b)  retain in the file for the transaction a copy of the written authorization;",
+    "law-section-c":"(c)  sign as follows: 'by (Licensee's Name), on behalf of Owner;' and",
+    "law-section-d":"(d)  initial as follows: 'by (Licensee's initials), on behalf of Owner;'"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
     "law-section": "(21)  if employing an unlicensed individual to provide assistance in connection with real estate transactions, adhere to Section R162-2f-401g;"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
     "law-section": "(22)  strictly adhere to advertising restrictions as outlined in Section R162-2f-401h;"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-section": "(23)  as to a guaranteed sales agreement, provide full disclosure regarding the guarantee by executing a written contract that contains:(a)  the conditions and other terms under which the property is guaranteed to be sold or purchased;(b)  the charges or other costs for the service or plan;(c)  the price for which the property will be sold or purchased; and(d)  the approximate net proceeds the seller may reasonably expect to receive;"
+    "law-section": "(23)  as to a guaranteed sales agreement, provide full disclosure regarding the guarantee by executing a written contract that contains:",
+    "law-section-a": "(a)  the conditions and other terms under which the property is guaranteed to be sold or purchased;",
+    "law-section-b":"(b)  the charges or other costs for the service or plan;",
+    "law-section-c":"(c)  the price for which the property will be sold or purchased; and",
+    "law-section-d":"(d)  the approximate net proceeds the seller may reasonably expect to receive;"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
     "law-section": "(24)  immediately deliver money received in a real estate transaction to the principal broker for deposit; and"
   },
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals",
-    "section-clarifier": "An indivdual licensee shall:  ",
     "law-section": "(25)  as contemplated by Subsection 61-2f-401(18), when notified by the division that information or documents are required for investigation purposes, respond with the required information or documents in full and within ten business days.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation."
+  }
+    ] 
   },
+
+  {
+    "section-number": "R162-2f-401b",
+    "section-title": "Prohibited Conduct As Applicable to Licensed Individuals",
+    "section-clarifier": "An indivdual licensee may not:  ",
+    "law-sections" : [{
+      "law-section": "(1)  An individual licensee may not:",
+      "law-section-a": "(a)  engage in any of the practices described in Section 61-2f-401 and the following sections, whether acting as agent or on the licensee's own account, in a manner that: (i)  fails to conform with accepted standards of the real estate sales, leasing, or management industries;(ii)  could jeopardize the public health, safety, or welfare; or(iii)  violates any provision of Title 61, Chapter 2f or the rules of this chapter;", 
+      "law-section-b": "(b)  require parties to acknowledge receipt of a final copy of any document prepared by the licensee before each party has signed a contract evidencing agreement to the contract terms;",
+      "law-section-c": "(c)  make a misrepresentation to the division:(i)  in an application for license renewal; or(ii)  in an investigation.",
+      "law-section-d": "(d)(i)  propose, prepare, or cause to be prepared a document, agreement, settlement statement, or other device that the licensee knows or should know does not reflect the true terms of the transaction; or(ii)  knowingly participate in a transaction in which such a false device is used;",
+      "law-section-e": "(e)  participate in a transaction in which a buyer enters into an agreement that:(i)  is not disclosed to the lender; and(ii)  if disclosed, might have a material effect on the terms or the granting of the loan;",
+      "law-section-f": "(f)  use or propose the use of a double contract;",
+      "law-section-g": "(g)  place a sign on real property without the written consent of the property owner;",
+      "law-section-h": "(h)  take a net listing;",
+      "law-section-i": "(i)  sell listed properties other than through the listing broker;",
+      "law-section-j": "(j)  subject a principal to paying a double commission without the principal's informed consent;",
+      "law-section-k": "(k)  enter or attempt to enter into a concurrent agency representation when the licensee knows or should know that the principal has an existing agency representation agreement with another licensee;",
+      "law-section-l": "(l)  pay a finder's fee or give any valuable consideration to an unlicensed person or entity for referring a prospect, except that:(i)  a licensee may give a gift valued at $250 or less to an individual in appreciation for an unsolicited referral of a prospect that results in a real estate transaction; and(ii)  as to a property management transaction, a licensee may compensate an unlicensed employee or previous or current tenant up to $250 per lease for assistance in retaining an existing tenant or securing a new tenant;",
+      "law-section-m": "(m)  accept a referral fee from:(i)  a lender; or(ii)  a mortgage broker;",
+      "law-section-n": "(n)  act as a real estate agent or broker in the same transaction in which the licensee also acts as a:(i)  mortgage loan originator, associate lending manager, or principal lending manager;(ii)  appraiser or appraiser trainee;(iii)  escrow agent; or(iv)  provider of title services;",
+      "law-section-o": "(o)  act or attempt to act as a limited agent in any transaction in which:(i)  the licensee is a principal in the transaction; or(ii)  any entity in which the licensee is an officer, director, partner, member, manager, employee, or stockholder is a principal in the transaction;",
+      "law-section-p": "(p)  make a counteroffer by striking out, whiting out, substituting new language, or otherwise altering:(i)  the boilerplate provisions of the Real Estate Purchase Contract; or(ii)  language that has been inserted to complete the blanks of the Real Estate Purchase Contract;",
+      "law-section-q": "(q)  advertise or offer to sell or lease property without the written consent of:(i)  the owners of the property; and(ii)  if the property is currently listed, the listing broker;",
+      "law-section-r": "(r)  advertise or offer to sell or lease property at a lower price than that listed without the written consent of the seller or lessor;",
+      "law-section-s": "(s)  represent on any form or contract that the individual is holding client funds without actually receiving funds and securing them pursuant to Subsection R162-2f-401a(24);",
+      "law-section-t": "(t)  when acting as a limited agent, disclose any information given to the agent by either principal that would likely weaken that party's bargaining position if it were known, unless the licensee has permission from the principal to disclose the information;",
+      "law-section-u": "(u)  disclose, or make any use of, a short sale demand letter outside of the purchase transaction for which it is issued;",
+      "law-section-v": "(v)  in a short sale, have the seller sign a document allowing the licensee to lien the property; or",
+      "law-section-w": "(w)  charge any fee that represents the difference between:(i)  the total concessions authorized by a seller and the actual amount of the buyer's closing costs; or(ii)  in a short sale, the sale price approved by the lender and the total amount required to clear encumbrances on title and close the transaction."
+    }]
+  
+},
   {
     "section-number": "R162-2f-401b",
     "section-title": "Prohibited Conduct As Applicable to Licensed Individuals",
@@ -520,6 +530,3 @@
         },
     }
 ],
-[
-
-]
