@@ -17,12 +17,12 @@ const userSchema = new Schema({
         type: String,
         required: true,
     },
-    savedKeywords: [
-        {
-            type: Schema.Type.ObjectId,
-            ref: 'Keyword',
-        }
-    ]
+    // savedKeywords: [
+    //     {
+    //         type: Schema.Type.ObjectId,
+    //         ref: 'Keyword',
+    //     }
+    // ]
 });
 
 const User = model('User', userSchema);
