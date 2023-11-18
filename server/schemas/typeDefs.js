@@ -2,9 +2,9 @@ const { gql } = require("graphql-tag");
 
 const typeDefs = gql`
     type User {
-        _id: ID
-        username: String
-        email: String
+        _id: ID!
+        username: String!
+        email: String!
         password: String
         keywords: [Keyword]
     }
@@ -15,7 +15,7 @@ const typeDefs = gql`
     }
 
     type Keyword {
-        _id: ID
+        _id: ID!
         keyword: String!
         section: [LawSection]
     }
@@ -43,3 +43,5 @@ const typeDefs = gql`
 
     
 `
+
+module.exports = typeDefs;

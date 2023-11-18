@@ -14,7 +14,7 @@ const lawSectionSchema = new Schema({
         required: true,
     },
     "law-sections": [{
-        type: String,
+        type: String,  //.map(key)
         required: true
     }]
 });
