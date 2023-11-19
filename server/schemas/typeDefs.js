@@ -1,11 +1,11 @@
-const { gql } = require("graphql-tag");
+const gql = require("graphql-tag");
 
 const typeDefs = gql`
     type User {
-        _id: ID
-        username: String
-        email: String
-        password: String
+        _id: ID!
+        username: String!
+        email: String!
+        password: String!
         keywords: [Keyword]
     }
 
@@ -15,23 +15,23 @@ const typeDefs = gql`
     }
 
     type Keyword {
-        _id: ID
+        _id: ID!
         keyword: String!
         section: [LawSection]
     }
 
     type LawSection {
-        _id: ID
-        section-number: String!
-        section-title: String!
-        section-clarifier: String!
-        law-section: String!
+        _id: ID!
+        section_number: String!
+        section_title: String!
+        section_clarifier: String!
+        law_section: String!
     }
 
     type Query {
         users: [User]
         keyword: [Keyword]
-        lawSection(_id: ID): LawSection
+        lawSection(_id: ID!): LawSection
     }
 
     type Mutation {
@@ -40,6 +40,6 @@ const typeDefs = gql`
         addKeyword(keyword: String!): Keyword
         removeKeyword(keywordId: ID!): Keyword
     }
+`;
 
-    
-`
+module.exports = typeDefs;
