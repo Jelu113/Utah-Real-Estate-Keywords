@@ -12,7 +12,7 @@ module.exports = {
       code: 'UNAUTHENTICATED',
     },
   }),
-  
+
   authMiddleware: function ({ req }) {
     let token = req.body.token || req.query.token || req.headers.authorization;
 
@@ -29,7 +29,7 @@ module.exports = {
       req.user = data;
     } catch {
       console.log("Invalid token");
-      return resizeBy.status(400).json({ message: "Invalid token" })
+      return res.status(400).json({ message: "Invalid token" })
     }
 
     return req;

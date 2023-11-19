@@ -2,7 +2,7 @@
   "name": "utah-real-estate-keywords",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon",
@@ -16,6 +16,7 @@
     "bcrypt": "^5.1.0",
     "express": "^4.17.2",
     "graphql": "^16.6.0",
+    "graphql-tag": "^2.12.6",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^7.0.2"
   },
