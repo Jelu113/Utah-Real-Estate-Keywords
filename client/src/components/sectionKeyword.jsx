@@ -1,15 +1,14 @@
 import { Select } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
 
-const sectionKeyword = (section) => {
+
+const SectionKeyword = (section) => {
     const [keyword, setKeyword] = useState('');
 
     // based on keyword state, render law
     useEffect(() => {
-        keyword;
+        console.log(keyword);
     })
-
-    
 
     return (
         <>
@@ -22,4 +21,4 @@ const sectionKeyword = (section) => {
     )
 }
 
-export default sectionKeyword
+export default SectionKeyword;
