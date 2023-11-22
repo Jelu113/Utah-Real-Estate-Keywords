@@ -2,6 +2,7 @@ import { Select } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
 import sectionKeyword from './sectionKeyword';
 
+
 const Home = () => {
     const [section, setSection] = useState('');
 
@@ -18,6 +19,7 @@ const Home = () => {
                 <option value='option2'>section 2</option>
                 <option value='option3'>section 3</option>
             </Select>
+
         </>
     )
 }

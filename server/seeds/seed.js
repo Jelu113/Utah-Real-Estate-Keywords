@@ -1,7 +1,7 @@
 const db = require("../config/connection");
 const { Keyword, LawSection, User } = require("../models");
 const keywordSeeds = require("./keyword.json");
-const lawSectionSeeds = require("./lawSection2test.json");
+const lawSectionSeeds = require("./lawSection.json");
 const userSeeds = require("./user.json");
 const cleanDb = require("./cleanDB");
 

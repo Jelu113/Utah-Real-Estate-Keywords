@@ -32,6 +32,7 @@ const typeDefs = gql`
         users: [User]
         keyword: [Keyword]
         lawSection(_id: ID!): LawSection
+        lawSections: [LawSection]
     }
 
     type Mutation {

@@ -15,6 +15,9 @@ const resolvers = {
         lawSection: async (parent, { _id }) => {
             return LawSection.findOne({ _id: _id });
         },
+        lawSections: async () => {
+            return LawSection.find();
+        }
     },
     Mutation: {
         login: async (parent, { email, password }) => {
