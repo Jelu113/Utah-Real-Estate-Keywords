@@ -129,9 +129,9 @@
   },
 
   {
-    "section-number": "R162-2f-401b",
-    "section-title": "Prohibited Conduct As Applicable to Licensed Individuals",
-    "section-clarifier": "An indivdual licensee may not:  ",
+    "section_number": "R162-2f-401b",
+    "section_title": "Prohibited Conduct As Applicable to Licensed Individuals",
+    "section_clarifier": "An indivdual licensee may not:  ",
     "law_sections": [
       {
         "law_section": "(1)  An individual licensee may not:",
@@ -165,9 +165,9 @@
     ]
   },
   {
-    "section-number": "R162-2f-401c",
-    "section-title": "Additional Provisions Applicable to Brokers",
-    "section-clarifier": "A principal broker shall: ",
+    "section_number": "R162-2f-401c",
+    "section_title": "Additional Provisions Applicable to Brokers",
+    "section_clarifier": "A principal broker shall: ",
     "law_sections": [
       {
         "law_section": "(1)",
@@ -217,9 +217,9 @@
     ]
   },
   {
-    "section-number": "R162-2f-401g",
-    "section-title": "Use of Personal Assistants",
-    "section-clarifier": "To employ an unlicensed individual to provide assistance in connection with a real estate transaction, an individual licensee shall:",
+    "section_number": "R162-2f-401g",
+    "section_title": "Use of Personal Assistants",
+    "section_clarifier": "To employ an unlicensed individual to provide assistance in connection with a real estate transaction, an individual licensee shall:",
     "law_sections": [
       {
         "law_section": "(1)  obtain the permission of the licensee's principal broker before employing the individual;"
@@ -244,9 +244,9 @@
     ]
   },
   {
-    "section-number": "R162-2f-401h",
-    "section-title": "Requirements and Restrictions in Advertising.",
-    "section-clarifier": "",
+    "section_number": "R162-2f-401h",
+    "section_title": "Requirements and Restrictions in Advertising.",
+    "section_clarifier": "",
     "law_sections": [
       {
         "law_section": "(1)  Except as provided for in Subsections (2) and (3), a licensee shall not advertise or permit any person employed by or affiliated with the licensee to advertise real estate services or property in any medium without clearly and conspicuously identifying in the advertisement the name of the brokerage with which the licensee is affiliated.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation."
@@ -275,9 +275,9 @@
   },
 
   {
-    "section-number": "R162-2f-401l",
-    "section-title": " Gifts and Inducements.",
-    "section-clarifier": "",
+    "section_number": "R162-2f-401l",
+    "section_title": " Gifts and Inducements.",
+    "section_clarifier": "",
     "law_sections": [
       {
         "law_section": "(1)  An inducement gift is permissible and is not an illegal sharing of commission if the principal broker or affiliated licensee offering the inducement gift to a buyer or a seller complies with the underwriting guidelines that apply to any loan in the transaction for which the inducement has been offered."
@@ -288,9 +288,9 @@
     ]
   },
   {
-    "section-number": "R162-2f-403a",
-    "section-title": "Trust Accounts - Real Estate Company.",
-    "section-clarifier": "The principal broker of a real estate company shall: ",
+    "section_number": "R162-2f-403a",
+    "section_title": "Trust Accounts - Real Estate Company.",
+    "section_clarifier": "The principal broker of a real estate company shall: ",
     "law_sections": [
       {
         "law_section": "(1)  The principal broker of a real estate company shall:",
@@ -395,9 +395,9 @@
     ]
   },
   {
-    "section-number": "R162-2f-403b",
-    "section-title": "Trust Accounts - Property Management Company.",
-    "section-clarifier": "The principal broker of a property management company shall: ",
+    "section_number": "R162-2f-403b",
+    "section_title": "Trust Accounts - Property Management Company.",
+    "section_clarifier": "The principal broker of a property management company shall: ",
     "law_sections": [
       {
         "law_section": "(1)  The principal broker of a property management company shall:", 

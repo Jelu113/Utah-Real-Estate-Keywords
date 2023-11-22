@@ -24,7 +24,7 @@ const lawSectionSchema = new Schema({
     },
     section_clarifier: {
         type: String,
-        required: true,
+        // required: true,
     },
     law_sections: [{
         type: Object,

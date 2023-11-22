@@ -23,7 +23,11 @@ export const GET_USER = gql`
 
 
 export const GET_LAW_SECTION_TITLES = gql`
-    query lawSections($_id: ID!) {
-        section_title
+    query LawSections {
+    lawSections {
+    _id
+    section_number
+    section_title
+        }
     }
-`
+`;
