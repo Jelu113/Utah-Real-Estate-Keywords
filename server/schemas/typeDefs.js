@@ -20,13 +20,26 @@ const typeDefs = gql`
         section: [LawSection]
     }
 
+    type LawSections {
+        law_section: String
+        law_section_a: String
+        law_section_b: String 
+        law_section_c: String
+        law_section_d: String
+        law_section_e: String
+        law_section_f: String
+        law_section_g: String
+    }
+
     type LawSection {
         _id: ID!
         section_number: String!
         section_title: String!
         section_clarifier: String!
-        law_section: String!
+        law_sections: [LawSections]
     }
+
+    
 
     type Query {
         users: [User]
