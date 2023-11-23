@@ -1,25 +1,38 @@
 import { Select } from '@chakra-ui/react'
-import { useState, useEffect } from 'react'
-import sectionKeyword from './sectionKeyword';
+import { useState } from 'react'
+import SectionKeyword from './SectionKeyword'
 
-const Home = () => {
-    const [section, setSection] = useState('');
 
-    // useeffect every state change, pass in the section state to figure which keywords to render
-    useEffect(() => {
-        //keyword component based on section state
-        section;
-    })
+const Section = () => {
+    const [selectedSection, setSelectedSection] = useState('');
+
+
+    const section = [
+        "Affirmative Duties Required of Licensed Individuals.",
+        "Prohibited Conduct As Applicable to Licensed Individuals",
+        "Requirements and Restrictions in Advertising.",
+        "Trust Accounts - Real Estate Company."
+    ]
+
+    const sectionOptions = section.map((sectionTitle) => (
+        <option key={sectionTitle} value={sectionTitle}>{sectionTitle}</option>
+    ))
+
+    const handleSectionChange = (e) => {
+        const selectedVal = e.target.value;
+        setSelectedSection(selectedVal)
+    }
+
 
     return (
         <>
-            <Select placeholder='Select section' onChange={(e) => setSection(e.target.value)}>
-                <option value='option1'>section 1</option>
-                <option value='option2'>section 2</option>
-                <option value='option3'>section 3</option>
+            <h2>Select a Section</h2>
+            <Select placeholder='Select section' onChange={handleSectionChange}>
+                {sectionOptions}
             </Select>
+            <SectionKeyword selectedSection={selectedSection}/>
         </>
     )
 }
 
-export default Home;
+export default Section;
