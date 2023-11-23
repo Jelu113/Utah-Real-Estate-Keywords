@@ -15,7 +15,7 @@ const Navbar = () => {
         <Tabs position="relative" variant="unstyled">
         <TabList>
         <Tab>Home</Tab>
-        <Tab>Keyword</Tab>
+        <Tab>Create User</Tab>
         <Tab>Login</Tab>
         </TabList>
         <TabIndicator
@@ -36,7 +36,9 @@ const Navbar = () => {
         </TabPanel>
         </TabPanels>
         </Tabs>
+        <i class="fa-solid fa-gavel fa-fade fa-2xl"></i>
     </>
+    
     )
 }
 

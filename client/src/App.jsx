@@ -1,8 +1,8 @@
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 //import { Outlet } from "react-router-dom";
 import Section from "./components/Section";
 import Login2 from "../src/pages/Login2";
-
+import CreateKeyword from "../src/components/CreateKeyword"
 function App() {
   return (
     <>
@@ -11,6 +11,7 @@ function App() {
       <Section />
       {/* <Outlet /> */}
       <Login2 />
+      <CreateKeyword/>
     </>
   );
 }
