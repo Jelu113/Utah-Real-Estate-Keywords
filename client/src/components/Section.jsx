@@ -1,37 +1,38 @@
-import { Select } from "@chakra-ui/react";
-import { useState } from "react";
-//import sectionKeyword from "./sectionKeyword";
-import { useQuery } from "@apollo/client";
-import { GET_LAW_SECTION_TITLES } from "../utils/queries";
+import { Select } from '@chakra-ui/react'
+import { useState } from 'react'
+import SectionKeyword from './SectionKeyword'
+
 
 const Section = () => {
-  const [section, setSection] = useState("");
-  //const { loading, error, data } = useQuery(GET_LAW_SECTION_TITLES);
-  //const sectionData = data?.lawSections || {};
-  //console.log(data);
-  // useeffect every state change, pass in the section state to figure which keywords to render
-  //   useEffect(() => {
-  //     //keyword component based on section state
-  //     section;
-  //   });
+    const [selectedSection, setSelectedSection] = useState('');
 
-  //   if (loading) {
-  //     return <h2>LOADING...</h2>;
-  //   }
 
-  return (
-    <>
-      <Select
-        value={section}
-        placeholder="Select section"
-        onChange={(e) => setSection(e.target.value)}
-      >
-        <option value="yay">section 1</option>
-        <option value="option2">section 2</option>
-        <option value="option3">section 3</option>
-      </Select>
-    </>
-  );
-};
+    const section = [
+        "Affirmative Duties Required of Licensed Individuals.",
+        "Prohibited Conduct As Applicable to Licensed Individuals",
+        "Requirements and Restrictions in Advertising.",
+        "Trust Accounts - Real Estate Company."
+    ]
+
+    const sectionOptions = section.map((sectionTitle) => (
+        <option key={sectionTitle} value={sectionTitle}>{sectionTitle}</option>
+    ))
+
+    const handleSectionChange = (e) => {
+        const selectedVal = e.target.value;
+        setSelectedSection(selectedVal)
+    }
+
+
+    return (
+        <>
+            <h2>Select a Section</h2>
+            <Select placeholder='Select section' onChange={handleSectionChange}>
+                {sectionOptions}
+            </Select>
+            <SectionKeyword selectedSection={selectedSection}/>
+        </>
+    )
+}
 
 export default Section;
