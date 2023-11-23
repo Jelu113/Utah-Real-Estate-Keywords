@@ -1,502 +1,502 @@
 [
   {
-    "section-number": "R162-2f-401a",
-    "section-title": "Affirmative Duties Required of Licensed Individuals.",
-    "section-clarifier": "An indivdual licensee shall:  ",
-    "law-sections": [
+    "section_number": "R162-2f-401a",
+    "section_title": "Affirmative Duties Required of Licensed Individuals.",
+    "section_clarifier": "An indivdual licensee shall:  ",
+    "law_sections": [
       {
-        "law-section": "(1)  uphold the following fiduciary duties in the course of representing a principal: ",
-        "law-section-a": "(a)  loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;",
-        "law-section-b": "(b)  obedience, which obligates the agent to obey any lawful instructions from the principal;",
-        "law-section-c": "(c)  full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:(i)  the other party; or(ii)  the transaction;",
-        "law-section-d": "(d)  confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken the principal's bargaining position if it were known, but excepting any known material fact concerning:(i)  a defect in the property; or(ii)  the client's ability to perform on the contract;",
-        "law-section-e": "(e)  reasonable care and diligence;",
-        "law-section-f": "(f)  holding safe and accounting for any money or property entrusted to the agent; and",
-        "law-section-g": "(g)  any additional duties created by the agency agreement;"
+        "law_section": "(1)  uphold the following fiduciary duties in the course of representing a principal: ",
+        "law_section_a": "(a)  loyalty, which obligates the agent to place the best interests of the principal above any other interest, including the agent's own;",
+        "law_section_b": "(b)  obedience, which obligates the agent to obey any lawful instructions from the principal;",
+        "law_section_c": "(c)  full disclosure, which obligates the agent to inform the principal of any material fact the agent learns about:(i)  the other party; or(ii)  the transaction;",
+        "law_section_d": "(d)  confidentiality, which prohibits the agent from disclosing, without permission, any information given to the agent by the principal that would likely weaken the principal's bargaining position if it were known, but excepting any known material fact concerning:(i)  a defect in the property; or(ii)  the client's ability to perform on the contract;",
+        "law_section_e": "(e)  reasonable care and diligence;",
+        "law_section_f": "(f)  holding safe and accounting for any money or property entrusted to the agent; and",
+        "law_section_g": "(g)  any additional duties created by the agency agreement;"
       },
       {
-        "law-section": "(2)  define the scope of the individual's agency by executing execute a written agency agreement between the individual and the individual's principal, including:",
-        "law-section-a": "(a)  sellers the individual represents;",
-        "law-section-b": "(b)  buyers the individual represents;",
-        "law-section-c": "(c)  buyers and sellers the individual represents as a limited agent in the same transaction pursuant to Subsection",
-        "law-section-d": "(4);(d)  the owner of a property for which the individual will provide property management services; and(e)  a tenant whom the individual represents;"
+        "law_section": "(2)  define the scope of the individual's agency by executing execute a written agency agreement between the individual and the individual's principal, including:",
+        "law_section_a": "(a)  sellers the individual represents;",
+        "law_section_b": "(b)  buyers the individual represents;",
+        "law_section_c": "(c)  buyers and sellers the individual represents as a limited agent in the same transaction pursuant to Subsection",
+        "law_section_d": "(4);(d)  the owner of a property for which the individual will provide property management services; and(e)  a tenant whom the individual represents;"
       },
       {
-        "law-section": "(3)  if representing both principals in a transaction as a limited agent, obtain prior informed consent by:",
-        "law-section-a": "(a)  clearly explaining in writing to both parties:(i)  that each may be represented by a separate agent;(ii)  the type of information that will be held confidential;(iii)  the type of information that will be disclosed; and(iv)  the circumstances under which the withholding of information would constitute a material misrepresentation regarding the property or regarding the abilities of the parties to fulfill their obligations;",
-        "law-section-b": "(b)  obtaining a written acknowledgment from each party affirming that the party waives the right to:(i)  undivided loyalty;(ii)  absolute confidentiality; and(iii)  full disclosure from the licensee; and",
-        "law-section-c": "(c)  obtaining a written acknowledgment from each party affirming that the party understands that the licensee will act in a neutral capacity to advance the interests of each party;"
+        "law_section": "(3)  if representing both principals in a transaction as a limited agent, obtain prior informed consent by:",
+        "law_section_a": "(a)  clearly explaining in writing to both parties:(i)  that each may be represented by a separate agent;(ii)  the type of information that will be held confidential;(iii)  the type of information that will be disclosed; and(iv)  the circumstances under which the withholding of information would constitute a material misrepresentation regarding the property or regarding the abilities of the parties to fulfill their obligations;",
+        "law_section_b": "(b)  obtaining a written acknowledgment from each party affirming that the party waives the right to:(i)  undivided loyalty;(ii)  absolute confidentiality; and(iii)  full disclosure from the licensee; and",
+        "law_section_c": "(c)  obtaining a written acknowledgment from each party affirming that the party understands that the licensee will act in a neutral capacity to advance the interests of each party;"
       },
       {
-        "law-section": "(4)  when acting under a limited agency agreement:",
-        "law-section-a": "(a)  act as a neutral third party; and",
-        "law-section-b": "(b)  uphold the following fiduciary duties to both parties:(i)  obedience, which obligates the limited agent to obey any lawful instructions from the parties, consistent with the agent's duty of neutrality;(ii)  reasonable care and diligence;(iii)  holding safe any money or property entrusted to the limited agent; and(iv)  any additional duties created by the agency agreement;"
+        "law_section": "(4)  when acting under a limited agency agreement:",
+        "law_section_a": "(a)  act as a neutral third party; and",
+        "law_section_b": "(b)  uphold the following fiduciary duties to both parties:(i)  obedience, which obligates the limited agent to obey any lawful instructions from the parties, consistent with the agent's duty of neutrality;(ii)  reasonable care and diligence;(iii)  holding safe any money or property entrusted to the limited agent; and(iv)  any additional duties created by the agency agreement;"
       },
       {
-        "law-section": "(5)  when making an offer or solicitation to buy, sell, lease or rent real property as a principal, either directly or indirectly, or as an agent for a client, a licensee shall disclose in the initial contact with the other party the fact that the licensee holds a license with the division, whether the license status is active or inactive;"
+        "law_section": "(5)  when making an offer or solicitation to buy, sell, lease or rent real property as a principal, either directly or indirectly, or as an agent for a client, a licensee shall disclose in the initial contact with the other party the fact that the licensee holds a license with the division, whether the license status is active or inactive;"
       },
       {
-        "law-section": "(6)before the execution of a binding purchase or lease agreement, disclose in writing to clients, agents for other parties, and unrepresented parties:",
-        "law-section-a": "(a)  the licensee's position as a principal in any transaction where the licensee operates either directly or indirectly to buy, sell, lease, or rent real property;",
-        "law-section-b": "(b)  the fact that the licensee holds a license with the division, whether the license status is active or inactive, in any circumstance where the licensee is a principal in an agreement to buy, sell, lease, or rent real property;",
-        "law-section-c": "(c)  the licensee's agency relationships; and(d)(i)  the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and(ii)  the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;"
+        "law_section": "(6)before the execution of a binding purchase or lease agreement, disclose in writing to clients, agents for other parties, and unrepresented parties:",
+        "law_section_a": "(a)  the licensee's position as a principal in any transaction where the licensee operates either directly or indirectly to buy, sell, lease, or rent real property;",
+        "law_section_b": "(b)  the fact that the licensee holds a license with the division, whether the license status is active or inactive, in any circumstance where the licensee is a principal in an agreement to buy, sell, lease, or rent real property;",
+        "law_section_c": "(c)  the licensee's agency relationships; and(d)(i)  the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and(ii)  the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;"
       },
       {
-        "law-section": "(7)  before offering any property for sale or lease, make reasonable efforts to verify the accuracy and content of the information and data to be used in the marketing of the property;"
+        "law_section": "(7)  before offering any property for sale or lease, make reasonable efforts to verify the accuracy and content of the information and data to be used in the marketing of the property;"
       },
       {
-        "law-section": "(9)  upon initial contact with another agent in a transaction, disclose the agency relationship between the licensee and the client;"
+        "law_section": "(9)  upon initial contact with another agent in a transaction, disclose the agency relationship between the licensee and the client;"
       },
       {
-        "law-section": "(10)  when executing a binding agreement in a sales transaction, confirm the prior agency disclosure:",
-        "law-section-a": "(a)  in the currently approved Real Estate Purchase Contract; or",
-        "law-section-b": "(b)  in a separate provision with substantially similar language incorporated in or attached to the binding agreement;"
+        "law_section": "(10)  when executing a binding agreement in a sales transaction, confirm the prior agency disclosure:",
+        "law_section_a": "(a)  in the currently approved Real Estate Purchase Contract; or",
+        "law_section_b": "(b)  in a separate provision with substantially similar language incorporated in or attached to the binding agreement;"
       },
       {
-        "law-section": "(11)  when executing a lease or rental agreement, confirm the prior agency disclosure by:",
-        "law-section-a": "(a)  incorporating it into the agreement; or",
-        "law-section-b": "(b)  attaching it as a separate document;"
+        "law_section": "(11)  when executing a lease or rental agreement, confirm the prior agency disclosure by:",
+        "law_section_a": "(a)  incorporating it into the agreement; or",
+        "law_section_b": "(b)  attaching it as a separate document;"
       },
       {
-        "law-section": "(12)  if the licensee desires to act as a sub-agent for showing property owned by a seller who is under contract with another brokerage, before showing the seller's property:",
-        "law-section-a": "(a)  notify the listing brokerage that sub-agency is requested; and",
-        "law-section-b": "(b)  enter into a written agreement with the listing brokerage with which the seller has contracted:(i)  consenting to the sub-agency; and(ii)  defining the scope of the agency;",
-        "law-section-c": "(c)  obtain from the listing brokerage any available information about the property; and",
-        "law-section-d": "(d)  uphold the same fiduciary duties outlined in Subsection (1);"
+        "law_section": "(12)  if the licensee desires to act as a sub-agent for showing property owned by a seller who is under contract with another brokerage, before showing the seller's property:",
+        "law_section_a": "(a)  notify the listing brokerage that sub-agency is requested; and",
+        "law_section_b": "(b)  enter into a written agreement with the listing brokerage with which the seller has contracted:(i)  consenting to the sub-agency; and(ii)  defining the scope of the agency;",
+        "law_section_c": "(c)  obtain from the listing brokerage any available information about the property; and",
+        "law_section_d": "(d)  uphold the same fiduciary duties outlined in Subsection (1);"
       },
       {
-        "law-section": "(13)  provide copies of a lease or purchase agreement, properly signed by each party, to the party for whom the licensee acts as an agent;"
+        "law_section": "(13)  provide copies of a lease or purchase agreement, properly signed by each party, to the party for whom the licensee acts as an agent;"
       },
       {
-        "law-section": "(14)",
-        "law-section-a": "(a)  in identifying the seller's brokerage in paragraph 5 of the approved Real Estate Purchase Contract, use:(i)  the principal broker's individual name; or(ii)  the principal broker's brokerage name; and",
-        "law-section-b": "(b)  personally fulfill the licensee's agency relationship with the client, notwithstanding the information used to complete paragraph 5;"
+        "law_section": "(14)",
+        "law_section_a": "(a)  in identifying the seller's brokerage in paragraph 5 of the approved Real Estate Purchase Contract, use:(i)  the principal broker's individual name; or(ii)  the principal broker's brokerage name; and",
+        "law_section_b": "(b)  personally fulfill the licensee's agency relationship with the client, notwithstanding the information used to complete paragraph 5;"
       },
       {
-        "law-section": "(15)  timely inform the licensee's principal broker or branch broker of real estate transactions in which:",
-        "law-section-a": "(a)  the licensee is involved as agent or principal;",
-        "law-section-b": "(b)  the licensee has received funds on behalf of the principal broker; or",
-        "law-section-c": "(c)  an offer has been written;"
+        "law_section": "(15)  timely inform the licensee's principal broker or branch broker of real estate transactions in which:",
+        "law_section_a": "(a)  the licensee is involved as agent or principal;",
+        "law_section_b": "(b)  the licensee has received funds on behalf of the principal broker; or",
+        "law_section_c": "(c)  an offer has been written;"
       },
       {
-        "law-section": "(16)",
-        "law-section-a": "(a)  disclose in writing to each party to a transaction any compensation in addition to any real estate commission that will be received in connection with a real estate transaction; and",
-        "law-section-b": "(b)  ensure that any such compensation is paid to the licensee's principal broker;"
+        "law_section": "(16)",
+        "law_section_a": "(a)  disclose in writing to each party to a transaction any compensation in addition to any real estate commission that will be received in connection with a real estate transaction; and",
+        "law_section_b": "(b)  ensure that any such compensation is paid to the licensee's principal broker;"
       },
       {
-        "law-section": "(17)",
-        "law-section-a": "(a) in negotiating and closing a transaction, a licensee may fill out those legal forms as provided for in Section 61-2f-306;"
+        "law_section": "(17)",
+        "law_section_a": "(a) in negotiating and closing a transaction, a licensee may fill out those legal forms as provided for in Section 61-2f-306;"
       },
       {
-        "law-section": "(18)  use an approved addendum form to make a counteroffer or any other modification to a contract;"
+        "law_section": "(18)  use an approved addendum form to make a counteroffer or any other modification to a contract;"
       },
       {
-        "law-section": "(19)  before signing or initialing a document on behalf of a principal in a sales transaction:",
-        "law-section-a": "(a)  obtain prior written authorization in the form of a power of attorney executed by the principal;",
-        "law-section-b": "(b)  retain in the file for the transaction a copy of said power of attorney;",
-        "law-section-c": "(c)  attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;",
-        "law-section-d": "(d)  sign as follows:  '(Principal's Name) by (Licensee's Name), Attorney-in-Fact;' and",
-        "law-section-e": "(e)  initial as follows:  '(Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);'"
+        "law_section": "(19)  before signing or initialing a document on behalf of a principal in a sales transaction:",
+        "law_section_a": "(a)  obtain prior written authorization in the form of a power of attorney executed by the principal;",
+        "law_section_b": "(b)  retain in the file for the transaction a copy of said power of attorney;",
+        "law_section_c": "(c)  attach said power of attorney to any document signed or initialed by the individual on behalf of the principal;",
+        "law_section_d": "(d)  sign as follows:  '(Principal's Name) by (Licensee's Name), Attorney-in-Fact;' and",
+        "law_section_e": "(e)  initial as follows:  '(Principal's Initials) by (Licensee's Name), Attorney-in-Fact for (Principal's Name);'"
       },
       {
-        "law-section": "(20)  before signing or initialing a document on behalf of a principal in a property management transaction:",
-        "law-section-a": "(a)  obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;",
-        "law-section-b": "(b)  retain in the file for the transaction a copy of the written authorization;",
-        "law-section-c": "(c)  sign as follows: 'by (Licensee's Name), on behalf of Owner;' and",
-        "law-section-d": "(d)  initial as follows: 'by (Licensee's initials), on behalf of Owner;'"
+        "law_section": "(20)  before signing or initialing a document on behalf of a principal in a property management transaction:",
+        "law_section_a": "(a)  obtain prior written authorization executed by the principal which specifically identifies the actions that are authorized to be taken on behalf of the principal;",
+        "law_section_b": "(b)  retain in the file for the transaction a copy of the written authorization;",
+        "law_section_c": "(c)  sign as follows: 'by (Licensee's Name), on behalf of Owner;' and",
+        "law_section_d": "(d)  initial as follows: 'by (Licensee's initials), on behalf of Owner;'"
       },
       {
-        "law-section": "(21)  if employing an unlicensed individual to provide assistance in connection with real estate transactions, adhere to Section R162-2f-401g;"
+        "law_section": "(21)  if employing an unlicensed individual to provide assistance in connection with real estate transactions, adhere to Section R162-2f-401g;"
       },
       {
-        "law-section": "(22)  strictly adhere to advertising restrictions as outlined in Section R162-2f-401h;"
+        "law_section": "(22)  strictly adhere to advertising restrictions as outlined in Section R162-2f-401h;"
       },
       {
-        "law-section": "(23)  as to a guaranteed sales agreement, provide full disclosure regarding the guarantee by executing a written contract that contains:",
-        "law-section-a": "(a)  the conditions and other terms under which the property is guaranteed to be sold or purchased;",
-        "law-section-b": "(b)  the charges or other costs for the service or plan;",
-        "law-section-c": "(c)  the price for which the property will be sold or purchased; and",
-        "law-section-d": "(d)  the approximate net proceeds the seller may reasonably expect to receive;"
+        "law_section": "(23)  as to a guaranteed sales agreement, provide full disclosure regarding the guarantee by executing a written contract that contains:",
+        "law_section_a": "(a)  the conditions and other terms under which the property is guaranteed to be sold or purchased;",
+        "law_section_b": "(b)  the charges or other costs for the service or plan;",
+        "law_section_c": "(c)  the price for which the property will be sold or purchased; and",
+        "law_section_d": "(d)  the approximate net proceeds the seller may reasonably expect to receive;"
       },
       {
-        "law-section": "(24)  immediately deliver money received in a real estate transaction to the principal broker for deposit; and"
+        "law_section": "(24)  immediately deliver money received in a real estate transaction to the principal broker for deposit; and"
       },
       {
-        "law-section": "(25)  as contemplated by Subsection 61-2f-401(18), when notified by the division that information or documents are required for investigation purposes, respond with the required information or documents in full and within ten business days.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation."
+        "law_section": "(25)  as contemplated by Subsection 61-2f-401(18), when notified by the division that information or documents are required for investigation purposes, respond with the required information or documents in full and within ten business days.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation."
       }
     ]
 
   },
 
   {
-    "section-number": "R162-2f-401b",
-    "section-title": "Prohibited Conduct As Applicable to Licensed Individuals",
-    "section-clarifier": "An indivdual licensee may not:  ",
-    "law-sections": [
+    "section_number": "R162-2f-401b",
+    "section_title": "Prohibited Conduct As Applicable to Licensed Individuals",
+    "section_clarifier": "An indivdual licensee may not:  ",
+    "law_sections": [
       {
-        "law-section": "(1)  An individual licensee may not:",
-        "law-section-a": "(a)  engage in any of the practices described in Section 61-2f-401 and the following sections, whether acting as agent or on the licensee's own account, in a manner that: (i)  fails to conform with accepted standards of the real estate sales, leasing, or management industries;(ii)  could jeopardize the public health, safety, or welfare; or(iii)  violates any provision of Title 61, Chapter 2f or the rules of this chapter;",
-        "law-section-b": "(b)  require parties to acknowledge receipt of a final copy of any document prepared by the licensee before each party has signed a contract evidencing agreement to the contract terms;",
-        "law-section-c": "(c)  make a misrepresentation to the division:(i)  in an application for license renewal; or(ii)  in an investigation.",
-        "law-section-d": "(d)(i)  propose, prepare, or cause to be prepared a document, agreement, settlement statement, or other device that the licensee knows or should know does not reflect the true terms of the transaction; or(ii)  knowingly participate in a transaction in which such a false device is used;",
-        "law-section-e": "(e)  participate in a transaction in which a buyer enters into an agreement that:(i)  is not disclosed to the lender; and(ii)  if disclosed, might have a material effect on the terms or the granting of the loan;",
-        "law-section-f": "(f)  use or propose the use of a double contract;",
-        "law-section-g": "(g)  place a sign on real property without the written consent of the property owner;",
-        "law-section-h": "(h)  take a net listing;",
-        "law-section-i": "(i)  sell listed properties other than through the listing broker;",
-        "law-section-j": "(j)  subject a principal to paying a double commission without the principal's informed consent;",
-        "law-section-k": "(k)  enter or attempt to enter into a concurrent agency representation when the licensee knows or should know that the principal has an existing agency representation agreement with another licensee;",
-        "law-section-l": "(l)  pay a finder's fee or give any valuable consideration to an unlicensed person or entity for referring a prospect, except that:(i)  a licensee may give a gift valued at $250 or less to an individual in appreciation for an unsolicited referral of a prospect that results in a real estate transaction; and(ii)  as to a property management transaction, a licensee may compensate an unlicensed employee or previous or current tenant up to $250 per lease for assistance in retaining an existing tenant or securing a new tenant;",
-        "law-section-m": "(m)  accept a referral fee from:(i)  a lender; or(ii)  a mortgage broker;",
-        "law-section-n": "(n)  act as a real estate agent or broker in the same transaction in which the licensee also acts as a:(i)  mortgage loan originator, associate lending manager, or principal lending manager;(ii)  appraiser or appraiser trainee;(iii)  escrow agent; or(iv)  provider of title services;",
-        "law-section-o": "(o)  act or attempt to act as a limited agent in any transaction in which:(i)  the licensee is a principal in the transaction; or(ii)  any entity in which the licensee is an officer, director, partner, member, manager, employee, or stockholder is a principal in the transaction;",
-        "law-section-p": "(p)  make a counteroffer by striking out, whiting out, substituting new language, or otherwise altering:(i)  the boilerplate provisions of the Real Estate Purchase Contract; or(ii)  language that has been inserted to complete the blanks of the Real Estate Purchase Contract;",
-        "law-section-q": "(q)  advertise or offer to sell or lease property without the written consent of:(i)  the owners of the property; and(ii)  if the property is currently listed, the listing broker;",
-        "law-section-r": "(r)  advertise or offer to sell or lease property at a lower price than that listed without the written consent of the seller or lessor;",
-        "law-section-s": "(s)  represent on any form or contract that the individual is holding client funds without actually receiving funds and securing them pursuant to Subsection R162-2f-401a(24);",
-        "law-section-t": "(t)  when acting as a limited agent, disclose any information given to the agent by either principal that would likely weaken that party's bargaining position if it were known, unless the licensee has permission from the principal to disclose the information;",
-        "law-section-u": "(u)  disclose, or make any use of, a short sale demand letter outside of the purchase transaction for which it is issued;",
-        "law-section-v": "(v)  in a short sale, have the seller sign a document allowing the licensee to lien the property; or",
-        "law-section-w": "(w)  charge any fee that represents the difference between:(i)  the total concessions authorized by a seller and the actual amount of the buyer's closing costs; or(ii)  in a short sale, the sale price approved by the lender and the total amount required to clear encumbrances on title and close the transaction."
+        "law_section": "(1)  An individual licensee may not:",
+        "law_section_a": "(a)  engage in any of the practices described in Section 61-2f-401 and the following sections, whether acting as agent or on the licensee's own account, in a manner that: (i)  fails to conform with accepted standards of the real estate sales, leasing, or management industries;(ii)  could jeopardize the public health, safety, or welfare; or(iii)  violates any provision of Title 61, Chapter 2f or the rules of this chapter;",
+        "law_section_b": "(b)  require parties to acknowledge receipt of a final copy of any document prepared by the licensee before each party has signed a contract evidencing agreement to the contract terms;",
+        "law_section_c": "(c)  make a misrepresentation to the division:(i)  in an application for license renewal; or(ii)  in an investigation.",
+        "law_section_d": "(d)(i)  propose, prepare, or cause to be prepared a document, agreement, settlement statement, or other device that the licensee knows or should know does not reflect the true terms of the transaction; or(ii)  knowingly participate in a transaction in which such a false device is used;",
+        "law_section_e": "(e)  participate in a transaction in which a buyer enters into an agreement that:(i)  is not disclosed to the lender; and(ii)  if disclosed, might have a material effect on the terms or the granting of the loan;",
+        "law_section_f": "(f)  use or propose the use of a double contract;",
+        "law_section_g": "(g)  place a sign on real property without the written consent of the property owner;",
+        "law_section_h": "(h)  take a net listing;",
+        "law_section_i": "(i)  sell listed properties other than through the listing broker;",
+        "law_section_j": "(j)  subject a principal to paying a double commission without the principal's informed consent;",
+        "law_section_k": "(k)  enter or attempt to enter into a concurrent agency representation when the licensee knows or should know that the principal has an existing agency representation agreement with another licensee;",
+        "law_section_l": "(l)  pay a finder's fee or give any valuable consideration to an unlicensed person or entity for referring a prospect, except that:(i)  a licensee may give a gift valued at $250 or less to an individual in appreciation for an unsolicited referral of a prospect that results in a real estate transaction; and(ii)  as to a property management transaction, a licensee may compensate an unlicensed employee or previous or current tenant up to $250 per lease for assistance in retaining an existing tenant or securing a new tenant;",
+        "law_section_m": "(m)  accept a referral fee from:(i)  a lender; or(ii)  a mortgage broker;",
+        "law_section_n": "(n)  act as a real estate agent or broker in the same transaction in which the licensee also acts as a:(i)  mortgage loan originator, associate lending manager, or principal lending manager;(ii)  appraiser or appraiser trainee;(iii)  escrow agent; or(iv)  provider of title services;",
+        "law_section_o": "(o)  act or attempt to act as a limited agent in any transaction in which:(i)  the licensee is a principal in the transaction; or(ii)  any entity in which the licensee is an officer, director, partner, member, manager, employee, or stockholder is a principal in the transaction;",
+        "law_section_p": "(p)  make a counteroffer by striking out, whiting out, substituting new language, or otherwise altering:(i)  the boilerplate provisions of the Real Estate Purchase Contract; or(ii)  language that has been inserted to complete the blanks of the Real Estate Purchase Contract;",
+        "law_section_q": "(q)  advertise or offer to sell or lease property without the written consent of:(i)  the owners of the property; and(ii)  if the property is currently listed, the listing broker;",
+        "law_section_r": "(r)  advertise or offer to sell or lease property at a lower price than that listed without the written consent of the seller or lessor;",
+        "law_section_s": "(s)  represent on any form or contract that the individual is holding client funds without actually receiving funds and securing them pursuant to Subsection R162-2f-401a(24);",
+        "law_section_t": "(t)  when acting as a limited agent, disclose any information given to the agent by either principal that would likely weaken that party's bargaining position if it were known, unless the licensee has permission from the principal to disclose the information;",
+        "law_section_u": "(u)  disclose, or make any use of, a short sale demand letter outside of the purchase transaction for which it is issued;",
+        "law_section_v": "(v)  in a short sale, have the seller sign a document allowing the licensee to lien the property; or",
+        "law_section_w": "(w)  charge any fee that represents the difference between:(i)  the total concessions authorized by a seller and the actual amount of the buyer's closing costs; or(ii)  in a short sale, the sale price approved by the lender and the total amount required to clear encumbrances on title and close the transaction."
       },
       {
-        "law-section": "(2)  The division may not bring an action for enforcement of either Subsection (1)(g) or Subsection (1)(q) after the expiration of four years following the occurrence of the violation."
+        "law_section": "(2)  The division may not bring an action for enforcement of either Subsection (1)(g) or Subsection (1)(q) after the expiration of four years following the occurrence of the violation."
       }
     ]
   },
   {
-    "section-number": "R162-2f-401c",
-    "section-title": "Additional Provisions Applicable to Brokers",
-    "section-clarifier": "A principal broker shall: ",
-    "law-sections": [
+    "section_number": "R162-2f-401c",
+    "section_title": "Additional Provisions Applicable to Brokers",
+    "section_clarifier": "A principal broker shall: ",
+    "law_sections": [
       {
-        "law-section": "(1)",
-        "law-section-a": "(a)  strictly comply with the record retention and maintenance requirements of Section R162-2f-401k;",
-        "law-section-b": "(b)  provide to the person whom the principal broker represents in a real estate transaction: (i)  a detailed statement showing the current status of a transaction upon the earlier of:(A)  the expiration of 30 days after an offer has been made and accepted; or(B)  a buyer or seller making a demand for such statement; and(ii)  an updated transaction status statement at 30-day intervals thereafter until the transaction either closes or fails;",
-        "law-section-c": "(c)(i)  regardless of who closes a real estate transaction, ensure that final settlement statements are reviewed for content and accuracy at or before the time of closing by:(A)  the principal broker;(B)  an associate broker or branch broker affiliated with the principal broker; or(C)  the sales agent who is:(I)  affiliated with the principal broker; and(II)  representing the principal in the transaction; and(ii)  ensure the principals in each closed real estate transaction receive copies of each document executed in the transaction closing;",
-        "law-section-d": "(d)  before assigning all or part of the principal broker's compensation to an associate broker or sales agent in accordance with Section 61-2f-305, provide written instructions to the title insurance agent that include the following:(i)  an identification of the property involved in the real estate transaction;(ii)  an identification of the principal broker and sales agent or associate broker who will receive compensation in accordance with the written instructions;(iii)  a designation of the amount of compensation that will be received by both the principal broker and the sales agent or associate broker;(iv)  a prohibition against alteration of the written instructions by anyone other than the principal broker; and(v)  additional instructions at the discretion of the principal broker;",
-        "law-section-e": "(e)  obtain written consent from both the buyer and the seller before retaining any portion of an earnest money deposit being held by the principal broker;",
-        "law-section-f": "(f)  strictly adhere to the rule governing real estate auctions, as outlined in Section R162-2f-401i;",
-        "law-section-g": "(g)  strictly adhere to the rule governing property management, as outlined in Section R162-2f-401j;",
-        "law-section-h": "(h)(i)  except as provided in Subsection (1)(h)(iii), within three business days of receiving a client's money in a real estate transaction, deposit the client's money into a trust account:(A)  maintained by the principal broker pursuant to Section R162-2f-403; or(B)  if the parties to the transaction agree in writing, maintained by:(I)  a title company pursuant to Section 31A-23a-406; or(II)  another authorized escrow entity; and(ii)  within three business days of receiving money from a client or a tenant in a property management transaction, deposit the money into a trust account maintained by the principal broker pursuant to Section R162-2f-403 or forward or deposit client or tenant money into an account maintained by the property owner;(iii)  a principal broker is not required to comply with Subsection (1)(h)(i) or (ii) if:(A)  the contract or other written agreement states that the money is to be:(I)  held for a specific length of time; or(II)  as to a real estate transaction, deposited upon acceptance by the seller; or(B)  as to a real estate transaction, the Real Estate Purchase Contract or other written agreement states that a promissory note may be tendered in lieu of good funds and the promissory note:(I)  names the seller as payee; and(II)  is retained in the principal broker's file until closing;",
-        "law-section-i": "(i)(i)  maintain at the principal business location a complete record of any consideration received or escrowed for real estate and property management transactions; and(ii)  be personally responsible for deposits held in the principal broker's trust account;",
-        "law-section-j": "(j)(i)(A)(I)  in a real estate transaction, assign a consecutive, sequential number to each offer; and(II)  assign a unique identification to each property management client; and(B)  include the transaction number or client identification, as applicable, on:(I)  trust account deposit records; and(II)  trust account checks or other equivalent records evidencing the transfer of trust funds;(ii)  maintain a separate transaction file for each offer in a real estate transaction, including a rejected offer, that involves funds tendered through the brokerage and deposited into a trust account; and(iii)  maintain a record of each rejected offer in a real estate transaction that does not involve funds deposited to trust:(A)  in separate files; or(B)  in a single file holding any such offer; and",
-        "law-section-k": "(k)  if the principal broker assigns an affiliated associate broker or branch broker to assist the principal broker in accomplishing the affirmative duties outlined in Subsection (1):(i)  actively supervise any such associate broker or branch broker;(ii)  remain personally responsible and accountable for adequate supervision of each licensee and unlicensed staff affiliated with the principal broker; and (l)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the principal broker.(2)  A branch broker shall:(a)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the branch or branches supervised by the branch broker; and(b)  be personally responsible and accountable for any other responsibility and duty assigned to the branch broker by the principal broker and accepted by the branch broker.(3)  Active and reasonable supervision includes:(a)  the establishment of:(i)  written policies, rules, and procedures; and(ii)  systems that allow the broker to review, oversee, inspect, and manage:(A)  real estate transactions performed by a licensee affiliated with the broker at either the main office or a branch supervised by the broker;(B)  documents that may have a material effect upon the rights or obligations of a party to such real estate transaction;(C)  the filing, storage, and maintenance of such documents;(D)  the handling of trust funds;(E)  advertising of any service for which a real estate license is required;(F)  familiarizing licensees with the requirements of federal and state law governing real estate transactions including prohibitions against discrimination;(G)  to ensure that each person conducting licensed activity on behalf of the broker holds an active license;(H)  to ensure that each affiliated licensee can maintain reasonable and timely communication with the supervising broker or a competent designee to assist the licensee with real estate transactions handled by the brokerage; and(I)  to maintain adequate, reasonable, and regular contact with each affiliated licensee engaged in real estate transactions so as to prevent or curtail practices by a licensee that would violate this chapter;(b)  being reasonably available to the public to discuss or resolve complaints and disputes that may arise during a real estate transaction involving the broker or affiliated licensee;(c)  providing guidance to, and instruction and oversight of, each licensee and unlicensed staff member regarding the policies, rules, procedures, and systems of the brokerage;(d)  documenting the instruction and oversight provided pursuant to Subsection (3)(b); and(e)  establishing a system for monitoring compliance with the policies, rules, and procedures, and systems of the brokerage by licensees and unlicensed staff members.(4)  A principal broker or branch broker may use a licensee or unlicensed staff member to assist in administering Subsection (3), except that the broker may not relinquish overall responsibility for active and reasonable supervision of the acts of licensees and unlicensed staff members affiliated or associated with the broker.(5)  In establishing such policies, rules, procedures, and systems, the broker shall consider the number of sales agents and associate brokers and the number and location of branch offices supervised by the broker.(6)  A principal broker and a branch broker are responsible for violations of Title 61, Chapter 2f, Real Estate Licensing and Practices Act, and the rules promulgated thereunder by licensees and unlicensed staff members they supervise, except that neither a principal broker nor a branch broker shall be deemed in violation of failing to exercise active and reasonable supervision if:(a)  the supervising broker had in place when the violation occurred, specific written policies or instructions to prevent such a violation;(b)  reasonable procedures were established by the broker to ensure that licensees receive active and reasonable supervision and the broker has followed those procedures;(c)  upon learning of the violation, the broker attempted to prevent or mitigate the damage;(d)  the broker did not participate in the violation;(e)  the broker did not ratify the violation; and(f)  the broker did not attempt to avoid learning of the violation."
+        "law_section": "(1)",
+        "law_section_a": "(a)  strictly comply with the record retention and maintenance requirements of Section R162-2f-401k;",
+        "law_section_b": "(b)  provide to the person whom the principal broker represents in a real estate transaction: (i)  a detailed statement showing the current status of a transaction upon the earlier of:(A)  the expiration of 30 days after an offer has been made and accepted; or(B)  a buyer or seller making a demand for such statement; and(ii)  an updated transaction status statement at 30-day intervals thereafter until the transaction either closes or fails;",
+        "law_section_c": "(c)(i)  regardless of who closes a real estate transaction, ensure that final settlement statements are reviewed for content and accuracy at or before the time of closing by:(A)  the principal broker;(B)  an associate broker or branch broker affiliated with the principal broker; or(C)  the sales agent who is:(I)  affiliated with the principal broker; and(II)  representing the principal in the transaction; and(ii)  ensure the principals in each closed real estate transaction receive copies of each document executed in the transaction closing;",
+        "law_section_d": "(d)  before assigning all or part of the principal broker's compensation to an associate broker or sales agent in accordance with Section 61-2f-305, provide written instructions to the title insurance agent that include the following:(i)  an identification of the property involved in the real estate transaction;(ii)  an identification of the principal broker and sales agent or associate broker who will receive compensation in accordance with the written instructions;(iii)  a designation of the amount of compensation that will be received by both the principal broker and the sales agent or associate broker;(iv)  a prohibition against alteration of the written instructions by anyone other than the principal broker; and(v)  additional instructions at the discretion of the principal broker;",
+        "law_section_e": "(e)  obtain written consent from both the buyer and the seller before retaining any portion of an earnest money deposit being held by the principal broker;",
+        "law_section_f": "(f)  strictly adhere to the rule governing real estate auctions, as outlined in Section R162-2f-401i;",
+        "law_section_g": "(g)  strictly adhere to the rule governing property management, as outlined in Section R162-2f-401j;",
+        "law_section_h": "(h)(i)  except as provided in Subsection (1)(h)(iii), within three business days of receiving a client's money in a real estate transaction, deposit the client's money into a trust account:(A)  maintained by the principal broker pursuant to Section R162-2f-403; or(B)  if the parties to the transaction agree in writing, maintained by:(I)  a title company pursuant to Section 31A-23a-406; or(II)  another authorized escrow entity; and(ii)  within three business days of receiving money from a client or a tenant in a property management transaction, deposit the money into a trust account maintained by the principal broker pursuant to Section R162-2f-403 or forward or deposit client or tenant money into an account maintained by the property owner;(iii)  a principal broker is not required to comply with Subsection (1)(h)(i) or (ii) if:(A)  the contract or other written agreement states that the money is to be:(I)  held for a specific length of time; or(II)  as to a real estate transaction, deposited upon acceptance by the seller; or(B)  as to a real estate transaction, the Real Estate Purchase Contract or other written agreement states that a promissory note may be tendered in lieu of good funds and the promissory note:(I)  names the seller as payee; and(II)  is retained in the principal broker's file until closing;",
+        "law_section_i": "(i)(i)  maintain at the principal business location a complete record of any consideration received or escrowed for real estate and property management transactions; and(ii)  be personally responsible for deposits held in the principal broker's trust account;",
+        "law_section_j": "(j)(i)(A)(I)  in a real estate transaction, assign a consecutive, sequential number to each offer; and(II)  assign a unique identification to each property management client; and(B)  include the transaction number or client identification, as applicable, on:(I)  trust account deposit records; and(II)  trust account checks or other equivalent records evidencing the transfer of trust funds;(ii)  maintain a separate transaction file for each offer in a real estate transaction, including a rejected offer, that involves funds tendered through the brokerage and deposited into a trust account; and(iii)  maintain a record of each rejected offer in a real estate transaction that does not involve funds deposited to trust:(A)  in separate files; or(B)  in a single file holding any such offer; and",
+        "law_section_k": "(k)  if the principal broker assigns an affiliated associate broker or branch broker to assist the principal broker in accomplishing the affirmative duties outlined in Subsection (1):(i)  actively supervise any such associate broker or branch broker;(ii)  remain personally responsible and accountable for adequate supervision of each licensee and unlicensed staff affiliated with the principal broker; and (l)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the principal broker.(2)  A branch broker shall:(a)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the branch or branches supervised by the branch broker; and(b)  be personally responsible and accountable for any other responsibility and duty assigned to the branch broker by the principal broker and accepted by the branch broker.(3)  Active and reasonable supervision includes:(a)  the establishment of:(i)  written policies, rules, and procedures; and(ii)  systems that allow the broker to review, oversee, inspect, and manage:(A)  real estate transactions performed by a licensee affiliated with the broker at either the main office or a branch supervised by the broker;(B)  documents that may have a material effect upon the rights or obligations of a party to such real estate transaction;(C)  the filing, storage, and maintenance of such documents;(D)  the handling of trust funds;(E)  advertising of any service for which a real estate license is required;(F)  familiarizing licensees with the requirements of federal and state law governing real estate transactions including prohibitions against discrimination;(G)  to ensure that each person conducting licensed activity on behalf of the broker holds an active license;(H)  to ensure that each affiliated licensee can maintain reasonable and timely communication with the supervising broker or a competent designee to assist the licensee with real estate transactions handled by the brokerage; and(I)  to maintain adequate, reasonable, and regular contact with each affiliated licensee engaged in real estate transactions so as to prevent or curtail practices by a licensee that would violate this chapter;(b)  being reasonably available to the public to discuss or resolve complaints and disputes that may arise during a real estate transaction involving the broker or affiliated licensee;(c)  providing guidance to, and instruction and oversight of, each licensee and unlicensed staff member regarding the policies, rules, procedures, and systems of the brokerage;(d)  documenting the instruction and oversight provided pursuant to Subsection (3)(b); and(e)  establishing a system for monitoring compliance with the policies, rules, and procedures, and systems of the brokerage by licensees and unlicensed staff members.(4)  A principal broker or branch broker may use a licensee or unlicensed staff member to assist in administering Subsection (3), except that the broker may not relinquish overall responsibility for active and reasonable supervision of the acts of licensees and unlicensed staff members affiliated or associated with the broker.(5)  In establishing such policies, rules, procedures, and systems, the broker shall consider the number of sales agents and associate brokers and the number and location of branch offices supervised by the broker.(6)  A principal broker and a branch broker are responsible for violations of Title 61, Chapter 2f, Real Estate Licensing and Practices Act, and the rules promulgated thereunder by licensees and unlicensed staff members they supervise, except that neither a principal broker nor a branch broker shall be deemed in violation of failing to exercise active and reasonable supervision if:(a)  the supervising broker had in place when the violation occurred, specific written policies or instructions to prevent such a violation;(b)  reasonable procedures were established by the broker to ensure that licensees receive active and reasonable supervision and the broker has followed those procedures;(c)  upon learning of the violation, the broker attempted to prevent or mitigate the damage;(d)  the broker did not participate in the violation;(e)  the broker did not ratify the violation; and(f)  the broker did not attempt to avoid learning of the violation."
       },
       {
-        "law-section": "(l)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the principal broker."
+        "law_section": "(l)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the principal broker."
       },
       {
-        "law-section": "(2)  A branch broker shall:",
-        "law-section-a": "(a)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the branch or branches supervised by the branch broker; and",
-        "law-section-b": "(b)  be personally responsible and accountable for any other responsibility and duty assigned to the branch broker by the principal broker and accepted by the branch broker."
+        "law_section": "(2)  A branch broker shall:",
+        "law_section_a": "(a)  exercise active and reasonable supervision over the conduct of each licensee and unlicensed staff employed by or affiliated with the branch or branches supervised by the branch broker; and",
+        "law_section_b": "(b)  be personally responsible and accountable for any other responsibility and duty assigned to the branch broker by the principal broker and accepted by the branch broker."
       },
       {
-        "law-section": "(3)  Active and reasonable supervision includes:",
-        "law-section-a": "(a)  the establishment of:(i)  written policies, rules, and procedures; and(ii)  systems that allow the broker to review, oversee, inspect, and manage:(A)  real estate transactions performed by a licensee affiliated with the broker at either the main office or a branch supervised by the broker;(B)  documents that may have a material effect upon the rights or obligations of a party to such real estate transaction;(C)  the filing, storage, and maintenance of such documents;(D)  the handling of trust funds;(E)  advertising of any service for which a real estate license is required;(F)  familiarizing licensees with the requirements of federal and state law governing real estate transactions including prohibitions against discrimination;(G)  to ensure that each person conducting licensed activity on behalf of the broker holds an active license;(H)  to ensure that each affiliated licensee can maintain reasonable and timely communication with the supervising broker or a competent designee to assist the licensee with real estate transactions handled by the brokerage; and(I)  to maintain adequate, reasonable, and regular contact with each affiliated licensee engaged in real estate transactions so as to prevent or curtail practices by a licensee that would violate this chapter;",
-        "law-section-b": "(b)  being reasonably available to the public to discuss or resolve complaints and disputes that may arise during a real estate transaction involving the broker or affiliated licensee;",
-        "law-section-c": "(c)  providing guidance to, and instruction and oversight of, each licensee and unlicensed staff member regarding the policies, rules, procedures, and systems of the brokerage;",
-        "law-section-d": "(d)  documenting the instruction and oversight provided pursuant to Subsection (3)(b); and",
-        "law-section-e": "(e)  establishing a system for monitoring compliance with the policies, rules, and procedures, and systems of the brokerage by licensees and unlicensed staff members."
+        "law_section": "(3)  Active and reasonable supervision includes:",
+        "law_section_a": "(a)  the establishment of:(i)  written policies, rules, and procedures; and(ii)  systems that allow the broker to review, oversee, inspect, and manage:(A)  real estate transactions performed by a licensee affiliated with the broker at either the main office or a branch supervised by the broker;(B)  documents that may have a material effect upon the rights or obligations of a party to such real estate transaction;(C)  the filing, storage, and maintenance of such documents;(D)  the handling of trust funds;(E)  advertising of any service for which a real estate license is required;(F)  familiarizing licensees with the requirements of federal and state law governing real estate transactions including prohibitions against discrimination;(G)  to ensure that each person conducting licensed activity on behalf of the broker holds an active license;(H)  to ensure that each affiliated licensee can maintain reasonable and timely communication with the supervising broker or a competent designee to assist the licensee with real estate transactions handled by the brokerage; and(I)  to maintain adequate, reasonable, and regular contact with each affiliated licensee engaged in real estate transactions so as to prevent or curtail practices by a licensee that would violate this chapter;",
+        "law_section_b": "(b)  being reasonably available to the public to discuss or resolve complaints and disputes that may arise during a real estate transaction involving the broker or affiliated licensee;",
+        "law_section_c": "(c)  providing guidance to, and instruction and oversight of, each licensee and unlicensed staff member regarding the policies, rules, procedures, and systems of the brokerage;",
+        "law_section_d": "(d)  documenting the instruction and oversight provided pursuant to Subsection (3)(b); and",
+        "law_section_e": "(e)  establishing a system for monitoring compliance with the policies, rules, and procedures, and systems of the brokerage by licensees and unlicensed staff members."
       },
       {
-        "law-section": "(4)  A principal broker or branch broker may use a licensee or unlicensed staff member to assist in administering Subsection (3), except that the broker may not relinquish overall responsibility for active and reasonable supervision of the acts of licensees and unlicensed staff members affiliated or associated with the broker."
+        "law_section": "(4)  A principal broker or branch broker may use a licensee or unlicensed staff member to assist in administering Subsection (3), except that the broker may not relinquish overall responsibility for active and reasonable supervision of the acts of licensees and unlicensed staff members affiliated or associated with the broker."
       },
       {
-        "law-section": "(5)  In establishing such policies, rules, procedures, and systems, the broker shall consider the number of sales agents and associate brokers and the number and location of branch offices supervised by the broker."
+        "law_section": "(5)  In establishing such policies, rules, procedures, and systems, the broker shall consider the number of sales agents and associate brokers and the number and location of branch offices supervised by the broker."
       },
       {
-        "law-section": "(6)  A principal broker and a branch broker are responsible for violations of Title 61, Chapter 2f, Real Estate Licensing and Practices Act, and the rules promulgated thereunder by licensees and unlicensed staff members they supervise, except that neither a principal broker nor a branch broker shall be deemed in violation of failing to exercise active and reasonable supervision if:",
-        "law-section-a": "(a)  the supervising broker had in place when the violation occurred, specific written policies or instructions to prevent such a violation;",
-        "law-section-b": "(b)  reasonable procedures were established by the broker to ensure that licensees receive active and reasonable supervision and the broker has followed those procedures;",
-        "law-section-c": "(c)  upon learning of the violation, the broker attempted to prevent or mitigate the damage;",
-        "law-section-d": "(d)  the broker did not participate in the violation;",
-        "law-section-e": "(e)  the broker did not ratify the violation; and",
-        "law-section-f": "(f)  the broker did not attempt to avoid learning of the violation."
+        "law_section": "(6)  A principal broker and a branch broker are responsible for violations of Title 61, Chapter 2f, Real Estate Licensing and Practices Act, and the rules promulgated thereunder by licensees and unlicensed staff members they supervise, except that neither a principal broker nor a branch broker shall be deemed in violation of failing to exercise active and reasonable supervision if:",
+        "law_section_a": "(a)  the supervising broker had in place when the violation occurred, specific written policies or instructions to prevent such a violation;",
+        "law_section_b": "(b)  reasonable procedures were established by the broker to ensure that licensees receive active and reasonable supervision and the broker has followed those procedures;",
+        "law_section_c": "(c)  upon learning of the violation, the broker attempted to prevent or mitigate the damage;",
+        "law_section_d": "(d)  the broker did not participate in the violation;",
+        "law_section_e": "(e)  the broker did not ratify the violation; and",
+        "law_section_f": "(f)  the broker did not attempt to avoid learning of the violation."
       }
     ]
   },
   {
-    "section-number": "R162-2f-401g",
-    "section-title": "Use of Personal Assistants",
-    "section-clarifier": "To employ an unlicensed individual to provide assistance in connection with a real estate transaction, an individual licensee shall:",
-    "law-sections": [
+    "section_number": "R162-2f-401g",
+    "section_title": "Use of Personal Assistants",
+    "section_clarifier": "To employ an unlicensed individual to provide assistance in connection with a real estate transaction, an individual licensee shall:",
+    "law_sections": [
       {
-        "law-section": "(1)  obtain the permission of the licensee's principal broker before employing the individual;"
+        "law_section": "(1)  obtain the permission of the licensee's principal broker before employing the individual;"
       },
       {
-        "law-section": "(2)  supervise the assistant to ensure that the duties of an unlicensed assistant are limited to those that do not require a real estate license, including the following:",
-        "law-section-a": "(a)  performing clerical duties, including making appointments for prospects to meet with real estate licensees, but only if the contact is initiated by the prospect and not by the unlicensed assistant;",
-        "law-section-b": "(b)  at an open house, distributing preprinted literature written by a licensee, where a licensee is present and the unlicensed person provides no additional information concerning the property or financing, and does not become involved in negotiating, offering, selling or completing contracts;",
-        "law-section-c": "(c)  acting only as a courier service in delivering documents, picking up keys, or similar services, so long as the courier does not engage in any discussion or completion of forms or documents;",
-        "law-section-d": "(d)  placing brokerage signs on listed properties;",
-        "law-section-e": "(e)  having keys made for listed properties; and",
-        "law-section-f": "(f)  securing public records from a county recorder's office, zoning office, sewer district, water district, or similar entity;"
+        "law_section": "(2)  supervise the assistant to ensure that the duties of an unlicensed assistant are limited to those that do not require a real estate license, including the following:",
+        "law_section_a": "(a)  performing clerical duties, including making appointments for prospects to meet with real estate licensees, but only if the contact is initiated by the prospect and not by the unlicensed assistant;",
+        "law_section_b": "(b)  at an open house, distributing preprinted literature written by a licensee, where a licensee is present and the unlicensed person provides no additional information concerning the property or financing, and does not become involved in negotiating, offering, selling or completing contracts;",
+        "law_section_c": "(c)  acting only as a courier service in delivering documents, picking up keys, or similar services, so long as the courier does not engage in any discussion or completion of forms or documents;",
+        "law_section_d": "(d)  placing brokerage signs on listed properties;",
+        "law_section_e": "(e)  having keys made for listed properties; and",
+        "law_section_f": "(f)  securing public records from a county recorder's office, zoning office, sewer district, water district, or similar entity;"
       },
       {
-        "law-section": "(3)  compensate a personal assistant at a predetermined rate that is not:",
-        "law-section-a": "(a)  contingent upon the occurrence of real estate transactions; or",
-        "law-section-b": "(b)  determined through commission sharing or fee splitting; and"
+        "law_section": "(3)  compensate a personal assistant at a predetermined rate that is not:",
+        "law_section_a": "(a)  contingent upon the occurrence of real estate transactions; or",
+        "law_section_b": "(b)  determined through commission sharing or fee splitting; and"
       },
       {
-        "law-section": "(4)  prohibit the assistant from engaging in telephone solicitation or other activity calculated to result in securing prospects for real estate transactions, except as provided in Subsection (2)(a)."
+        "law_section": "(4)  prohibit the assistant from engaging in telephone solicitation or other activity calculated to result in securing prospects for real estate transactions, except as provided in Subsection (2)(a)."
       }
     ]
   },
   {
-    "section-number": "R162-2f-401h",
-    "section-title": "Requirements and Restrictions in Advertising.",
-    "section-clarifier": "",
-    "law-sections": [
+    "section_number": "R162-2f-401h",
+    "section_title": "Requirements and Restrictions in Advertising.",
+    "section_clarifier": "",
+    "law_sections": [
       {
-        "law-section": "(1)  Except as provided for in Subsections (2) and (3), a licensee shall not advertise or permit any person employed by or affiliated with the licensee to advertise real estate services or property in any medium without clearly and conspicuously identifying in the advertisement the name of the brokerage with which the licensee is affiliated.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation."
+        "law_section": "(1)  Except as provided for in Subsections (2) and (3), a licensee shall not advertise or permit any person employed by or affiliated with the licensee to advertise real estate services or property in any medium without clearly and conspicuously identifying in the advertisement the name of the brokerage with which the licensee is affiliated.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation."
       },
       {
-        "law-section": "(2)  When it is not reasonable for a licensee to identify the name of the brokerage in an electronic advertisement, the licensee shall ensure the electronic advertisement directly links to a display that clearly and conspicuously identifies the name of the brokerage"
+        "law_section": "(2)  When it is not reasonable for a licensee to identify the name of the brokerage in an electronic advertisement, the licensee shall ensure the electronic advertisement directly links to a display that clearly and conspicuously identifies the name of the brokerage"
       },
       {
-        "law-section": "(3)  A licensee is not required to identify the name of the brokerage with which the licensee is affiliated if:",
-        "law-section-a": "(a)  the licensee advertises a property not currently listed with the brokerage with which the licensee is affiliated;",
-        "law-section-b": "(b)  the licensee has an ownership interest in the property; and",
-        "law-section-c": "(c)  the advertisement identifies the name of the individual licensee as 'owner-agent' or 'owner-broker.'"
+        "law_section": "(3)  A licensee is not required to identify the name of the brokerage with which the licensee is affiliated if:",
+        "law_section_a": "(a)  the licensee advertises a property not currently listed with the brokerage with which the licensee is affiliated;",
+        "law_section_b": "(b)  the licensee has an ownership interest in the property; and",
+        "law_section_c": "(c)  the advertisement identifies the name of the individual licensee as 'owner-agent' or 'owner-broker.'"
       },
       {
-        "law-section": "(4)  The name of the brokerage identified by a licensee in an advertisement shall be the name of the brokerage as shown on division records."
+        "law_section": "(4)  The name of the brokerage identified by a licensee in an advertisement shall be the name of the brokerage as shown on division records."
       },
       {
-        "law-section": "(5)  A team, group, or other marketing entity which includes one or more licensees shall be subject to the same requirements and restrictions with regard to advertising as is an individual licensee."
+        "law_section": "(5)  A team, group, or other marketing entity which includes one or more licensees shall be subject to the same requirements and restrictions with regard to advertising as is an individual licensee."
       },
       {
-        "law-section": "(6)",
-        "law-section-a": "(a)  If a licensee advertises a guaranteed sales plan, the advertisement shall include, in a clear and conspicuous manner:(i)  a statement that costs and conditions may apply; and(ii)  information about how to contact the licensee offering the guarantee so as to obtain the disclosures required under Subsection R162-2f-401a(23).",
-        "law-section-b": "(b)  Any radio or television advertisement of a guaranteed sales plan shall include a conspicuous statement advising if any conditions and limitations apply."
+        "law_section": "(6)",
+        "law_section_a": "(a)  If a licensee advertises a guaranteed sales plan, the advertisement shall include, in a clear and conspicuous manner:(i)  a statement that costs and conditions may apply; and(ii)  information about how to contact the licensee offering the guarantee so as to obtain the disclosures required under Subsection R162-2f-401a(23).",
+        "law_section_b": "(b)  Any radio or television advertisement of a guaranteed sales plan shall include a conspicuous statement advising if any conditions and limitations apply."
       }
     ]
   },
 
   {
-    "section-number": "R162-2f-401l",
-    "section-title": " Gifts and Inducements.",
-    "section-clarifier": "",
-    "law-sections": [
+    "section_number": "R162-2f-401l",
+    "section_title": " Gifts and Inducements.",
+    "section_clarifier": "",
+    "law_sections": [
       {
-        "law-section": "(1)  An inducement gift is permissible and is not an illegal sharing of commission if the principal broker or affiliated licensee offering the inducement gift to a buyer or a seller complies with the underwriting guidelines that apply to any loan in the transaction for which the inducement has been offered."
+        "law_section": "(1)  An inducement gift is permissible and is not an illegal sharing of commission if the principal broker or affiliated licensee offering the inducement gift to a buyer or a seller complies with the underwriting guidelines that apply to any loan in the transaction for which the inducement has been offered."
       },
       {
-        "law-section": "(2)  A closing gift is permissible and is not an illegal sharing of commissions."
+        "law_section": "(2)  A closing gift is permissible and is not an illegal sharing of commissions."
       }
     ]
   },
   {
-    "section-number": "R162-2f-403a",
-    "section-title": "Trust Accounts - Real Estate Company.",
-    "section-clarifier": "The principal broker of a real estate company shall: ",
-    "law-sections": [
+    "section_number": "R162-2f-403a",
+    "section_title": "Trust Accounts - Real Estate Company.",
+    "section_clarifier": "The principal broker of a real estate company shall: ",
+    "law_sections": [
       {
-        "law-section": "(1)  The principal broker of a real estate company shall:",
-        "law-section-a": "(a)(i)  if engaged in listing or selling real estate, maintain at least one real estate trust account in a bank or credit union located within the state of Utah; and(ii)  if engaged in property management, refer to trust account rules in Section R162-2f-403b;",
-        "law-section-b": " (b)  at the time a real estate trust account is established, or if the trust account is moved to another bank or credit union or the trust account number is changed, notify the division in writing of:(i)  the account number;(ii)  the address of the bank or credit union where the account is located; and(iii)  the type of activity for which the account is used."
+        "law_section": "(1)  The principal broker of a real estate company shall:",
+        "law_section_a": "(a)(i)  if engaged in listing or selling real estate, maintain at least one real estate trust account in a bank or credit union located within the state of Utah; and(ii)  if engaged in property management, refer to trust account rules in Section R162-2f-403b;",
+        "law_section_b": " (b)  at the time a real estate trust account is established, or if the trust account is moved to another bank or credit union or the trust account number is changed, notify the division in writing of:(i)  the account number;(ii)  the address of the bank or credit union where the account is located; and(iii)  the type of activity for which the account is used."
       },
       {
-        "law-section": "(2)  A real estate trust account maintained by a principal broker shall be non-interest-bearing, unless:",
-        "law-section-a": "(a)  the parties to the transaction agree in writing to deposit the funds in an interest-bearing account;",
-        "law-section-b": "(b)  the parties to the transaction designate in writing the person to whom the interest will be paid upon completion or failure of the sale;",
-        "law-section-c": "(c)  the person designated under Subsection (2)(b):(i)  qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code; and(ii)  operates exclusively to provide grants to affordable housing programs in Utah; and",
-        "law-section-d": "(d)  the affordable housing program that is the recipient of the grant under Subsection (2)(c)(ii) qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code."
+        "law_section": "(2)  A real estate trust account maintained by a principal broker shall be non-interest-bearing, unless:",
+        "law_section_a": "(a)  the parties to the transaction agree in writing to deposit the funds in an interest-bearing account;",
+        "law_section_b": "(b)  the parties to the transaction designate in writing the person to whom the interest will be paid upon completion or failure of the sale;",
+        "law_section_c": "(c)  the person designated under Subsection (2)(b):(i)  qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code; and(ii)  operates exclusively to provide grants to affordable housing programs in Utah; and",
+        "law_section_d": "(d)  the affordable housing program that is the recipient of the grant under Subsection (2)(c)(ii) qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code."
       },
       {
-        "law-section": "(3)  A principal broker may not deposit into the principal broker's real estate trust account funds received in connection with rental of tourist accommodations where the rental period is less than 30 consecutive days."
+        "law_section": "(3)  A principal broker may not deposit into the principal broker's real estate trust account funds received in connection with rental of tourist accommodations where the rental period is less than 30 consecutive days."
       },
       {
-        "law-section": "(4)  Records of deposits to a real estate trust account shall include:",
-        "law-section-a": "(a)  transaction number or unique client identifier, as applicable pursuant to Subsection R162-2f-401c(1)(j);",
-        "law-section-b": "(b)  identification of payee and payor;",
-        "law-section-c": "(c)  amount of deposit;",
-        "law-section-d": "(d)  location of property subject to the transaction; and",
-        "law-section-e": " (e)  date and place of deposit."
+        "law_section": "(4)  Records of deposits to a real estate trust account shall include:",
+        "law_section_a": "(a)  transaction number or unique client identifier, as applicable pursuant to Subsection R162-2f-401c(1)(j);",
+        "law_section_b": "(b)  identification of payee and payor;",
+        "law_section_c": "(c)  amount of deposit;",
+        "law_section_d": "(d)  location of property subject to the transaction; and",
+        "law_section_e": " (e)  date and place of deposit."
       },
       {
-        "law-section": "(5)  Except for electronic transfers provided for in Subsection (6), any instrument by which funds are disbursed from a real estate or property management trust account shall include:",
-        "law-section-a": "(a)  the business name of the registered entity;",
-        "law-section-b": "(b)  the address of the registered entity;",
-        "law-section-c": "(c)  clear identification of the trust account from which the disbursement is made, including:(i)  account name; and(ii)  account number;(iii)  transaction number or unique client identification, as applicable, pursuant to Subsection R162-2f-401c(1)(k);(iv)  date of disbursement;(v)  clear identification of payee and payor;(vi)  amount disbursed;(vii)  notation identifying the purpose for disbursement; and(viii)  check number, wire transfer number, or equivalent bank or credit union instrument identification."
+        "law_section": "(5)  Except for electronic transfers provided for in Subsection (6), any instrument by which funds are disbursed from a real estate or property management trust account shall include:",
+        "law_section_a": "(a)  the business name of the registered entity;",
+        "law_section_b": "(b)  the address of the registered entity;",
+        "law_section_c": "(c)  clear identification of the trust account from which the disbursement is made, including:(i)  account name; and(ii)  account number;(iii)  transaction number or unique client identification, as applicable, pursuant to Subsection R162-2f-401c(1)(k);(iv)  date of disbursement;(v)  clear identification of payee and payor;(vi)  amount disbursed;(vii)  notation identifying the purpose for disbursement; and(viii)  check number, wire transfer number, or equivalent bank or credit union instrument identification."
       },
       {
-        "law-section": "(6)  Any instrument by which funds are disbursed from a real estate or property management trust account shall include those items required in Subsection (5), except when a required item is not able to be included due to the inherent limitations of such instrument. In a circumstance in which any item required by Subsection (5) is not included in the instrument, the principal broker shall still comply with the reconciliation requirements of this section and Section R162-2f-401k."
+        "law_section": "(6)  Any instrument by which funds are disbursed from a real estate or property management trust account shall include those items required in Subsection (5), except when a required item is not able to be included due to the inherent limitations of such instrument. In a circumstance in which any item required by Subsection (5) is not included in the instrument, the principal broker shall still comply with the reconciliation requirements of this section and Section R162-2f-401k."
       },
       {
-        "law-section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term 'void' and the original instrument retained pursuant to Section R162-2f-401k."
+        "law_section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term 'void' and the original instrument retained pursuant to Section R162-2f-401k."
       },
       {
-        "law-section": "(8)  If both parties to a contract make a written claim to money held in a principal broker's trust fund and the principal broker cannot determine from any signed agreement which party's claim is valid, the principal broker may:",
-        "law-section-a": "(a)  interplead the funds into court and thereafter disburse:(i)  upon written authorization of the party who will not receive the funds; or(ii)  pursuant to the order of a court of competent jurisdiction; or",
-        "law-section-b": "(b)  within 15 days of receiving written notice that both parties claim the funds, refer the parties to mediation if:(i)  no party has filed a civil suit arising out of the transaction; and(ii)  the parties have contractually agreed to submit disputes arising out of their contract to mediation."
+        "law_section": "(8)  If both parties to a contract make a written claim to money held in a principal broker's trust fund and the principal broker cannot determine from any signed agreement which party's claim is valid, the principal broker may:",
+        "law_section_a": "(a)  interplead the funds into court and thereafter disburse:(i)  upon written authorization of the party who will not receive the funds; or(ii)  pursuant to the order of a court of competent jurisdiction; or",
+        "law_section_b": "(b)  within 15 days of receiving written notice that both parties claim the funds, refer the parties to mediation if:(i)  no party has filed a civil suit arising out of the transaction; and(ii)  the parties have contractually agreed to submit disputes arising out of their contract to mediation."
       },
       {
-        "law-section": "(9)  If a principal broker is unable to disburse trust funds within three years after the failure of a transaction, the principal broker shall remit the funds to the State Treasurer's Office as unclaimed property pursuant to Title 67, Chapter 4a, Revised Uniform Unclaimed Property Act ."
+        "law_section": "(9)  If a principal broker is unable to disburse trust funds within three years after the failure of a transaction, the principal broker shall remit the funds to the State Treasurer's Office as unclaimed property pursuant to Title 67, Chapter 4a, Revised Uniform Unclaimed Property Act ."
       },
       {
-        "law-section": "(10)  Trust account reconciliation requirements are as follows: For each real estate or property management trust account operated by a registered entity, the principal broker of the entity shall:",
-        "law-section-a": " (a)  maintain a date-sequential record of each deposit to and disbursement from the account, including a cross-reference to the information specified in Subsection R162-2f-401c(1)(j);",
-        "law-section-b": "(b)  maintain a current, running total of the balance contained in the trust account;",
-        "law-section-c": "(c)(i)  maintain records sufficient to detail the final disposition of any funds associated with each transaction; and(ii)  ensure that each closed transaction balances to zero;",
-        "law-section-d": "(d)  reconcile the brokerage trust account records with the bank or credit union records at least monthly;",
-        "law-section-e": " (e)  reconcile the brokerage trust account records with the brokerage client account records at least monthly; and",
-        "law-section-f": "(f)  upon request, make the trust account records available to the division for auditing or investigation."
+        "law_section": "(10)  Trust account reconciliation requirements are as follows: For each real estate or property management trust account operated by a registered entity, the principal broker of the entity shall:",
+        "law_section_a": " (a)  maintain a date-sequential record of each deposit to and disbursement from the account, including a cross-reference to the information specified in Subsection R162-2f-401c(1)(j);",
+        "law_section_b": "(b)  maintain a current, running total of the balance contained in the trust account;",
+        "law_section_c": "(c)(i)  maintain records sufficient to detail the final disposition of any funds associated with each transaction; and(ii)  ensure that each closed transaction balances to zero;",
+        "law_section_d": "(d)  reconcile the brokerage trust account records with the bank or credit union records at least monthly;",
+        "law_section_e": " (e)  reconcile the brokerage trust account records with the brokerage client account records at least monthly; and",
+        "law_section_f": "(f)  upon request, make the trust account records available to the division for auditing or investigation."
       },
 
       {
-        "law-section": "(11)  The principal broker shall notify the division within 30 days if:",
-        "law-section-a": "(a)  the principal broker receives, from a bank or credit union in which the principal broker maintains a real estate or property management trust account, documentation to evidence that the trust account is out of balance; and",
-        "law-section-b": "(b)  the imbalance cannot be cured within the 30-day notification period."
+        "law_section": "(11)  The principal broker shall notify the division within 30 days if:",
+        "law_section_a": "(a)  the principal broker receives, from a bank or credit union in which the principal broker maintains a real estate or property management trust account, documentation to evidence that the trust account is out of balance; and",
+        "law_section_b": "(b)  the imbalance cannot be cured within the 30-day notification period."
       },
       {
-        "law-section": "(12)  A real estate trust account shall be used for the purpose of securing client funds:",
-        "law-section-a": "(a)  deposited with the principal broker in connection with a real estate transaction regulated under Title 61, Chapter 2f, Real Estate Licensing and Practices Act;",
-        "law-section-b": "(b)  deposited under a Real Estate Purchase Contract, construction contract, or other agreement that provides for the construction of a dwelling, if the principal broker is also a builder or developer; or",
-        "law-section-c": "(c)  collected in the performance of property management duties, pursuant to Subsection (13)."
+        "law_section": "(12)  A real estate trust account shall be used for the purpose of securing client funds:",
+        "law_section_a": "(a)  deposited with the principal broker in connection with a real estate transaction regulated under Title 61, Chapter 2f, Real Estate Licensing and Practices Act;",
+        "law_section_b": "(b)  deposited under a Real Estate Purchase Contract, construction contract, or other agreement that provides for the construction of a dwelling, if the principal broker is also a builder or developer; or",
+        "law_section_c": "(c)  collected in the performance of property management duties, pursuant to Subsection (13)."
       },
       {
-        "law-section": "(13)  A principal broker violates Subsection 61-2f-401(4)(b) if:",
-        "law-section-a": "(a)  the principal broker:(i)  deposits more than $1000 of the principal broker's own funds into a real estate trust account; or(ii)  fails to transfer funds due to the principal broker or an affiliated licensee into the operating account within 60 days from the closing or termination of the real estate transaction; or(iii)  fails to transfer earnings for property management services out of the property management trust account and into an operating account within 60 days of the date the earnings are earned according to contract and received."
+        "law_section": "(13)  A principal broker violates Subsection 61-2f-401(4)(b) if:",
+        "law_section_a": "(a)  the principal broker:(i)  deposits more than $1000 of the principal broker's own funds into a real estate trust account; or(ii)  fails to transfer funds due to the principal broker or an affiliated licensee into the operating account within 60 days from the closing or termination of the real estate transaction; or(iii)  fails to transfer earnings for property management services out of the property management trust account and into an operating account within 60 days of the date the earnings are earned according to contract and received."
       },
       {
-        "law-section": "(14)  A principal broker of a real estate sales company who regularly engages in property management on behalf of seven or more individual units shall establish at least one property management trust account that is:",
-        "law-section-a": "(a)  separate from the real estate trust account; and",
-        "law-section-b": "(b)  operated in accordance with Section R162-2f-403b."
+        "law_section": "(14)  A principal broker of a real estate sales company who regularly engages in property management on behalf of seven or more individual units shall establish at least one property management trust account that is:",
+        "law_section_a": "(a)  separate from the real estate trust account; and",
+        "law_section_b": "(b)  operated in accordance with Section R162-2f-403b."
       },
       {
-        "law-section": "(15)  A principal broker may not pay a commission from a real estate trust account, without first:",
-        "law-section-a": "(a)  obtaining written authorization from the buyer and seller, or other parties having an interest in the funds, through contract or otherwise;",
-        "law-section-b": "(b)  closing or otherwise terminating the transaction;",
-        "law-section-c": "(c)  delivering the settlement statement to the buyer and seller;",
-        "law-section-d": "(d)  ensuring that the buyer or seller whom the principal broker represents has been paid the amount due as determined by the settlement statement;",
-        "law-section-e": "(e)  making a record of each disbursement; and",
-        "law-section-f": "(f)  depositing the funds into the principal broker's operating account prior to further disbursing the funds."
+        "law_section": "(15)  A principal broker may not pay a commission from a real estate trust account, without first:",
+        "law_section_a": "(a)  obtaining written authorization from the buyer and seller, or other parties having an interest in the funds, through contract or otherwise;",
+        "law_section_b": "(b)  closing or otherwise terminating the transaction;",
+        "law_section_c": "(c)  delivering the settlement statement to the buyer and seller;",
+        "law_section_d": "(d)  ensuring that the buyer or seller whom the principal broker represents has been paid the amount due as determined by the settlement statement;",
+        "law_section_e": "(e)  making a record of each disbursement; and",
+        "law_section_f": "(f)  depositing the funds into the principal broker's operating account prior to further disbursing the funds."
       },
       {
-        "law-section": "(16)  A principal broker may disburse funds from a real estate trust account only in accordance with:",
-        "law-section-a": "(a)  specific language in the Real Estate Purchase Contract authorizing disbursement;",
-        "law-section-b": "(b)  other proper written authorization of the parties having an interest in the funds;",
-        "law-section-c": "(c)  this section; or",
-        "law-section-d": "(d)  court order."
+        "law_section": "(16)  A principal broker may disburse funds from a real estate trust account only in accordance with:",
+        "law_section_a": "(a)  specific language in the Real Estate Purchase Contract authorizing disbursement;",
+        "law_section_b": "(b)  other proper written authorization of the parties having an interest in the funds;",
+        "law_section_c": "(c)  this section; or",
+        "law_section_d": "(d)  court order."
       },
       {
-        "law-section": "(17)  A principal broker may not release for construction purposes those funds held as deposit money under an agreement that provides for the construction of a dwelling unless the purchaser authorizes such disbursement in writing."
+        "law_section": "(17)  A principal broker may not release for construction purposes those funds held as deposit money under an agreement that provides for the construction of a dwelling unless the purchaser authorizes such disbursement in writing."
       },
       {
-        "law-section": "(18)  A principal broker may not release earnest money or other trust funds associated with a failed transaction unless:",
-        "law-section-a": "(a)  a condition in the Real Estate Purchase Contract authorizing disbursement has occurred; or",
-        "law-section-b": "(b)  the parties execute a separate signed agreement containing instructions and authorization for disbursement."
+        "law_section": "(18)  A principal broker may not release earnest money or other trust funds associated with a failed transaction unless:",
+        "law_section_a": "(a)  a condition in the Real Estate Purchase Contract authorizing disbursement has occurred; or",
+        "law_section_b": "(b)  the parties execute a separate signed agreement containing instructions and authorization for disbursement."
       },
       {
-        "law-section": "(19)  With the client's written consent, a principal broker may reallocate earnest money funds from a failed transaction held in a trust account as earnest money for the same client in another transaction."
+        "law_section": "(19)  With the client's written consent, a principal broker may reallocate earnest money funds from a failed transaction held in a trust account as earnest money for the same client in another transaction."
       }
     ]
   },
   {
-    "section-number": "R162-2f-403b",
-    "section-title": "Trust Accounts - Property Management Company.",
-    "section-clarifier": "The principal broker of a property management company shall: ",
-    "law-sections": [
+    "section_number": "R162-2f-403b",
+    "section_title": "Trust Accounts - Property Management Company.",
+    "section_clarifier": "The principal broker of a property management company shall: ",
+    "law_sections": [
       {
-        "law-section": "(1)  The principal broker of a property management company shall:", 
-        "law-section-a": "(a)(i)  if regularly engaged in property management on behalf of seven or more individual units, establish at least one property management trust account that is separate from the principal broker's real estate trust account and is maintained in a bank or credit union located within the state of Utah; and(ii)  if engaged in listing or selling real estate, or if regularly engaged in property management on behalf of six or fewer individual units, maintain at least one real estate trust account in a bank or credit union located within the state of Utah and maintained pursuant to Section R162-2f-403a;",
-        "law-section-b": " (b)  at the time a property management trust account is established, or if the trust account is moved to another bank or credit union or the trust account number is changed, notify the division in writing within ten business days of:(i)  the account number;(ii)  the address of the bank or credit union where the account is located; and(iii)  the type of activity for which the account is used."
+        "law_section": "(1)  The principal broker of a property management company shall:", 
+        "law_section_a": "(a)(i)  if regularly engaged in property management on behalf of seven or more individual units, establish at least one property management trust account that is separate from the principal broker's real estate trust account and is maintained in a bank or credit union located within the state of Utah; and(ii)  if engaged in listing or selling real estate, or if regularly engaged in property management on behalf of six or fewer individual units, maintain at least one real estate trust account in a bank or credit union located within the state of Utah and maintained pursuant to Section R162-2f-403a;",
+        "law_section_b": " (b)  at the time a property management trust account is established, or if the trust account is moved to another bank or credit union or the trust account number is changed, notify the division in writing within ten business days of:(i)  the account number;(ii)  the address of the bank or credit union where the account is located; and(iii)  the type of activity for which the account is used."
       },
       {
         
-        "law-section": "(2)  A property management trust account maintained by a principal broker shall be non-interest-bearing, unless:",
-        "law-section-a": "(a)  the parties to the transaction agree in writing to deposit the funds in an interest-bearing account;",
-        "law-section-b": "(b)  the parties to the transaction designate in writing the person to whom the interest will be paid upon completion or failure of the transaction;",
-        "law-section-c": "(c)  the person designated under Subsection (2)(b):(i)  qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code; and(ii)  operates exclusively to provide grants to affordable housing programs in Utah; and(d)  the affordable housing program that is the recipient of the grant under Subsection (2)(c)(ii) qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code."
+        "law_section": "(2)  A property management trust account maintained by a principal broker shall be non-interest-bearing, unless:",
+        "law_section_a": "(a)  the parties to the transaction agree in writing to deposit the funds in an interest-bearing account;",
+        "law_section_b": "(b)  the parties to the transaction designate in writing the person to whom the interest will be paid upon completion or failure of the transaction;",
+        "law_section_c": "(c)  the person designated under Subsection (2)(b):(i)  qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code; and(ii)  operates exclusively to provide grants to affordable housing programs in Utah; and(d)  the affordable housing program that is the recipient of the grant under Subsection (2)(c)(ii) qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code."
       },
       {
        
-        "law-section": "(3)  A principal broker may not deposit into the principal broker's property management account funds received in connection with rental of tourist accommodations where the rental period is less than 30 consecutive days."
+        "law_section": "(3)  A principal broker may not deposit into the principal broker's property management account funds received in connection with rental of tourist accommodations where the rental period is less than 30 consecutive days."
       },
       {
        
-        "law-section": "(4)  Records of deposits to a property management trust account shall include:",
-        "law-section-a": "(a)  transaction number or unique client identifier, as applicable pursuant to Subsection R162-2f-401c(1)(j);",
-        "law-section-b": "(b)  identification of payee and payor;",
-        "law-section-c": "(c)  amount of deposit;",
-        "law-section-d": "(d)  location of property subject to the transaction; and",
-        "law-section-e": "(e)  date and place of deposit."
+        "law_section": "(4)  Records of deposits to a property management trust account shall include:",
+        "law_section_a": "(a)  transaction number or unique client identifier, as applicable pursuant to Subsection R162-2f-401c(1)(j);",
+        "law_section_b": "(b)  identification of payee and payor;",
+        "law_section_c": "(c)  amount of deposit;",
+        "law_section_d": "(d)  location of property subject to the transaction; and",
+        "law_section_e": "(e)  date and place of deposit."
       },
       {
        
-        "law-section": "(5)  Except for electronic transfers provided for in Subsection (6), any instrument by which funds are disbursed from a real estate or property management trust account shall include:",
-        "law-section-a": "(a)  the business name of the registered entity;",
-        "law-section-b": "(b)  the address of the registered entity;",
-        "law-section-c": "(c)  clear identification of the trust account from which the disbursement is made, including:(i)  account name;(ii)  account number;(iii)  transaction number or unique client identification, as applicable, pursuant to Subsection R162-2f-401c(1)(k);(iv)  date of disbursement;(v)  clear identification of payee and payor;(vi)  amount disbursed;(vii)  notation identifying the purpose for disbursement; and(viii)  check number, wire transfer number, or equivalent bank or credit union instrument identification."
+        "law_section": "(5)  Except for electronic transfers provided for in Subsection (6), any instrument by which funds are disbursed from a real estate or property management trust account shall include:",
+        "law_section_a": "(a)  the business name of the registered entity;",
+        "law_section_b": "(b)  the address of the registered entity;",
+        "law_section_c": "(c)  clear identification of the trust account from which the disbursement is made, including:(i)  account name;(ii)  account number;(iii)  transaction number or unique client identification, as applicable, pursuant to Subsection R162-2f-401c(1)(k);(iv)  date of disbursement;(v)  clear identification of payee and payor;(vi)  amount disbursed;(vii)  notation identifying the purpose for disbursement; and(viii)  check number, wire transfer number, or equivalent bank or credit union instrument identification."
       },
       {
        
-        "law-section": "(6)  Any instrument by which funds are disbursed from a real estate or property management trust account shall include those items required in Subsection (5), except when a required item is not able to be included due to the inherent limitations of such instrument. In a circumstance in which any item required by Subsection (5) is not included in the instrument, the principal broker shall still comply with the reconciliation requirements of this section and Section 401k."
+        "law_section": "(6)  Any instrument by which funds are disbursed from a real estate or property management trust account shall include those items required in Subsection (5), except when a required item is not able to be included due to the inherent limitations of such instrument. In a circumstance in which any item required by Subsection (5) is not included in the instrument, the principal broker shall still comply with the reconciliation requirements of this section and Section 401k."
       },
       {
         
-        "law-section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term 'void' and the original instrument retained pursuant to Section R162-2f-401k."
+        "law_section": "(7)  Any instrument of conveyance that is voided shall be clearly marked with the term 'void' and the original instrument retained pursuant to Section R162-2f-401k."
       },
       {
         
-        "law-section": "(8)  If more than one party to a contract makes a written claim to money held in a principal broker's trust fund and the principal broker cannot determine from any signed agreement which party's claim is valid, the principal broker may:",
-        "law-section-a": "(a)  interplead the funds into court and thereafter disburse:(i)  upon written authorization of the parties who will not receive the funds; or(ii)  pursuant to the order of a court of competent jurisdiction; or",
-        "law-section-b": "(b)  within 15 days of receiving written notice that more than one party claims the funds, refer the parties to mediation if:(i)  no party has filed a civil suit arising out of the transaction; and(ii)  the parties have contractually agreed to submit disputes arising out of their contract to mediation."
+        "law_section": "(8)  If more than one party to a contract makes a written claim to money held in a principal broker's trust fund and the principal broker cannot determine from any signed agreement which party's claim is valid, the principal broker may:",
+        "law_section_a": "(a)  interplead the funds into court and thereafter disburse:(i)  upon written authorization of the parties who will not receive the funds; or(ii)  pursuant to the order of a court of competent jurisdiction; or",
+        "law_section_b": "(b)  within 15 days of receiving written notice that more than one party claims the funds, refer the parties to mediation if:(i)  no party has filed a civil suit arising out of the transaction; and(ii)  the parties have contractually agreed to submit disputes arising out of their contract to mediation."
       },
       {
         
-        "law-section": "(9)  If a principal broker is unable to disburse trust funds within three years after the funds are due to be disbursed, the principal broker shall remit the funds to the State Treasurer's Office as unclaimed property pursuant to Title 67, Chapter 4a, Revised Uniform Unclaimed Property Act."
+        "law_section": "(9)  If a principal broker is unable to disburse trust funds within three years after the funds are due to be disbursed, the principal broker shall remit the funds to the State Treasurer's Office as unclaimed property pursuant to Title 67, Chapter 4a, Revised Uniform Unclaimed Property Act."
       },
       {
        
-        "law-section": "(10)  Trust account reconciliation requirements are as follows: For each real estate or property management trust account operated by a registered entity, the principal broker of the entity shall:",
-        "law-section-a": "(a)  maintain a date-sequential record of each deposit to, and disbursement from, the account, including a cross-reference to the information specified in Subsection R162-2f-401c(1)(j);",
-        "law-section-b": "(b)  maintain a current, running total of the balance contained in the trust account;",
-        "law-section-c": "(c)(i)  maintain records sufficient to detail the final disposition of the funds associated with each transaction; and(ii)  ensure that each closed transaction balances to zero;",
-        "law-section-d": "(d)  reconcile the brokerage trust account records with the bank or credit union records at least monthly;",
-        "law-section-e": "(e)  reconcile the brokerage trust account records with the brokerage client accounts at least monthly; and",
-        "law-section-f": "(f)  upon request, make the trust account records available to the division for auditing or investigation."
+        "law_section": "(10)  Trust account reconciliation requirements are as follows: For each real estate or property management trust account operated by a registered entity, the principal broker of the entity shall:",
+        "law_section_a": "(a)  maintain a date-sequential record of each deposit to, and disbursement from, the account, including a cross-reference to the information specified in Subsection R162-2f-401c(1)(j);",
+        "law_section_b": "(b)  maintain a current, running total of the balance contained in the trust account;",
+        "law_section_c": "(c)(i)  maintain records sufficient to detail the final disposition of the funds associated with each transaction; and(ii)  ensure that each closed transaction balances to zero;",
+        "law_section_d": "(d)  reconcile the brokerage trust account records with the bank or credit union records at least monthly;",
+        "law_section_e": "(e)  reconcile the brokerage trust account records with the brokerage client accounts at least monthly; and",
+        "law_section_f": "(f)  upon request, make the trust account records available to the division for auditing or investigation."
       },
       {
        
-        "law-section": "(11)  The principal broker shall notify the division within 30 days if:",
-        "law-section-a": "(a)  the principal broker receives, from a bank or credit union in which the principal broker maintains a real estate or property management trust account, documentation to evidence that the trust account is out of balance; and",
-        "law-section-b": "(b)  the imbalance cannot be cured within the 30-day notification period."
+        "law_section": "(11)  The principal broker shall notify the division within 30 days if:",
+        "law_section_a": "(a)  the principal broker receives, from a bank or credit union in which the principal broker maintains a real estate or property management trust account, documentation to evidence that the trust account is out of balance; and",
+        "law_section_b": "(b)  the imbalance cannot be cured within the 30-day notification period."
       },
       {
        
-        "law-section": "(12)  A property management trust account shall be used for the purpose of securing:",
-        "law-section-a": "(a)  tenant security deposits;",
-        "law-section-b": "(b)  rents;",
-        "law-section-c": "(c)  money tendered by a property owner as a reserve fund or for payment of unexpected expenses; and",
-        "law-section-d": "(d)  if the principal broker has not established a separate real estate trust account, client funds deposited with the principal broker in connection with a real estate transaction regulated under Title 61, Chapter 2f, Real Estate Licensing and Practices Act."
+        "law_section": "(12)  A property management trust account shall be used for the purpose of securing:",
+        "law_section_a": "(a)  tenant security deposits;",
+        "law_section_b": "(b)  rents;",
+        "law_section_c": "(c)  money tendered by a property owner as a reserve fund or for payment of unexpected expenses; and",
+        "law_section_d": "(d)  if the principal broker has not established a separate real estate trust account, client funds deposited with the principal broker in connection with a real estate transaction regulated under Title 61, Chapter 2f, Real Estate Licensing and Practices Act."
       },
       {
        
-        "law-section": "(13)  A principal broker violates Subsection 61-2f-401(4)(b) if:",
-        "law-section-a": "(a)  the principal broker deposits into a property management trust account funds belonging to the principal broker without:(i)  maintaining records to clearly identify the total amount belonging to the principal broker; or(ii)  performing a monthly line-item reconciliation of the deposits and withdrawals of funds belonging to the principal broker; or",
-        "law-section-b": "(b)  the principal broker:(i)  deposits more than $10,000 of the principal broker's own funds into the property management trust account; or(ii)  fails to transfer earnings for property management services out of the property management trust account and into the operating account within 60 days from the date the earnings are earned according to contract and received."
+        "law_section": "(13)  A principal broker violates Subsection 61-2f-401(4)(b) if:",
+        "law_section_a": "(a)  the principal broker deposits into a property management trust account funds belonging to the principal broker without:(i)  maintaining records to clearly identify the total amount belonging to the principal broker; or(ii)  performing a monthly line-item reconciliation of the deposits and withdrawals of funds belonging to the principal broker; or",
+        "law_section_b": "(b)  the principal broker:(i)  deposits more than $10,000 of the principal broker's own funds into the property management trust account; or(ii)  fails to transfer earnings for property management services out of the property management trust account and into the operating account within 60 days from the date the earnings are earned according to contract and received."
       },
       {
         
-        "law-section": "(14)  A principal broker may disburse funds from a property management trust account only in accordance with:",
-        "law-section-a": "(a)  specific language in the property management contract or tenant lease agreement, as applicable, authorizing disbursement;",
-        "law-section-b": "(b)  other proper written authorization of the parties having an interest in the funds;",
-        "law-section-c": "(c)  this section; or",
-        "law-section-d": "(d)  court order."
+        "law_section": "(14)  A principal broker may disburse funds from a property management trust account only in accordance with:",
+        "law_section_a": "(a)  specific language in the property management contract or tenant lease agreement, as applicable, authorizing disbursement;",
+        "law_section_b": "(b)  other proper written authorization of the parties having an interest in the funds;",
+        "law_section_c": "(c)  this section; or",
+        "law_section_d": "(d)  court order."
       },
       {
         
-        "law-section": "(15)  A principal broker who transfers funds from a property management trust account for any purpose shall maintain records to clearly evidence that:",
-        "law-section-a": "(a)  prior to making the transfer, the principal broker verified the money as belonging to the property owner for whose benefit, or on whose instruction, the funds are transferred;",
-        "law-section-b": "(b)  any money transferred into an operating account as a commission or for the principal broker's property management fee is earned according to the terms of the principal broker's contract with the property owner;",
-        "law-section-c": "(c)  any transfer for maintenance, repair, or similar purpose is:(i)  authorized according to the terms of the applicable property management contract, tenant lease agreement, or other instruction of the property owner; and(ii)  used strictly for the purpose for which the transfer is authorized, with any excess returned to the trust account."
+        "law_section": "(15)  A principal broker who transfers funds from a property management trust account for any purpose shall maintain records to clearly evidence that:",
+        "law_section_a": "(a)  prior to making the transfer, the principal broker verified the money as belonging to the property owner for whose benefit, or on whose instruction, the funds are transferred;",
+        "law_section_b": "(b)  any money transferred into an operating account as a commission or for the principal broker's property management fee is earned according to the terms of the principal broker's contract with the property owner;",
+        "law_section_c": "(c)  any transfer for maintenance, repair, or similar purpose is:(i)  authorized according to the terms of the applicable property management contract, tenant lease agreement, or other instruction of the property owner; and(ii)  used strictly for the purpose for which the transfer is authorized, with any excess returned to the trust account."
       },
       {
         
-        "law-section": "(16)  A principal broker may not pay a commission or transfer funds for the principal broker's property management fee directly from the property management trust account but shall first deposit the funds into the principal broker's operating account prior to further disbursing the funds."
+        "law_section": "(16)  A principal broker may not pay a commission or transfer funds for the principal broker's property management fee directly from the property management trust account but shall first deposit the funds into the principal broker's operating account prior to further disbursing the funds."
       }
 
 
