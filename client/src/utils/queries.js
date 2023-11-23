@@ -20,3 +20,14 @@ export const GET_USER = gql`
             }
         }
 `;
+
+
+export const GET_LAW_SECTION_TITLES = gql`
+    query LawSections {
+    lawSections {
+    _id
+    section_number
+    section_title
+        }
+    }
+`;
