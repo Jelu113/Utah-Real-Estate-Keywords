@@ -1,45 +1,49 @@
-// import { useState } from 'react';
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
-    // Box,
-    Tabs, 
-    TabList, 
-    TabPanels, 
-    Tab, 
-    TabPanel,
-    TabIndicator
-} from '@chakra-ui/react'
+  // Box,
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
+  TabIndicator,
+} from "@chakra-ui/react";
 
 const Navbar = () => {
-    return(
+  return (
     <>
-        <Tabs position="relative" variant="unstyled">
+      <Tabs position="relative" variant="unstyled">
         <TabList>
-        <Tab>Home</Tab>
-        <Tab>Create User</Tab>
-        <Tab>Login</Tab>
+          <Tab as={Link} to="/">
+            Home
+          </Tab>
+          <Tab>Create User</Tab>
+          <Tab as={Link} to="/login">
+            Login
+          </Tab>
         </TabList>
         <TabIndicator
-        mt="-1.5px"
-        height="2px"
-        bg="blue.500"
-        borderRadius="1px"
+          mt="-1.5px"
+          height="2px"
+          bg="blue.500"
+          borderRadius="1px"
         />
         <TabPanels>
-        <TabPanel>
-            <p>one!</p>
-        </TabPanel>
-        <TabPanel>
-            <p>two!</p>
-        </TabPanel>
-        <TabPanel>
-            <p>three!</p>
-        </TabPanel>
+          <TabPanel>
+            <p>Home</p>
+          </TabPanel>
+          <TabPanel>
+            <p>Create User</p>
+          </TabPanel>
+          <TabPanel>
+            <p>Login</p>
+          </TabPanel>
         </TabPanels>
-        </Tabs>
-        <i class="fa-solid fa-gavel fa-fade fa-2xl"></i>
+      </Tabs>
+      <i className="fa-solid fa-gavel fa-fade fa-2xl"></i>
     </>
-    
-    )
-}
+  );
+};
 
 export default Navbar;

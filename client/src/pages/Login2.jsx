@@ -1,4 +1,3 @@
-import { useFormik } from "formik";
 import { Formik, Field } from "formik";
 import {
   Box,
@@ -12,21 +11,15 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
+//Add login form next to the dropdown menu  maybe?
 
 import { useMutation } from "@apollo/client";
 import { LOGIN_USER } from "../utils/mutations";
 import Auth from "../utils/auth";
 
 const Login2 = () => {
-  const formik = useFormik({
-    initialValues: {
-      email: "",
-      password: "",
-    },
-    onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
-    },
-  });
+  const [loginUser] = useMutation(LOGIN_USER);
+
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
       <Box bg="white" p={6} rounded="md" w={64}>
@@ -36,8 +29,16 @@ const Login2 = () => {
             password: "",
             rememberMe: false,
           }}
-          onSubmit={(values) => {
-            alert(JSON.stringify(values, null, 2));
+          onSubmit={async (values) => {
+            try {
+              const { data } = await loginUser({
+                variables: { ...values },
+              });
+              console.log({ data });
+              Auth.login(data.login.token);
+            } catch (err) {
+              console.error(err);
+            }
           }}
         >
           {({ handleSubmit, errors, touched }) => (
@@ -61,9 +62,11 @@ const Login2 = () => {
                     name="password"
                     type="password"
                     variant="filled"
-                    // validate={(value) => {
-                     
-                    // }}
+                    validate={(value) => {
+                      if (!value) {
+                        return "Password is required";
+                      }
+                    }}
                   />
                   <FormErrorMessage>{errors.password}</FormErrorMessage>
                 </FormControl>
