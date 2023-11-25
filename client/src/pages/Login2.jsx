@@ -22,7 +22,7 @@ const Login2 = () => {
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
-      <Box bg="white" p={6} rounded="md" w={64}>
+      <Box bg="white" p={6} rounded="md" w={64} shadow="lg">
         <Formik
           initialValues={{
             email: "",
@@ -74,11 +74,16 @@ const Login2 = () => {
                   as={Checkbox}
                   id="rememberMe"
                   name="rememberMe"
-                  colorScheme="green"
+                  color="#3182CE"
                 >
                   Remember me?
                 </Field>
-                <Button type="submit" colorScheme="green" width="full">
+                <Button
+                  type="submit"
+                  color="white"
+                  bgColor="#3182CE"
+                  width="full"
+                >
                   Login
                 </Button>
               </VStack>

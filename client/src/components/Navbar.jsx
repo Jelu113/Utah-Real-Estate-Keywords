@@ -18,7 +18,9 @@ const Navbar = () => {
           <Tab as={Link} to="/">
             Home
           </Tab>
-          <Tab>Create User</Tab>
+          <Tab as={Link} to="/create-user">
+            Create User
+          </Tab>
           <Tab as={Link} to="/login">
             Login
           </Tab>
