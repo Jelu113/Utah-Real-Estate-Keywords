@@ -24,3 +24,15 @@ export const ADD_USER = gql`
         }
     }
 `;
+
+
+export const ADD_KEYWORD = gql`
+    mutation addKeyword($keyword: String!, $citation: String!) {
+        addKeyword(keyword: $keyword, citation: $citation) {
+            keywords {
+                keyword
+                citation
+            }
+        }
+    }
+`;

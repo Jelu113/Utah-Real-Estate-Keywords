@@ -13,14 +13,14 @@ import {
 
 
 import { useMutation } from "@apollo/client";
-import { LOGIN_USER } from "../utils/mutations";
+import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
 
 const createKeyword = () => {
   const formik = useFormik({
     initialValues: {
-      Keyword: "",
-      Citation: "",
+      keyword: "",
+      citation: "",
     },
     onSubmit: (values) => {
       alert(JSON.stringify(values, null, 2));

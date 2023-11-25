@@ -17,7 +17,7 @@ const typeDefs = gql`
     type Keyword {
         _id: ID!
         keyword: String!
-        section: [LawSection]
+        citation: [LawSection]
     }
 
     type LawSections {
@@ -71,7 +71,7 @@ const typeDefs = gql`
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         login(email: String!, password: String!): Auth
-        addKeyword(keyword: String!): Keyword
+        addKeyword(keyword: String!, citation: String!): Keyword
         removeKeyword(keywordId: ID!): Keyword
     }
 `;
