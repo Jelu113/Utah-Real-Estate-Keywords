@@ -1,4 +1,3 @@
-import { useFormik } from "formik";
 import { Formik, Field } from "formik";
 import {
   Box,
@@ -11,63 +10,81 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
-
 import { useMutation } from "@apollo/client";
 import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
 
-const createKeyword = () => {
-  const formik = useFormik({
-    initialValues: {
-      keyword: "",
-      citation: "",
-    },
-    onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
-    },
-  });
+const CreateKeyword = () => {
+  const [addKeyword] = useMutation(ADD_KEYWORD);
+
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
       <Box bg="white" p={6} rounded="md" w={64}>
         <Formik
           initialValues={{
-            Keyword: "",
-            Citation: "",
-           
+            keyword: "",
+            citation: "",
           }}
-          onSubmit={(values) => { //change in future to connect to Database 
-            alert(JSON.stringify(values, null, 2));
+          onSubmit={async (values) => {
+            const token = Auth.loggedIn() ? Auth.getToken() : null;
+
+            if (!token) {
+              return false;
+            }
+
+            try {
+              await addKeyword({
+                variables: { ...values },
+              });
+
+              Auth.loggedIn();
+            } catch (error) {
+              console.log(error);
+            }
           }}
         >
           {({ handleSubmit, errors, touched }) => (
             <form onSubmit={handleSubmit}>
               <VStack spacing={4} align="flex-start">
-                <FormControl>
+                <FormControl isInvalid={!!errors.keyword && touched.keyword}>
                   <FormLabel htmlFor="keyword">Keyword</FormLabel>
                   <Field
                     as={Input}
                     id="keyword"
                     name="keyword"
-                    type="keyword"
+                    type="text"
                     variant="filled"
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please enter a keyword";
+                      }
+                    }}
                   />
+                  <FormErrorMessage>{errors.keyword}</FormErrorMessage>
                 </FormControl>
-                <FormControl isInvalid={!!errors.password && touched.password}>
-                  <FormLabel htmlFor="password">Citation</FormLabel>
+                <FormControl isInvalid={!!errors.citation && touched.citation}>
+                  <FormLabel htmlFor="citation">Citation</FormLabel>
                   <Field
                     as={Input}
                     id="citation"
                     name="citation"
-                    type="citation"
+                    type="text"
                     variant="filled"
-                    // validate={(value) => {
-                     
-                    // }}
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please enter a citation";
+                      }
+                    }}
                   />
-                  <FormErrorMessage>{errors.password}</FormErrorMessage>
+                  <FormErrorMessage>{errors.citation}</FormErrorMessage>
                 </FormControl>
-                
-                <Button type="submit" colorScheme="green" width="full">
+
+                <Button
+                  type="submit"
+                  color="white"
+                  bgColor="#3182CE"
+                  width="full"
+                >
                   Add Keyword
                 </Button>
               </VStack>
@@ -79,4 +96,4 @@ const createKeyword = () => {
   );
 };
 
-export default createKeyword;
+export default CreateKeyword;

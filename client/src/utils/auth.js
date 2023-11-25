@@ -17,7 +17,7 @@ class AuthService {
         try {
             const decoded = jwtDecode(token);
             if (decoded.exp < Date.now() / 1000) {
-                return true;
+                this.logout(); //might need to revert to "return true"
             } else return false;
         } catch (err) {
             return false;

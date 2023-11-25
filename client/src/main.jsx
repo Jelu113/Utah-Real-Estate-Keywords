@@ -6,6 +6,7 @@ import App from "./App.jsx";
 import Home from "./pages/Home";
 import Login2 from "./pages/Login2.jsx";
 import CreateUser from "./pages/CreateUser.jsx";
+import CreateKeyword from "./components/CreateKeyword.jsx";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/create-user",
         element: <CreateUser />
+      },
+      {
+        path: "/create-keyword",
+        element: <CreateKeyword />
       }
     ],
   },
