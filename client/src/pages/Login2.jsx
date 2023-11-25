@@ -1,3 +1,4 @@
+//Using Formik for the form layout and validation
 import { Formik, Field } from "formik";
 import {
   Box,
@@ -13,8 +14,13 @@ import {
 
 //Add login form next to the dropdown menu  maybe?
 
+//A hook to use mutations we created
 import { useMutation } from "@apollo/client";
+
+//Mutation that has login functionality
 import { LOGIN_USER } from "../utils/mutations";
+
+//Auth has our token creation/validation functions
 import Auth from "../utils/auth";
 
 const Login2 = () => {
@@ -29,10 +35,12 @@ const Login2 = () => {
             password: "",
             rememberMe: false,
           }}
+
+          //Grabs values from the form inputs and runs the mutation plus the authentication setup
           onSubmit={async (values) => {
             try {
               const { data } = await loginUser({
-                variables: { ...values },
+                variables: { ...values }, //the initialValues object
               });
               console.log({ data });
               Auth.login(data.login.token);

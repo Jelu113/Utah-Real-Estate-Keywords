@@ -26,14 +26,16 @@ const Navbar = () => {
               <Tab as={Link} to="/create-keyword">
                 Create a Keyword
               </Tab>
-              <Button onClick={Auth.logout}>Logout</Button>
+              <Button color="white" bgColor="#3182CE" onClick={Auth.logout}>
+                Logout
+              </Button>
             </>
           ) : (
             <>
               <Tab as={Link} to="/create-user">
                 Create User
               </Tab>
-              <Button as={Link} to="/login">
+              <Button color="white" bgColor="#3182CE" as={Link} to="/login">
                 Login
               </Button>
             </>
