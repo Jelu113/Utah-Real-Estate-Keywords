@@ -1,3 +1,4 @@
+//Using Formik for the form layout and validation
 import { Formik, Field } from "formik";
 import {
   Box,
@@ -13,8 +14,13 @@ import {
 
 //Add login form next to the dropdown menu  maybe?
 
+//A hook to use mutations we created
 import { useMutation } from "@apollo/client";
+
+//Mutation that has login functionality
 import { LOGIN_USER } from "../utils/mutations";
+
+//Auth has our token creation/validation functions
 import Auth from "../utils/auth";
 
 const Login2 = () => {
@@ -22,17 +28,19 @@ const Login2 = () => {
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
-      <Box bg="white" p={6} rounded="md" w={64}>
+      <Box bg="white" p={6} rounded="md" w={64} shadow="lg">
         <Formik
           initialValues={{
             email: "",
             password: "",
             rememberMe: false,
           }}
+
+          //Grabs values from the form inputs and runs the mutation plus the authentication setup
           onSubmit={async (values) => {
             try {
               const { data } = await loginUser({
-                variables: { ...values },
+                variables: { ...values }, //the initialValues object
               });
               console.log({ data });
               Auth.login(data.login.token);
@@ -74,11 +82,16 @@ const Login2 = () => {
                   as={Checkbox}
                   id="rememberMe"
                   name="rememberMe"
-                  colorScheme="green"
+                  color="#3182CE"
                 >
                   Remember me?
                 </Field>
-                <Button type="submit" colorScheme="green" width="full">
+                <Button
+                  type="submit"
+                  color="white"
+                  bgColor="#3182CE"
+                  width="full"
+                >
                   Login
                 </Button>
               </VStack>

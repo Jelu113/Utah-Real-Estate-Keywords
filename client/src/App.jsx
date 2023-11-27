@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import Login2 from "./pages/Login2";
 import Navbar from "./components/Navbar";
 import {
   ApolloClient,
