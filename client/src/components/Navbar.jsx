@@ -3,9 +3,7 @@ import {
   // Box,
   Tabs,
   TabList,
-  TabPanels,
   Tab,
-  TabPanel,
   TabIndicator,
   Button,
 } from "@chakra-ui/react";
@@ -46,17 +44,6 @@ const Navbar = () => {
           bg="blue.500"
           borderRadius="1px"
         />
-        <TabPanels>
-          <TabPanel>
-            <p>Home</p>
-          </TabPanel>
-          <TabPanel>
-            <p>Create User</p>
-          </TabPanel>
-          <TabPanel>
-            <p>Login</p>
-          </TabPanel>
-        </TabPanels>
       </Tabs>
       <i className="fa-solid fa-gavel fa-fade fa-2xl"></i>
     </>
