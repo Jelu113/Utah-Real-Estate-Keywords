@@ -76,6 +76,8 @@ background-color: rgb(199, 207, 207);
     align-content: center;
     justify-content: center;
     height: 715px;
+     
+      
 
 
 }
@@ -88,6 +90,7 @@ background-color: rgb(199, 207, 207);
     height: 400px;
     border: 1px solid black;
     justify-content: center;
+    background-color: rgba(248, 248, 248, 0.514);
 
    
     
@@ -99,15 +102,17 @@ background-color: rgb(199, 207, 207);
   align-items: center;
   align-content: center;
   padding-top: 25px;
+  
 
 }
 .selectBox{
    width: 550px;
+   
    /* display:flex;
    flex-direction: column;
    align-items: center;
    align-content: center; */
-
-       
+     
   }
+
 
