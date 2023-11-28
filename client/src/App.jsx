@@ -1,5 +1,8 @@
 import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 import {
   ApolloClient,
   ApolloProvider,
@@ -30,10 +33,14 @@ const client = new ApolloClient({
 });
 
 function App() {
+
   return (
     <ApolloProvider client={client}>
-      <Navbar />
+      <div id="root">
+      <Header className="header"/> 
       <Outlet />
+      <Footer className= "footer"/>
+      </div>
     </ApolloProvider>
   );
 }

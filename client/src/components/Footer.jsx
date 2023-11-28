@@ -5,21 +5,21 @@ function Footer() {
     <div className="footerContainer">
     <footer className={"footer"}>
        <div className = "icons">
-      <a href="https://github.com/Jelu113" target="_blank" rel="noreferrer">
-        <i className="fa-brands fa-github fa-2xl"></i>
-      </a>&nbsp;&nbsp;&nbsp;
-      <a className = "icons"href="mailto: luthijenae@gmail.com">
-        <i className="fa-solid fa-envelope fa-2xl"></i>
-      </a>&nbsp;&nbsp;&nbsp;
-      <a
-        href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"
+      
+      <a className="footerLinks"
+        href="https://le.utah.gov/xcode/Title61/Chapter2F/61-2f.html?v=C61-2f_1800010118000101"
         target="_blank"
         rel="noreferrer"
-      >
-        <i className="fa-brands fa-linkedin fa-2xl"></i>
+       > Utah State Legislature Real Estate Code
+      </a> <br></br>
+      <a className="footerLinks"
+        href="https://adminrules.utah.gov/public/rule/R162-2f/Current%20Rules"
+        target="_blank"
+        rel="noreferrer"
+       > Complete Utah Administrative Rules
       </a>
       </div>
-      <p>&copy; {new Date().getFullYear()} Jenae Luthi</p>
+      <p>&copy; {new Date().getFullYear()} Jenae Luthi, Salvador Mejia, JJ Saoit, Jon Bay</p>
     </footer>
     </div>
   );
