@@ -1,18 +1,3 @@
-//Using Formik for the form layout and validation
-import { Formik, Field } from "formik";
-import {
-  Box,
-  Button,
-  Checkbox,
-  Flex,
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  Input,
-  VStack,
-} from "@chakra-ui/react";
-
-//Add login form next to the dropdown menu  maybe?
 
 //A hook to use mutations we created
 //Using Formik for the form layout and validation
