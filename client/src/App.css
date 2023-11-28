@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: 674px;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.body {
+    width: 616px;
+    padding: 5px 14px 5px 14px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.footerLinks {
+    height: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    padding-left: 200px;
+    
+}
