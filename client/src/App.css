@@ -74,6 +74,7 @@ background-color: rgb(199, 207, 207);
     flex-direction: column;
     align-items: center;
     align-content: center;
+    justify-content: center;
     height: 715px;
 
 
@@ -85,12 +86,28 @@ background-color: rgb(199, 207, 207);
     align-content: center;
     width:600px;
     height: 400px;
-    align-items: center;
     border: 1px solid black;
-    padding:15px;
+    justify-content: center;
+
    
     
 }
-.selectBox{
+.selectBoxContainer{
+  height: 400px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding-top: 25px;
 
 }
+.selectBox{
+   width: 550px;
+   /* display:flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center; */
+
+       
+  }
+
