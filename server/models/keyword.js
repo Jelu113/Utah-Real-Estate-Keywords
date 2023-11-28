@@ -5,7 +5,11 @@ const keywordSchema = new Schema({
         type: String,
         required: true,
     },
-    section: [
+    section_heading: {
+        type: Schema.Types.ObjectId,
+        ref: 'LawSection',
+    },
+    citation: [
         {
             type: Schema.Types.ObjectId,
             ref: 'LawSection',

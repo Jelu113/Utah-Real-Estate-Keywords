@@ -36,8 +36,6 @@ const CreateKeyword = () => {
               await addKeyword({
                 variables: { ...values },
               });
-
-              Auth.loggedIn();
             } catch (error) {
               console.log(error);
             }
