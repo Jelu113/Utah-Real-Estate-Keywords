@@ -20,7 +20,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <p className= "linkStyle">Complete Utah Administrative Rules</p>
+              <p className= "linkStyle">Utah Real Estate Administrative Rules</p>
             </a>
             <a
               className="footerLinks"

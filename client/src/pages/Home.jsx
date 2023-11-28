@@ -6,7 +6,7 @@ const Home = () => {
         <>
         <div >
             <div className ="sectionContainer" style={{ backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: "100%, auto",
+            backgroundSize: "cover",
             backgroundPosition:"center",
             backgroundAttachment:"fixed",
             backgroundRepeat:"no-repeat" }}>

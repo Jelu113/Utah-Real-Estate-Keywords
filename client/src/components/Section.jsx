@@ -35,14 +35,15 @@ const Section = () => {
   return (
     <>
     <div className="sections" >
-        <div classNambe="selectBoxContainer">
-            
+        <div className="selectBoxContainer">
+        <h1> Keyword search</h1><br/>
         <div className="selectBox">
-      <h2>Select a Section</h2>
+        
+      <h2 className="sectionText">Select a Section</h2>
       {loading ? (
         <div>Loading...</div>
       ) : (
-        <Select placeholder="Select section" onChange={handleSectionChange}>
+        <Select className ="placeholderText" placeholder="Select section" onChange={handleSectionChange}>
           {sectionOptions}
         </Select>
       )}
