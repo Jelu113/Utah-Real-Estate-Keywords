@@ -14,6 +14,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
+
 //Add login form next to the dropdown menu  maybe?
 
 //A hook to use mutations we created
@@ -87,14 +88,14 @@ const Login = () => {
                   as={Checkbox}
                   id="rememberMe"
                   name="rememberMe"
-                  color="#3182CE"
+                  color="#333"
                 >
                   Remember me?
                 </Field>
                 <Button
                   type="submit"
-                  color="white"
-                  bgColor="#3182CE"
+                  color="#333"
+                  bgColor="rgb(199,207,207)"
                   width="full"
                 >
                   Login

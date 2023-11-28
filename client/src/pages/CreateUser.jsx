@@ -1,4 +1,5 @@
 import { Formik, Field } from "formik";
+
 import {
   Box,
   Button,
@@ -9,6 +10,7 @@ import {
   Input,
   VStack,
 } from "@chakra-ui/react";
+
 
 //Add login form next to the dropdown menu  maybe?
 
@@ -21,7 +23,7 @@ const CreateUser = () => {
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
-      <Box bg="white" p={6} rounded="md" w={64} shadow="lg">
+      <Box bg="rgba(248, 248, 248, 0.514)" p={6} rounded="md" w={64} shadow="lg">
         <Formik
           initialValues={{
             username: "",
@@ -94,8 +96,8 @@ const CreateUser = () => {
                 </FormControl>
                 <Button
                   type="submit"
-                  color="white"
-                  bgColor="#3182CE"
+                  color="#333"
+                  bgColor="rgb(199, 207, 207)"
                   width="full"
                 >
                   Create User
