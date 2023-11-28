@@ -9,7 +9,20 @@ html {
     padding: 0;
     height: 100%;
 }
+ .header {
+    background-color: rgb(100, 96, 96);
+}
+/* .headerContainer{
+    align-content:center
+}  */
+.title {
+    color:rgb(144, 194, 194);
 
+    font-size: 35px;
+    text-align: center;
+
+
+}
 .container {
     width: 674px;
     min-height: 100%;
@@ -35,3 +48,4 @@ html {
     padding-left: 200px;
     
 }
+

@@ -4,9 +4,13 @@ import Navbar from "./Navbar";
 function Header() {
   return (
     <header>
-      <h1 className ={"title"}>Utah Admin rules</h1>
+      <div className="header">
+        <div className="headerContainer">
+          <h1 className="title">Utah Administrative Rule keywords</h1>
+        </div>
+      </div>
       <nav>
-        <Navbar/>
+        <Navbar />
       </nav>
     </header>
   );
