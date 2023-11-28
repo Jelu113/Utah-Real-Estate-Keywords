@@ -10,6 +10,7 @@ import {
   Input,
   VStack,
 } from "@chakra-ui/react";
+import backgroundImage from "/public/photo-1469248620856-e8c981d98aff.webp"
 
 //Add login form next to the dropdown menu  maybe?
 
