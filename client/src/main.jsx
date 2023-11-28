@@ -1,10 +1,10 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ChakraProvider } from "@chakra-ui/react";
-
+import "./App.css"
 import App from "./App.jsx";
 import Home from "./pages/Home";
-import Login from "./pages/Login2.jsx";
+import Login from "./pages/Login.jsx";
 import CreateUser from "./pages/CreateUser.jsx";
 import CreateKeyword from "./components/CreateKeyword.jsx";
 
