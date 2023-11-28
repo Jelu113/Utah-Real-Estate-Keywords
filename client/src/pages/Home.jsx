@@ -1,12 +1,12 @@
 import Section from '../components/Section'
-import backgroundImage from "/public/photo-1469248620856-e8c981d98aff.webp"
+import backgroundImage from "../assets/photo-1469248620856-e8c981d98aff.webp"
 
 const Home = () => {
     return (
         <>
         <div >
             <div className ="sectionContainer" style={{ backgroundImage: `url(${backgroundImage})`,
-            backgroundSize: "100%, auto",
+            backgroundSize: "cover",
             backgroundPosition:"center",
             backgroundAttachment:"fixed",
             backgroundRepeat:"no-repeat" }}>

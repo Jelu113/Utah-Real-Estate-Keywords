@@ -23,7 +23,7 @@ const Navbar = () => {
               <Tab as={Link} to="/create-keyword">
                 Create a Keyword
               </Tab>
-              <Button color="white" bgColor="#3182CE" onClick={Auth.logout}>
+              <Button color="white" bgColor="rgb(104, 103, 103)" onClick={Auth.logout}>
                 Logout
               </Button>
             </>
@@ -32,7 +32,7 @@ const Navbar = () => {
               <Tab as={Link} to="/create-user">
                 Create User
               </Tab>
-              <Button color="white" bgColor="#3182CE" as={Link} to="/login">
+              <Button color="white" bgColor="rgb(104, 103, 103)" as={Link} to="/login">
                 Login
               </Button>
             </>
@@ -41,11 +41,11 @@ const Navbar = () => {
         <TabIndicator
           mt="-1.5px"
           height="2px"
-          bg="blue.500"
+          bg="rgb(104, 103, 103)"
           borderRadius="1px"
         />
       </Tabs>
-      <i className="fa-solid fa-gavel fa-fade fa-2xl"></i>
+      
     </>
   );
 };

@@ -37,8 +37,9 @@ const SectionKeyword = ({selectedSection}) => {
 
     return (
         <>
-            <h2>Select a Keyword</h2>
-            <Select placeholder='Select keyword' value={selectedKeyword} onChange={(e) => setSelectedKeyword(e.target.value)}>
+        
+            <h2 className="sectionText">Select a Keyword</h2>
+            <Select className ="placeholderText" placeholder='Select keyword' value={selectedKeyword} onChange={(e) => setSelectedKeyword(e.target.value)}>
                 {keywordOptionsElements}
             </Select>
         </>
