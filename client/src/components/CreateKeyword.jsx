@@ -7,12 +7,36 @@ import {
   FormLabel,
   FormErrorMessage,
   Input,
+  Textarea,
   VStack,
 } from "@chakra-ui/react";
 
+import { useQuery } from "@apollo/client";
+import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 import { useMutation } from "@apollo/client";
 import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
+
+const SearchBar = () => {
+  const { loading, data } = useQuery(GET_LAW_SECTION_TITLES);
+
+  const sectionTitles = data?.lawSections || {};
+
+  //Need to edit this
+  const sectionOptions = sectionTitles.map((lawSection) => (
+    <option key={lawSection.id} value={sectionTitles}>
+      {lawSection.section_number}
+    </option>
+  ));
+
+  console.log(sectionOptions);
+
+  return (
+    <FormControl>
+      <FormLabel htmlFor="section-heading"></FormLabel>
+    </FormControl>
+  );
+};
 
 const CreateKeyword = () => {
   const [addKeyword] = useMutation(ADD_KEYWORD);
