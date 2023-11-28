@@ -34,7 +34,8 @@ const Section = () => {
 
   return (
     <>
-    <div className="sectionContainer">
+    <div className="sections">
+        <div className="selectBox">
       <h2>Select a Section</h2>
       {loading ? (
         <div>Loading...</div>
@@ -44,6 +45,7 @@ const Section = () => {
         </Select>
       )}
       <SectionKeyword selectedSection={selectedSection} />
+      </div>
       </div>
     </>
   );
