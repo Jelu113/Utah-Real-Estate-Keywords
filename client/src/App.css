@@ -1,9 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    display:flex;
+    flex-direction:column;
+    min-height:100hv;
 }
-
+main {
+    flex:1
+}
 html {
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@ html {
 
 header{
 background-color: rgb(199, 207, 207);
+
 }
 .title {
     padding-top: 15px;
@@ -23,28 +26,51 @@ background-color: rgb(199, 207, 207);
     font-size: 20px;
     text-align: center;
 }
-.container {
-    width: 674px;
-    min-height: 100%;
-    height: 100%;
-    position: relative;
-    margin: 0 auto;
+.footerContainer{
+    display:flex;
+    flex-direction: column; 
+    min-height: 100vh;
 }
-
-.body {
-    width: 616px;
-    padding: 5px 14px 5px 14px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-.footerLinks {
-    height: 20px;
-}
-
 .footer {
-    position: absolute;
-    bottom: 0px;
-    height: 20px;
-    padding-left: 200px;
-    
+    width : 100%;
+    text-align: center;
+    padding:20px 0;
+    background-color: rgb(199, 207, 207)
+ 
+ }
+ .contentWrapper {
+    display:flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.footerLinksContainer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.footerLinks {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.centeredText {
+    margin-top: auto;
+}
+
+.linkStyle {
+    font-size: 20px;
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 10px;
+}
+.date {
+    font-size: 15px;
+}
+.sectionContainer{
+    height: fit-content;
+    width: 600px;
+    align-content: center;
 }
