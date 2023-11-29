@@ -1,4 +1,4 @@
-const Keyword = require('./Keyword');
+const Keyword = require('./Keywords');
 const LawSection = require('./LawSection');
 const User = require('./User')
 
