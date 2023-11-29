@@ -2,7 +2,7 @@
   {
     "section_number": "R162-2f-401a",
     "section_title": "Affirmative Duties Required of Licensed Individuals.",
-    "section_clarifier": "An indivdual licensee shall:  ",
+    "section_clarifier": "An individual licensee shall:  ",
     "laws": [
       {
         "name": "(1)  uphold the following fiduciary duties in the course of representing a principal: ",
@@ -63,7 +63,8 @@
           {
             "law_section_a": "(a)  the licensee's position as a principal in any transaction where the licensee operates either directly or indirectly to buy, sell, lease, or rent real property;",
             "law_section_b": "(b)  the fact that the licensee holds a license with the division, whether the license status is active or inactive, in any circumstance where the licensee is a principal in an agreement to buy, sell, lease, or rent real property;",
-            "law_section_c": "(c)  the licensee's agency relationships; and(d)(i)  the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and(ii)  the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;"
+            "law_section_c": "(c)  the licensee's agency relationships; and",
+            "law_section_d": "(d)(i)  the existence or possible existence of a due-on-sale clause in an underlying encumbrance on real property; and(ii)  the potential consequences of selling or purchasing a property without obtaining the authorization of the holder of an underlying encumbrance;"
           }
         ]
       },
