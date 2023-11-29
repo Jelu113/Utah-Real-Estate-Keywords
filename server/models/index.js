@@ -1,5 +1,6 @@
-const Keyword = require('./Keyword');
-const LawSection = require('./LawSection');
-const User = require('./User')
+const Section = require("./Section");
+const Laws = require("./Laws");
+const Sublaws = require("./Sublaws");
+const User = require("./User");
 
-module.exports = { Keyword, LawSection, User };
+module.exports = { Section, Laws, Sublaws, User };
