@@ -1,6 +1,6 @@
 import { Select } from "@chakra-ui/react";
 import { useState } from "react";
-import SectionKeyword from "/SectionKeyword";
+import SectionKeyword from "./SectionKeyword2";
 import { useQuery } from "@apollo/client";
 import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 
