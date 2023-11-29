@@ -1,7 +1,7 @@
 import { Select } from '@chakra-ui/react'
  import { useState } from 'react'
 
-const SectionKeyword = ({selectedSection}) => {
+const SectionKeyword2 = ({selectedSection}) => {
     const [selectedKeyword, setSelectedKeyword] = useState('');
     console.log(selectedSection);
 
@@ -47,4 +47,4 @@ const SectionKeyword = ({selectedSection}) => {
 }
 
 
-export default SectionKeyword;
+export default SectionKeyword2;
