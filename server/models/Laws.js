@@ -3,7 +3,7 @@ const { Schema, model } = require("mongoose");
 const lawSchema = new Schema({
   name: {
     type: String,
-    required: true,
+    required: false,
   },
   sublaws: [
     {

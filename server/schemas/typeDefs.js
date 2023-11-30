@@ -17,61 +17,39 @@ const typeDefs = gql`
     type Keyword {
         _id: ID!
         keyword: String!
-        section: [LawSection]
+        section: [Section]
+        laws: [Laws]
+        sublaws: [Sublaws]
     }
 
-    type LawSections {
-        law_section: String
-        law_section_a: String
-        law_section_b: String 
-        law_section_c: String
-        law_section_d: String
-        law_section_e: String
-        law_section_f: String
-        law_section_g: String
-        law_section_h: String
-        law_section_i: String
-        law_section_j: String
-        law_section_k: String
-        law_section_l: String
-        law_section_m: String
-        law_section_n: String
-        law_section_o: String
-        law_section_p: String
-        law_section_q: String
-        law_section_r: String
-        law_section_s: String
-        law_section_t: String
-        law_section_u: String
-        law_section_v: String
-        law_section_w: String
-        law_section_x: String
-        law_section_y: String
-        law_section_z: String
-        
-    }
-
-    type LawSection {
-        _id: ID!
+    type Section {
         section_number: String!
         section_title: String!
         section_clarifier: String!
-        law_sections: [LawSections]
+        laws: [Laws]
     }
 
-    
+    type Laws {
+        name: String!
+        sublaws: [Sublaws]
+    }
+
+    type Sublaws {
+        sublaws: [String]
+    }
 
     type Query {
         users: [User]
         keyword: [Keyword]
-        lawSection(_id: ID!): LawSection
-        lawSections: [LawSection]
+        keywordSection(section: String!): Keyword
+        section: [Section]
+        singleSection(_id: ID!): Section
     }
 
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         login(email: String!, password: String!): Auth
-        addKeyword(keyword: String!): Keyword
+        addKeyword(keyword: String!, section: ID!, laws: ID!, sublaws: ID! ): Keyword
         removeKeyword(keywordId: ID!): Keyword
     }
 `;

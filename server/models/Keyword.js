@@ -7,19 +7,19 @@ const keywordSchema = new Schema({
   },
   section: [
     {
-      type: Schema.Types.ObjectId,
+      type: String,
       ref: "Section",
     },
   ],
   laws: [
     {
-      type: Schema.Types.ObjectId,
+      type: String,
       ref: "Laws",
     },
   ],
   sublaws: [
     {
-      type: Schema.Types.ObjectId,
+      type: String,
       ref: "Sublaw",
     },
   ],

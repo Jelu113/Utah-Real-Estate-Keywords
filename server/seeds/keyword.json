@@ -1,63 +1,70 @@
 [
   {
     "keyword": "Lender disclosure",
-    "section1": [
-      "R162-2f-401a(6)(d)(i)(ii), R162-2f-401b(1)(a)(i)(ii), R162-2f-401b(1)(e)(i)(ii)"
-    ],
-    "laws1": [""],
-    "sublaws1": [""],
-    "section2": [
-      "R162-2f-401a(6)(d)(i)(ii), R162-2f-401b(1)(a)(i)(ii), R162-2f-401b(1)(e)(i)(ii)"
-    ],
-    "laws2": [""],
-    "sublaws2": [""],
-    "section3": [
-      "R162-2f-401a(6)(d)(i)(ii), R162-2f-401b(1)(a)(i)(ii), R162-2f-401b(1)(e)(i)(ii)"
-    ],
-    "laws3": [""],
-    "sublaws": [""],
-    "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
-    "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503"
-  },
-  {
-    "keyword": [
-      {
-        "name": "Lender disclosure",
-        "citations": [
+        "sections": [
           {
-            "section1": [
-              "R162-2f-401a(6)(d)(i)(ii), R162-2f-401b(1)(a)(i)(ii), R162-2f-401b(1)(e)(i)(ii)"
-            ],
-            "laws1": ["(6)"],
-            "sublaws1": ["(d)(i)(ii)"],
-            "section2": ["R162-2f-401b"],
-            "laws2": ["(1)"],
-            "sublaws2": ["(a)(i)(ii)"],
-            "section3": ["R162-2f-401b(1)(e)(i)(ii)"],
-            "laws3": ["(1)"],
+            "section": "R162-2f-401a",
+            "laws": ["(6)"],
+            "sublaws": ["(d)(i)(ii)"]
+          },
+          {
+            "section": "R162-2f-401b",
+            "laws": ["(1)"],
+            "sublaws": ["(a)(i)(ii)"]
+          },
+          {
+            "section": "R162-2f-401b",
+            "laws": ["(1)"],
+            "sublaws": ["(e)(i)(ii)"]
+          }
+        ],
+        "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
+        "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503"
+      },
+  {
+    "keyword": "Lender disclosure",
+        "sections": [
+          {
+            "section": "R162-2f-401a",
+            "laws": ["(6)"],
+            "sublaws": ["(d)(i)(ii)"]
+          },
+          {
+            "section": "R162-2f-401b",
+            "laws": ["(1)"],
+            "sublaws": ["(a)(i)(ii)"]
+          },
+          {
+            "section": ["R162-2f-401b("],
+            "laws": ["(1)"],
+            "sublaws": ["(e)(i)(ii)"]
+          }
+        ],
+        "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
+        "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503"
+      },
+  {
+    "keyword": "Lender disclosure",
+        "sections": [
+          {
+            "section": "R162-2f-401a",
+            "laws": ["(6)"],
+            "sublaws": ["(d)(i)(ii)"]
+          },
+          {
+            "section": "R162-2f-401b",
+            "laws": ["(1)"],
+            "sublaws": ["(a)(i)(ii)"]
+          },
+          {
+            "section": "R162-2f-401b",
+            "laws": ["(1)"],
             "sublaws": ["(e)(i)(ii)"]
           }
         ],
         "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
         "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503"
       }
-    ]
-  },
-
-  {
-    "keyword": "False advertising",
-    "section": [""],
-    "laws": [""],
-    "sublaws": [""],
-    "statute": ["61-2f-401(1)(d), 61-2f-401(12)"],
-    "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503"
-  },
-  {
-    "keyword": "Agent non-disclosure",
-    "section": [""],
-    "laws": [""],
-    "sublaws": [""],
-    "statute": ["61-2f-401(1)(b)"],
-    "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503"
-  }
 ]
+
+  

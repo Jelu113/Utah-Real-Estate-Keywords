@@ -9,12 +9,12 @@ const sectionSchema = new Schema({
     type: String,
     required: true,
   },
-  sectionclarifier: {
+  section_clarifier: {
     type: String,
   },
   laws: [
     {
-      type: Schema.Types.ObjectId,
+      type: Object,
       ref: "Laws",
     },
   ],
