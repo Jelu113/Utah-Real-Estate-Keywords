@@ -9,13 +9,20 @@ const sectionSchema = new Schema({
     type: String,
     required: true,
   },
-  sectionclarifier: {
+  section_clarifier: {
     type: String,
   },
-  laws: [
+  citations: [
     {
-      type: Schema.Types.ObjectId,
-      ref: "Laws",
+      law: {
+        type: String,
+        required: true,
+      },
+      law_sections: [
+        {
+          type: Schema.Types.Mixed,
+        },
+      ],
     },
   ],
 });

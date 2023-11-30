@@ -5,24 +5,32 @@ const keywordSchema = new Schema({
     type: String,
     required: true,
   },
-  section: [
+  "statute": {
+    type:Array,
+    required: false
+  },
+  "statuteURL": {
+    type: String,
+    required:false
+  },
+  citations: [
     {
-      type: Schema.Types.ObjectId,
-      ref: "Section",
-    },
-  ],
-  laws: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "Laws",
-    },
-  ],
-  sublaws: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "Sublaw",
-    },
-  ],
+      section: {
+        type: String,
+        ref: "Section",
+      },
+      laws: {
+        type: String,
+        required: false
+        
+      },
+      sublaws: {
+        type: String,
+        required :false
+       
+      },
+    }
+  ]
 });
 
 const Keyword = model("Keyword", keywordSchema);
