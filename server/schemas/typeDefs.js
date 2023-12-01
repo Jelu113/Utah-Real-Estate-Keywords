@@ -69,8 +69,7 @@ const typeDefs = gql`
     type Query {
         users: [User]
         keyword: [Keyword]
-        lawSection(_id: ID!): LawSection
-        lawSections: [LawSection]
+        section: [Section]
     }
 
     type Mutation {
