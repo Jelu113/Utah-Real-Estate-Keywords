@@ -77,7 +77,7 @@ const typeDefs = gql`
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         login(email: String!, password: String!): Auth
-        addKeyword(keyword: String!, statute: String!, statuteURL): Keyword
+        addKeyword(keyword: String!, statute: String!, statuteURL: String!, citations: [String]!): Keyword
         removeKeyword(keywordId: ID!): Keyword
     }
 `;

@@ -16,7 +16,7 @@ import { useMutation } from "@apollo/client";
 import { LOGIN_USER } from "../utils/mutations";
 import Auth from "../utils/auth";
 
-const createKeyword = () => {
+const CreateKeyword = () => {
   const formik = useFormik({
     initialValues: {
       Keyword: "",
@@ -79,4 +79,4 @@ const createKeyword = () => {
   );
 };
 
-export default createKeyword;
+export default CreateKeyword;

@@ -26,5 +26,19 @@ export const ADD_USER = gql`
 `;
 
 export const ADD_KEYWORD = gql`
-    mutation addKeyword()
+    mutation addKeyword($keyword: String!, $statute: String!, $statuteURL: String!, $citations: [String]!) {
+        addKeyword(keyword: $keyword, statute: $statute, statuteURL: $statuteURL, citations: $citations) {
+            keyword {
+                _id
+                keyword
+                statute
+                statuteURL
+                citations {
+                    section
+                    laws
+                    sublaws
+                }
+            }
+        }
+    }
 `
