@@ -24,3 +24,7 @@ export const ADD_USER = gql`
         }
     }
 `;
+
+export const ADD_KEYWORD = gql`
+    mutation addKeyword()
+`

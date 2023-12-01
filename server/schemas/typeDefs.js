@@ -15,6 +15,7 @@ const typeDefs = gql`
     }
 
     type Section {
+        _id: ID!
         section_number: String!
         section_title: String
         section_clarifier: String
@@ -22,6 +23,7 @@ const typeDefs = gql`
     }
 
     type LawSections {
+        _id: ID!
         law: String
         law_section_a: String
         law_section_b: String
@@ -75,7 +77,7 @@ const typeDefs = gql`
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         login(email: String!, password: String!): Auth
-        addKeyword(keyword: String!): Keyword
+        addKeyword(keyword: String!, statute: String!, statuteURL): Keyword
         removeKeyword(keywordId: ID!): Keyword
     }
 `;

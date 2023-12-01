@@ -42,8 +42,8 @@ const resolvers = {
             const token = signToken(user);
             return { token, user };
         },
-        addKeyword: async (parent, { keyword }) => {
-            return Keyword.create({ keyword });
+        addKeyword: async (parent, args) => {
+            return Keyword.create({ ...args });
         },
         removeKeyword: async (parent, { keywordId }) => {
             return Keyword.findOneAndDelete({ _id: keywordId })

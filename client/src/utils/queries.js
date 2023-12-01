@@ -22,12 +22,29 @@ export const GET_USER = gql`
 `;
 
 
+
 export const GET_LAW_SECTION_TITLES = gql`
-    query LawSections {
-    lawSections {
-    _id
-    section_number
-    section_title
+    query section {
+        section {
+            section_number
+            section_title
+        }
+    }
+`;
+
+
+
+
+
+export const GET_KEYWORD = gql`
+    query keyword {
+        keyword
+        statute
+        statuteURL
+        citations {
+            section
+            laws
+            sublaws
         }
     }
 `;
