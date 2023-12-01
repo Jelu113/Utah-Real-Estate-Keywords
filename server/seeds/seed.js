@@ -7,7 +7,7 @@ const cleanDb = require("./cleanDB");
 
 db.once("open", async () => {
     await cleanDb("Keywords", "keywords");
-    await cleanDb("Section", "lawSection");
+    await cleanDb("Section", "sections");
     await cleanDb("User", "users");
 
     await Keywords.create(keywordSeeds);
