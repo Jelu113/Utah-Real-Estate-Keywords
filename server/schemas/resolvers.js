@@ -11,11 +11,11 @@ const resolvers = {
         keyword: async () => {
             return Keyword.find();
         },
-        //lawssection
-        lawSection: async (parent, { _id }) => {
-            return Section.findOne({ _id: _id });
-        },
-        lawSections: async () => {
+        // //lawssection
+        // lawSection: async (parent, { _id }) => {
+        //     return Section.findOne({ _id: _id });
+        // },
+        section: async () => {
             return Section.find();
         }
     },
