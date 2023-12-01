@@ -11,19 +11,12 @@ const Section = () => {
     fetchPolicy: "no-cache",
   });
 
-  const sectionTitles = data?.lawSections || [];
+  const sectionTitles = data?.section || [];
   console.log(sectionTitles);
 
-  //   const section = [
-  //     "Affirmative Duties Required of Licensed Individuals.",
-  //     "Prohibited Conduct As Applicable to Licensed Individuals",
-  //     "Requirements and Restrictions in Advertising.",
-  //     "Trust Accounts - Real Estate Company.",
-  //   ];
-
-  const sectionOptions = sectionTitles.map((lawSection) => (
-    <option key={lawSection._id} value={lawSection.section_title}>
-      {lawSection.section_number}. {lawSection.section_title}
+  const sectionOptions = sectionTitles.map((section) => (
+    <option key={section._id} value={section.section_title}>
+      {section.section_number} - {section.section_title}
     </option>
   ));
 
@@ -34,22 +27,26 @@ const Section = () => {
 
   return (
     <>
-    <div className="sections" >
+      <div className="sections">
         <div className="selectBoxContainer">
-        <h1> Keyword search</h1><br/>
-        <div className="selectBox">
-        
-      <h2 className="sectionText">Select a Section</h2>
-      {loading ? (
-        <div>Loading...</div>
-      ) : (
-        <Select className ="placeholderText" placeholder="Select section" onChange={handleSectionChange}>
-          {sectionOptions}
-        </Select>
-      )}
-      <SectionKeyword2 selectedSection={selectedSection} />
-      </div>
-      </div>
+          <h1> Keyword search</h1>
+          <br />
+          <div className="selectBox">
+            <h2 className="sectionText">Select a Section</h2>
+            {loading ? (
+              <div>Loading...</div>
+            ) : (
+              <Select
+                className="placeholderText"
+                placeholder="Select section"
+                onChange={handleSectionChange}
+              >
+                {sectionOptions}
+              </Select>
+            )}
+            <SectionKeyword2 selectedSection={selectedSection} />
+          </div>
+        </div>
       </div>
     </>
   );
