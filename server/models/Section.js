@@ -12,10 +12,17 @@ const sectionSchema = new Schema({
   section_clarifier: {
     type: String,
   },
-  laws: [
+  citations: [
     {
-      type: Object,
-      ref: "Laws",
+      law: {
+        type: String,
+        required: true,
+      },
+      law_sections: [
+        {
+          type: Schema.Types.Mixed,
+        },
+      ],
     },
   ],
 });

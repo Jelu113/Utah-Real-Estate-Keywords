@@ -1,21 +1,17 @@
 const db = require("../config/connection");
-const { Keyword, Section, Laws, Sublaws, User } = require("../models");
+const { Keywords, Section, User } = require("../models");
 const keywordSeeds = require("./keyword.json");
-const lawSectionSeeds = require("./lawSection2.json");
+const lawSectionSeeds = require("./lawSection.json");
 const userSeeds = require("./user.json");
 const cleanDb = require("./cleanDB");
 
 db.once("open", async () => {
-    await cleanDb("Keyword", "keyword");
-    await cleanDb("Section", "section");
-    await cleanDb("Laws", "laws");
-    await cleanDb("Sublaws", "sublaws");
+    await cleanDb("Keywords", "keywords");
+    await cleanDb("Section", "sections");
     await cleanDb("User", "users");
 
-    await Keyword.create(keywordSeeds);
+    await Keywords.create(keywordSeeds);
     await Section.create(lawSectionSeeds);
-    await Laws.create(lawSectionSeeds);
-    await Sublaws.create(lawSectionSeeds);
     await User.create(userSeeds);
 
     console.log("Data has been seeded!");
