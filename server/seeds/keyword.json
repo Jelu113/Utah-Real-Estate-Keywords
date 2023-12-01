@@ -5,7 +5,7 @@
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
-        "section":"R162-2f-401a(6)(d)(i)(ii)",
+        "section": "R162-2f-401a",
         "laws": "(6)",
         "sublaws": "(d)(i)(ii)"
       },
@@ -15,12 +15,11 @@
         "sublaws": "(a)(i)(ii)"
       },
       {
-        "section": "R162-2f-401b(1)(e)(i)(ii)",
+        "section": "R162-2f-401b",
         "laws": "(1)",
         "sublaws": "(e)(i)(ii)"
       }
     ]
-    
   },
   {
     "keyword": "Lender disclosure",
@@ -28,7 +27,7 @@
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
-        "section":"R162-2f-401a(6)(d)(i)(ii)",
+        "section": "R162-2f-401a",
         "laws": "(6)",
         "sublaws": "(d)(i)(ii)"
       },
@@ -38,12 +37,11 @@
         "sublaws": "(a)(i)(ii)"
       },
       {
-        "section": "R162-2f-401b(1)(e)(i)(ii)",
+        "section": "R162-2f-401b",
         "laws": "(1)",
         "sublaws": "(e)(i)(ii)"
       }
     ]
-    
   },
   {
     "keyword": "Lender disclosure",
@@ -51,7 +49,7 @@
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
-        "section":"R162-2f-401a(6)(d)(i)(ii)",
+        "section": "R162-2f-401a",
         "laws": "(6)",
         "sublaws": "(d)(i)(ii)"
       },
@@ -61,11 +59,10 @@
         "sublaws": "(a)(i)(ii)"
       },
       {
-        "section": "R162-2f-401b(1)(e)(i)(ii)",
+        "section": "R162-2f-401b",
         "laws": "(1)",
         "sublaws": "(e)(i)(ii)"
       }
     ]
-    
   }
 ]
