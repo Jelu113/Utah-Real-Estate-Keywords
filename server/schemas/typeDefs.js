@@ -14,16 +14,17 @@ const typeDefs = gql`
         user: User
     }
 
-    type Keyword {
-        _id: ID!
-        keyword: String!
-        section: [LawSection]
+    type Section {
+        section_number: String!
+        section_title: String
+        section_clarifier: String
+        law_sections: [LawSections]
     }
 
     type LawSections {
-        law_section: String
+        law: String
         law_section_a: String
-        law_section_b: String 
+        law_section_b: String
         law_section_c: String
         law_section_d: String
         law_section_e: String
@@ -48,17 +49,21 @@ const typeDefs = gql`
         law_section_x: String
         law_section_y: String
         law_section_z: String
-        
     }
 
-    type LawSection {
+    type Keyword {
         _id: ID!
-        section_number: String!
-        section_title: String!
-        section_clarifier: String!
-        law_sections: [LawSections]
+        keyword: String!
+        statute: [String]
+        statuteURL: String!
+        citations: [Citations]
     }
 
+    type Citations {
+        section: String!
+        laws: String
+        sublaws: String
+    }
     
 
     type Query {
