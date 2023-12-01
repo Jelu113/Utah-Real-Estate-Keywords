@@ -18,7 +18,7 @@ const userSchema = new Schema({
     password: {
         type: String,
         required: true,
-    },
+    }
     // savedKeywords: [
     //     {
     //         type: Schema.Type.ObjectId,

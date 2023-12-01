@@ -1,4 +1,4 @@
-const { Keyword, LawSection, User } = require("../models");
+const { Keyword, Section, User } = require("../models");
 const { signToken, AuthenticationError } = require("../utils/auth");
 
 const resolvers = {
@@ -13,10 +13,10 @@ const resolvers = {
         },
         //lawssection
         lawSection: async (parent, { _id }) => {
-            return LawSection.findOne({ _id: _id });
+            return Section.findOne({ _id: _id });
         },
         lawSections: async () => {
-            return LawSection.find();
+            return Section.find();
         }
     },
     Mutation: {
