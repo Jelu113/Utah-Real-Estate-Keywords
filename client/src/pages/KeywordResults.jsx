@@ -8,7 +8,7 @@ const Keyword =  () => {
 
   return (
    <>
-   <div>TEST THIS PAGE </div>
+   <div>KEYWORD</div>
    <KeywordResultCard />
   </>
    );
