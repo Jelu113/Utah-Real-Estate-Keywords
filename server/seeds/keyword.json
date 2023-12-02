@@ -5,6 +5,7 @@
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
+
         "section": "R162-2f-401a",
         "laws": "(6)",
         "sublaws": "(d)(i)(ii)"
@@ -24,47 +25,50 @@
 
   },
   {
-    "keyword": "Lender disclosure",
-    "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
+    "keyword": "False Advertising",
+    "statute": ["61-2f-401(12)"],
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
-        "section": "R162-2f-401a",
-        "laws": "(6)",
-        "sublaws": "(d)(i)(ii)"
-      },
-      {
-        "section": "R162-2f-401b",
+        "section":"R162-2f-401h",
         "laws": "(1)",
-        "sublaws": "(a)(i)(ii)"
-      },
-      {
-        "section": "R162-2f-401b",
-        "laws": "(1)",
-        "sublaws": "(e)(i)(ii)"
-      }
+        "sublaws": ""
 
+      },
+      {
+        "section": "R162-2f-401h",
+        "laws": "(4)",
+        "sublaws": ""
+      },
+      {
+        "section": "",
+        "laws": "",
+        "sublaws": ""
+      }
     ]
   },
   {
-    "keyword": "Lender disclosure",
-    "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
+    "keyword": "Incompentency",
+    "statute": ["61-21-401(7)(15)"],
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
-        "section": "R162-2f-401a",
-        "laws": "(6)",
-        "sublaws": "(d)(i)(ii)"
+
+        "section":"R162-2f-401a",
+        "laws": "(1)",
+        "sublaws": "(a)(b)(c)(d)(e)"
       },
       {
-        "section": "R162-2f-401b",
-        "laws": "(1)",
-        "sublaws": "(a)(i)(ii)"
+        "section": "",
+        "laws": "",
+        "sublaws": ""
       },
       {
-        "section": "R162-2f-401b",
-        "laws": "(1)",
-        "sublaws": "(e)(i)(ii)"
+
+        "section": "",
+        "laws": "",
+        "sublaws": ""
+
       }
     ]
   }
