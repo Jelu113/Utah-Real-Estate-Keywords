@@ -1,11 +1,11 @@
-import { Select } from '@chakra-ui/react'
+import { Select, Button} from '@chakra-ui/react'
 import { useState } from 'react'
 import { useQuery } from "@apollo/client";
 import { GET_KEYWORDS } from "../utils/queries";
 
-const SectionKeyword2 = () => {
+const SectionKeyword2 = ({selectedSection}) => {
     //Hooks
-    const [selectedKeyword, setSelectedKeyword] = useState("");
+    const [selectedVal, setSelectedKeyword] = useState("");
     const { loading, data } = useQuery(GET_KEYWORDS, {
         fetchPolicy: "no-cache",
     });
@@ -21,8 +21,11 @@ const keywordOptions = keywordList.map((keyword) => (
 
 const handleSectionChange = (e) => {
     const selectedVal = e.target.value;
-    setSelectedKeyword(selectedVal);
+    //setSelectedKeyword(selectedVal);
+    console.log(selectedVal);
+    console.log(selectedSection);
 };
+
 
 return (
     <>
@@ -44,38 +47,3 @@ return (
 
 export default SectionKeyword2;
 
-//<selectedKeyword = {selectedKeyword} /> 
-
-// const SectionKeyword2 = ({selectedSection}) => {
-//     const [selectedKeyword, setSelectedKeyword] = useState('');
-//     console.log(selectedSection);
-
-
-//     const keywordOptions = [
-//         {
-//             sectionTitle: "Affirmative Duties Required of Licensed Individuals.",
-//             keywords: ["Affirmative", "Duties", "License"]
-//         },
-//         {
-//             sectionTitle: "Prohibited Conduct As Applicable to Licensed Individuals",
-//             keywords: ["Prohibit", "Conduct", "Applicable"]
-//         },
-//         {
-//             sectionTitle: "Requirements and Restrictions in Advertising.",
-//             keywords: ["Requirement", "Restrictions", "Advertising"]
-//         },
-//         {
-//             sectionTitle: "Trust Accounts - Real Estate Company.",
-//             keywords: ["Trust", "Accounts", "Company"]
-//         },
-//     ]
-
-//     const selectedSectionKeywords = keywordOptions.find(
-//         (law) => law.sectionTitle === selectedSection
-//     )?.keywords || [];
-
-//     const keywordOptionsElements = selectedSectionKeywords.map((keyword, index) =>(
-//         <option key={index} value={keyword}>
-//             {keyword}
-//         </option>
-//     ))
