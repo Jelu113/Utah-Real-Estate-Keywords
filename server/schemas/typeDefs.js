@@ -1,18 +1,18 @@
 const gql = require("graphql-tag");
 
 const typeDefs = gql`
-    type User {
-        _id: ID!
-        username: String!
-        email: String!
-        password: String!
-        keywords: [Keyword]
-    }
+  type User {
+    _id: ID!
+    username: String!
+    email: String!
+    password: String!
+    keywords: [Keyword]
+  }
 
-    type Auth {
-        token: ID!
-        user: User
-    }
+  type Auth {
+    token: ID!
+    user: User
+  }
 
     type Section {
         _id: ID!
@@ -53,13 +53,13 @@ const typeDefs = gql`
         law_section_z: String
     }
 
-    type Keyword {
-        _id: ID!
-        keyword: String!
-        statute: [String]
-        statuteURL: String!
-        citations: [Citations]
-    }
+  type Keyword {
+    _id: ID!
+    keyword: String!
+    statute: [String]
+    statuteURL: String!
+    citations: [Citations]
+  }
 
     type Citations {
         section: String!

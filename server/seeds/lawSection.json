@@ -274,83 +274,79 @@
     "section_clarifier": "",
     "law_sections": [
       {
-        "law_sections": [
-          {
-            "law": "(1)  Except as provided for in Subsections (2) and (3), a licensee shall not advertise or permit any person employed by or affiliated with the licensee to advertise real estate services or property in any medium without clearly and conspicuously identifying in the advertisement the name of the brokerage with which the licensee is affiliated.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation.",
-            "law_section_a": ""
-          },
-          {
-            "law": "(2)  When it is not reasonable for a licensee to identify the name of the brokerage in an electronic advertisement, the licensee shall ensure the electronic advertisement directly links to a display that clearly and conspicuously identifies the name of the brokerage",
-            "law_section_a": ""
-          },
-          {
-            "law": "(3)  A licensee is not required to identify the name of the brokerage with which the licensee is affiliated if:",
-            "law_section_a": "(a)  the licensee advertises a property not currently listed with the brokerage with which the licensee is affiliated;",
-            "law_section_b": "(b)  the licensee has an ownership interest in the property; and",
-            "law_section_c": "(c)  the advertisement identifies the name of the individual licensee as 'owner-agent' or 'owner-broker.'"
-          },
-          {
-            "law": "(4)  The name of the brokerage identified by a licensee in an advertisement shall be the name of the brokerage as shown on division records.",
-            "law_section": ""
-          },
-          {
-            "law": "(5)  A team, group, or other marketing entity which includes one or more licensees shall be subject to the same requirements and restrictions with regard to advertising as is an individual licensee.",
-            "law_section_a": ""
-          },
-          {
-            "law": "(6)",
-            "law_section_a": "(a)  If a licensee advertises a guaranteed sales plan, the advertisement shall include, in a clear and conspicuous manner:(i)  a statement that costs and conditions may apply; and(ii)  information about how to contact the licensee offering the guarantee so as to obtain the disclosures required under Subsection R162-2f-401a(23).",
-            "law_section_b": "(b)  Any radio or television advertisement of a guaranteed sales plan shall include a conspicuous statement advising if any conditions and limitations apply."
-          }
-        ]
-      },
-
-      {
-        "section_number": "R162-2f-401l",
-        "section_title": " Gifts and Inducements.",
-        "section_clarifier": "",
-        "law_sections": [
-          {
-            "law": "(1)  An inducement gift is permissible and is not an illegal sharing of commission if the principal broker or affiliated licensee offering the inducement gift to a buyer or a seller complies with the underwriting guidelines that apply to any loan in the transaction for which the inducement has been offered.",
-            "law_section_a": ""
-          },
-          {
-            "law": "(2)  A closing gift is permissible and is not an illegal sharing of commissions.",
-            "law_section": ""
-          }
-        ]
+        "law": "(1)  Except as provided for in Subsections (2) and (3), a licensee shall not advertise or permit any person employed by or affiliated with the licensee to advertise real estate services or property in any medium without clearly and conspicuously identifying in the advertisement the name of the brokerage with which the licensee is affiliated.  The division may not bring an action for enforcement of this subsection after the expiration of four years following the occurrence of the violation.",
+        "law_section_a": ""
       },
       {
-        "section_number": "R162-2f-403a",
-        "section_title": "Trust Accounts - Real Estate Company.",
-        "section_clarifier": "The principal broker of a real estate company shall: ",
-        "law_sections": [
-          {
-            "law": "(1)  The principal broker of a real estate company shall:",
-            "law_section_a": "(a)(i)  if engaged in listing or selling real estate, maintain at least one real estate trust account in a bank or credit union located within the state of Utah; and(ii)  if engaged in property management, refer to trust account rules in Section R162-2f-403b;",
-            "law_section_b": " (b)  at the time a real estate trust account is established, or if the trust account is moved to another bank or credit union or the trust account number is changed, notify the division in writing of:(i)  the account number;(ii)  the address of the bank or credit union where the account is located; and(iii)  the type of activity for which the account is used."
-          },
-          {
-            "law": "(2)  A real estate trust account maintained by a principal broker shall be non-interest-bearing, unless:",
-            "law_section_a": "(a)  the parties to the transaction agree in writing to deposit the funds in an interest-bearing account;",
-            "law_section_b": "(b)  the parties to the transaction designate in writing the person to whom the interest will be paid upon completion or failure of the sale;",
-            "law_section_c": "(c)  the person designated under Subsection (2)(b):(i)  qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code; and(ii)  operates exclusively to provide grants to affordable housing programs in Utah; and",
-            "law_section_d": "(d)  the affordable housing program that is the recipient of the grant under Subsection (2)(c)(ii) qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code."
-          },
-          {
-            "law": "(3)  A principal broker may not deposit into the principal broker's real estate trust account funds received in connection with rental of tourist accommodations where the rental period is less than 30 consecutive days.",
-            "law_section_a": ""
-          },
-          {
-            "law": "(4)  Records of deposits to a real estate trust account shall include:",
-            "law_section_a": "(a)  transaction number or unique client identifier, as applicable pursuant to Subsection R162-2f-401c(1)(j);",
-            "law_section_b": "(b)  identification of payee and payor;",
-            "law_section_c": "(c)  amount of deposit;",
+        "law": "(2)  When it is not reasonable for a licensee to identify the name of the brokerage in an electronic advertisement, the licensee shall ensure the electronic advertisement directly links to a display that clearly and conspicuously identifies the name of the brokerage",
+        "law_section_a": ""
+      },
+      {
+        "law": "(3)  A licensee is not required to identify the name of the brokerage with which the licensee is affiliated if:",
+        "law_section_a": "(a)  the licensee advertises a property not currently listed with the brokerage with which the licensee is affiliated;",
+        "law_section_b": "(b)  the licensee has an ownership interest in the property; and",
+        "law_section_c": "(c)  the advertisement identifies the name of the individual licensee as 'owner-agent' or 'owner-broker.'"
+      },
+      {
+        "law": "(4)  The name of the brokerage identified by a licensee in an advertisement shall be the name of the brokerage as shown on division records.",
+        "law_section": ""
+      },
+      {
+        "law": "(5)  A team, group, or other marketing entity which includes one or more licensees shall be subject to the same requirements and restrictions with regard to advertising as is an individual licensee.",
+        "law_section_a": ""
+      },
+      {
+        "law": "(6)",
+        "law_section_a": "(a)  If a licensee advertises a guaranteed sales plan, the advertisement shall include, in a clear and conspicuous manner:(i)  a statement that costs and conditions may apply; and(ii)  information about how to contact the licensee offering the guarantee so as to obtain the disclosures required under Subsection R162-2f-401a(23).",
+        "law_section_b": "(b)  Any radio or television advertisement of a guaranteed sales plan shall include a conspicuous statement advising if any conditions and limitations apply."
+      }
+    ]
+  },
 
-            "law_section_d": "(d)  location of property subject to the transaction; and",
-            "law_section_e": " (e)  date and place of deposit."
-          }
-        ]
+  {
+    "section_number": "R162-2f-401l",
+    "section_title": " Gifts and Inducements.",
+    "section_clarifier": "",
+    "law_sections": [
+      {
+        "law": "(1)  An inducement gift is permissible and is not an illegal sharing of commission if the principal broker or affiliated licensee offering the inducement gift to a buyer or a seller complies with the underwriting guidelines that apply to any loan in the transaction for which the inducement has been offered.",
+        "law_section_a": ""
+      },
+      {
+        "law": "(2)  A closing gift is permissible and is not an illegal sharing of commissions.",
+        "law_section": ""
+      }
+    ]
+  },
+  {
+    "section_number": "R162-2f-403a",
+    "section_title": "Trust Accounts - Real Estate Company.",
+    "section_clarifier": "The principal broker of a real estate company shall: ",
+    "law_sections": [
+      {
+        "law": "(1)  The principal broker of a real estate company shall:",
+        "law_section_a": "(a)(i)  if engaged in listing or selling real estate, maintain at least one real estate trust account in a bank or credit union located within the state of Utah; and(ii)  if engaged in property management, refer to trust account rules in Section R162-2f-403b;",
+        "law_section_b": " (b)  at the time a real estate trust account is established, or if the trust account is moved to another bank or credit union or the trust account number is changed, notify the division in writing of:(i)  the account number;(ii)  the address of the bank or credit union where the account is located; and(iii)  the type of activity for which the account is used."
+      },
+      {
+        "law": "(2)  A real estate trust account maintained by a principal broker shall be non-interest-bearing, unless:",
+        "law_section_a": "(a)  the parties to the transaction agree in writing to deposit the funds in an interest-bearing account;",
+        "law_section_b": "(b)  the parties to the transaction designate in writing the person to whom the interest will be paid upon completion or failure of the sale;",
+        "law_section_c": "(c)  the person designated under Subsection (2)(b):(i)  qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code; and(ii)  operates exclusively to provide grants to affordable housing programs in Utah; and",
+        "law_section_d": "(d)  the affordable housing program that is the recipient of the grant under Subsection (2)(c)(ii) qualifies at the time of payment as a non-profit organization under Section 501(c)(3) of the Internal Revenue Code."
+      },
+      {
+        "law": "(3)  A principal broker may not deposit into the principal broker's real estate trust account funds received in connection with rental of tourist accommodations where the rental period is less than 30 consecutive days.",
+        "law_section_a": ""
+      },
+      {
+        "law": "(4)  Records of deposits to a real estate trust account shall include:",
+        "law_section_a": "(a)  transaction number or unique client identifier, as applicable pursuant to Subsection R162-2f-401c(1)(j);",
+        "law_section_b": "(b)  identification of payee and payor;",
+        "law_section_c": "(c)  amount of deposit;",
+
+        "law_section_d": "(d)  location of property subject to the transaction; and",
+        "law_section_e": " (e)  date and place of deposit."
       },
       {
         "law": "(5)  Except for electronic transfers provided for in Subsection (6), any instrument by which funds are disbursed from a real estate or property management trust account shall include:",
