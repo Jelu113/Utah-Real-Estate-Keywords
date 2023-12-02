@@ -85,6 +85,7 @@ const typeDefs = gql`
         users: [User]
         keyword: [Keyword]
         section: [Section]
+        keywordBySection(section_number: ID!) : Keyword
     }
 
     type Mutation {

@@ -6,33 +6,35 @@ const keywordSchema = new Schema({
     required: true,
   },
   "statute": {
-    type:Array,
+    type: Array,
     required: false
   },
   "statuteURL": {
     type: String,
-    required:false
+    required: false
   },
   citations: [
     {
       section: {
-        type: String,
-        ref: "Section",
+        type: Schema.Types.ObjectId,
+        ref: "Section"
       },
-      laws: {
-        type: String,
-        required: false
-        
+      law: {
+        type: Schema.Types.ObjectId,
+        ref: "Law"
       },
-      sublaws: {
-        type: String,
-        required :false
-       
-      },
+      sublaw: {
+        type: Schema.Types.ObjectId,
+        ref: "Sublaw"
+      }
     }
-  ]
+  ],
 });
 
 const Keyword = model("Keyword", keywordSchema);
 
 module.exports = Keyword;
+
+
+
+
