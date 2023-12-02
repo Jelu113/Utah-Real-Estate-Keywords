@@ -66,6 +66,19 @@ const typeDefs = gql`
         laws: String
         sublaws: String
     }
+
+    input KeywordInput {
+      keyword: String!
+      statute: [String]
+      statuteURL: String
+      citations: [CitationInput]
+    }
+
+    input CitationInput {
+      section: String
+      laws: String
+      sublaws: String
+    }
     
 
     type Query {
@@ -77,7 +90,7 @@ const typeDefs = gql`
     type Mutation {
         addUser(username: String!, email: String!, password: String!): Auth
         login(email: String!, password: String!): Auth
-        addKeyword(keyword: String!, statute: String!, statuteURL: String!, citations: [String]!): Keyword
+        addKeyword(input: KeywordInput!): Keyword
         removeKeyword(keywordId: ID!): Keyword
     }
 `;

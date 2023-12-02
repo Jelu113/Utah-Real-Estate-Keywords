@@ -5,7 +5,7 @@ import {
   TabList,
   Tab,
   TabIndicator,
-  Button,
+  // Button,
 } from "@chakra-ui/react";
 
 import Auth from "../utils/auth";
@@ -23,18 +23,16 @@ const Navbar = () => {
               <Tab as={Link} to="/create-keyword">
                 Create a Keyword
               </Tab>
-              <Button color="white" bgColor="rgb(104, 103, 103)" onClick={Auth.logout}>
-                Logout
-              </Button>
+              <Tab onClick={Auth.logout}>Logout</Tab>
             </>
           ) : (
             <>
               <Tab as={Link} to="/create-user">
                 Create User
               </Tab>
-              <Button color="white" bgColor="rgb(104, 103, 103)" as={Link} to="/login">
+              <Tab as={Link} to="/login">
                 Login
-              </Button>
+              </Tab>
             </>
           )}
         </TabList>
@@ -45,7 +43,6 @@ const Navbar = () => {
           borderRadius="1px"
         />
       </Tabs>
-      
     </>
   );
 };

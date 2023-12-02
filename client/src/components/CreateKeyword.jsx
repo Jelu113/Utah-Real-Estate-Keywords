@@ -1,4 +1,3 @@
-import { useFormik } from "formik";
 import { Formik, Field } from "formik";
 import {
   Box,
@@ -8,66 +7,117 @@ import {
   FormLabel,
   FormErrorMessage,
   Input,
+  Textarea,
   VStack,
 } from "@chakra-ui/react";
 
-
+import { useQuery } from "@apollo/client";
+import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 import { useMutation } from "@apollo/client";
-import { LOGIN_USER } from "../utils/mutations";
+import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
 
+const SearchBar = () => {
+  const { loading, data } = useQuery(GET_LAW_SECTION_TITLES);
+
+  const sectionTitles = data?.section|| {};
+
+  //Need to edit this
+  const sectionOptions = sectionTitles.map((lawSection) => (
+    <option key={lawSection.id} value={sectionTitles}>
+      {lawSection.section_number}
+    </option>
+  ));
+
+  console.log(sectionOptions);
+
+  return (
+    <FormControl>
+      <FormLabel htmlFor="section-heading"></FormLabel>
+    </FormControl>
+  );
+};
+
 const CreateKeyword = () => {
-  const formik = useFormik({
-    initialValues: {
-      Keyword: "",
-      Citation: "",
-    },
-    onSubmit: (values) => {
-      alert(JSON.stringify(values, null, 2));
-    },
-  });
+  const [addKeyword, {loading, error}] = useMutation(ADD_KEYWORD);
+
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
       <Box bg="white" p={6} rounded="md" w={64}>
         <Formik
           initialValues={{
-            Keyword: "",
-            Citation: "",
-           
+            keyword: "",
+            statute: [""],
+            statuteURL: "",
+            citations: [
+              {
+                section: "",
+                laws: "",
+                sublaws: "",
+              },
+            ],
           }}
-          onSubmit={(values) => { //change in future to connect to Database 
-            alert(JSON.stringify(values, null, 2));
+          onSubmit={async (values) => {
+            const token = Auth.loggedIn() ? Auth.getToken() : null;
+
+            if (!token) {
+              return false;
+            }
+
+            try {
+              await addKeyword({
+                variables: { ...values },
+              });
+            } catch (error) {
+              console.log(error);
+            }
           }}
         >
           {({ handleSubmit, errors, touched }) => (
             <form onSubmit={handleSubmit}>
               <VStack spacing={4} align="flex-start">
-                <FormControl>
+                <FormControl isInvalid={!!errors.keyword && touched.keyword}>
                   <FormLabel htmlFor="keyword">Keyword</FormLabel>
                   <Field
                     as={Input}
                     id="keyword"
                     name="keyword"
-                    type="keyword"
+                    type="text"
                     variant="filled"
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please enter a keyword";
+                      }
+                    }}
                   />
+                  <FormErrorMessage>{errors.keyword}</FormErrorMessage>
                 </FormControl>
-                <FormControl isInvalid={!!errors.password && touched.password}>
-                  <FormLabel htmlFor="password">Citation</FormLabel>
+                <FormControl isInvalid={!!errors.citations && touched.citations}>
+                  <FormLabel htmlFor="citations">Citations</FormLabel>
                   <Field
                     as={Input}
-                    id="citation"
-                    name="citation"
-                    type="citation"
+                    id="citations"
+                    name="citations"
+                    type="text"
                     variant="filled"
-                    // validate={(value) => {
-                     
-                    // }}
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please enter a citation";
+                      }
+                    }}
                   />
-                  <FormErrorMessage>{errors.password}</FormErrorMessage>
+                  <FormErrorMessage>{errors.citation}</FormErrorMessage>
                 </FormControl>
-                
-                <Button type="submit" colorScheme="green" width="full">
+                <FormControl>
+
+                </FormControl>
+
+                <Button
+                  type="submit"
+                  color="white"
+                  bgColor="#3182CE"
+                  width="full"
+                >
                   Add Keyword
                 </Button>
               </VStack>

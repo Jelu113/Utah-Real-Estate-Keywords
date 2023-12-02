@@ -7,42 +7,9 @@ const resolvers = {
     users: async () => {
       return User.find();
     },
-<<<<<<< HEAD
-    Mutation: {
-        login: async (parent, { email, password }) => {
-            const user = await User.findOne({ email });
-
-            if (!user) {
-                throw AuthenticationError;
-            }
-
-            const correctPw = await user.isCorrectPassword(password);
-
-            if (!correctPw) {
-                throw AuthenticationError;
-            }
-
-            const token = signToken(user);
-
-            return { token, user };
-        },
-        addUser: async (parent, { username, email, password }) => {
-            const user = await User.create({ username, email, password });
-            const token = signToken(user);
-            return { token, user };
-        },
-        addKeyword: async (parent, args) => {
-            return Keyword.create({ ...args });
-        },
-        removeKeyword: async (parent, { keywordId }) => {
-            return Keyword.findOneAndDelete({ _id: keywordId })
-        },
-
-=======
     //returns all keywords
     keyword: async () => {
       return Keyword.find();
->>>>>>> 79d127d7b79fe31ece9ec2b228e04ef4e41a109c
     },
     // //lawssection
     // lawSection: async (parent, { _id }) => {
@@ -75,11 +42,18 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    addKeyword: async (parent, { keyword }) => {
-      return Keyword.create({ keyword });
+    addKeyword: async (_, { input }) => {
+      try {
+        const newKeyword = new Keyword(input);
+        const savedKeyword = await newKeyword.save();
+        return savedKeyword;
+      } catch (error) {
+        console.error(error);
+        throw new Error("Failed to add keyword");
+      }
     },
     removeKeyword: async (parent, { keywordId }) => {
-      return Keyword.findOneAndDelete({ _id: keywordId });
+      return Keyword.findOneAndDelete({ _id: keywordId })
     },
   },
 };
