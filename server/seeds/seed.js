@@ -1,16 +1,16 @@
 const db = require("../config/connection");
-const { Keywords, Section, User } = require("../models");
+const { Keyword, Section, User } = require("../models");
 const keywordSeeds = require("./keyword.json");
 const lawSectionSeeds = require("./lawSection.json");
 const userSeeds = require("./user.json");
 const cleanDb = require("./cleanDB");
 
 db.once("open", async () => {
-    await cleanDb("Keywords", "keywords");
+    await cleanDb("Keyword", "keywords");
     await cleanDb("Section", "sections");
     await cleanDb("User", "users");
 
-    await Keywords.create(keywordSeeds);
+    await Keyword.create(keywordSeeds);
     await Section.create(lawSectionSeeds);
     await User.create(userSeeds);
 
