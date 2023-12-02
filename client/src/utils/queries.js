@@ -29,3 +29,12 @@ export const GET_LAW_SECTION_TITLES = gql`
     }
   }
 `;
+
+export const GET_KEYWORDS = gql`
+  query keyword {
+    keyword {
+      _id
+      keyword
+    }
+  }
+`;  
