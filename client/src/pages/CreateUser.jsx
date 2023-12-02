@@ -23,7 +23,7 @@ const CreateUser = () => {
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
-      <Box bg="rgba(248, 248, 248, 0.514)" p={6} rounded="md" w={64} shadow="lg">
+      <Box bg="gray" p={6} rounded="md" w={64} shadow="lg">
         <Formik
           initialValues={{
             username: "",

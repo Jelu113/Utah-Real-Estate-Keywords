@@ -13,7 +13,7 @@
 -[Tests](#tests)  
 
  ## Description
- 
+
  https://utah-real-estate-keywords-production.up.railway.app/
   The Division of Real Estate Investigators currently do not have an easy way to find the laws that they very frequently have to cite in their Reports. So much time is wasted looking for the correct law, that I was motivated to create something to help speed and accuracy for the Division Investigators. 
  
@@ -28,7 +28,7 @@
 ## Usage
 
 ## Credits
-Jenae Luthi, Salvador Mejia, JJ Saoit and Jon Bay all worked on this project
+Jenae Luthi, Salvador Mejia, JJ Saoit and Jon Bay all contributed to this project. 
 ## License
 undefined
 ## Badges
