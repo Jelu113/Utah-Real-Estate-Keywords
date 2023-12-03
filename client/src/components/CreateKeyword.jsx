@@ -1,4 +1,5 @@
 import { Formik, Field } from "formik";
+import { useState } from "react";
 import {
   Box,
   Button,
@@ -12,6 +13,8 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
+import SearchResultsList from "../components/SearchResultsList";
+
 import SearchBar from "../components/SearchBar";
 
 //import { useQuery } from "@apollo/client";
@@ -21,9 +24,9 @@ import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
 //import { useState } from "react";
 
-
-
 const CreateKeyword = () => {
+  const [results, setResults] = useState([]);
+
   const [addKeyword, { loading, error }] = useMutation(ADD_KEYWORD);
 
   return (
@@ -110,7 +113,8 @@ const CreateKeyword = () => {
                   <FormErrorMessage>{errors.statuteURL}</FormErrorMessage>
                 </FormControl>
 
-                <SearchBar />
+                <SearchBar setResults={setResults} />
+                <SearchResultsList results={results} />
 
                 <FormControl isInvalid={!!errors.section && touched.section}>
                   <FormLabel htmlFor="section">Section</FormLabel>

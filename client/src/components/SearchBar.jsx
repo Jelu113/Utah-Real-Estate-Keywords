@@ -1,56 +1,79 @@
 import { useState } from "react";
 
-import { Field } from "formik";
-import { FormControl, FormLabel, Input } from "@chakra-ui/react";
+import { FaSearch } from "react-icons/fa";
+
+import {
+  FormControl,
+  FormLabel,
+  Input,
+  InputGroup,
+  InputLeftElement,
+} from "@chakra-ui/react";
 
 import { useQuery } from "@apollo/client";
 import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 
-const SearchBar = () => {
+const SearchBar = ({ setResults }) => {
   const [searchInput, setSearchInput] = useState("");
 
   const { loading, data } = useQuery(GET_LAW_SECTION_TITLES);
 
-  const sectionTitles = data?.section || {};
-  console.log(sectionTitles);
-  //Need to edit this
-    const sectionNumber = sectionTitles.map((section, index) => {
-        <div>
-          <tr>
-            <td>{section.section_number}</td>
-          </tr>
-        </div>;
-      })
-    
-  const handleChange = (e) => {
-    e.preventDefault();
-    setSearchInput(e.target.value);
+  const fetchData = async (value) => {
+    try {
+      const sectionTitles = data?.section || [];
+      console.log(sectionTitles);
+
+      const results = await sectionTitles.filter((section) => {
+        return (
+          value &&
+          section &&
+          section.section_number &&
+          section.section_number.toLowerCase().includes(value)
+        );
+      });
+      setResults(results);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
-  if (searchInput.length > 0) {
-    sectionTitles.filter((section) => {
-      return section.section_number.match(searchInput);
-    });
-  }
+  //Need to edit this
+  // const sectionNumber = sectionTitles.map((section, index) => {
+  //   <div>
+  //     <tr>
+  //       <td>{section.section_number}</td>
+  //     </tr>
+  //   </div>;
+  // });
+
+  const handleChange = (value) => {
+    setSearchInput(value);
+    fetchData(value);
+  };
 
   return (
     <FormControl>
       <FormLabel htmlFor="section"></FormLabel>
-      <Field
-        as={Input}
-        id="search-section"
-        name="search-section"
-        type="text"
-        placeholder="Search a section number"
-        onChange={handleChange}
-        value={searchInput}
-      />
-      <table>
-        <tr>
-          <th>Section Number</th>
-        </tr>
-        {sectionNumber}
-      </table>
+      <InputGroup>
+        <InputLeftElement pointerEvents="none">
+          <FaSearch />
+        </InputLeftElement>
+        <Input
+          variant="filled"
+          id="search-section"
+          name="search-section"
+          type="text"
+          placeholder="Search a section number"
+          onChange={(e) => handleChange(e.target.value)}
+          value={searchInput}
+        />
+        {/* <table>
+          <tr>
+            <th>{sectionNumber}</th>
+          </tr>
+          {/*  */}
+        {/*</table> */}
+      </InputGroup>
     </FormControl>
   );
 
