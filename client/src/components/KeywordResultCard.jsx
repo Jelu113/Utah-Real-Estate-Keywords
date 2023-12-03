@@ -10,8 +10,12 @@ import {
   Heading,
   Text,
 } from "@chakra-ui/react";
+import { useSectionKeywordContext } from "../utils/SectionKeywordContext";
 
-const KeywordResultCard = (keyword) => {
+const KeywordResultCard = () => {
+  const { keyword } = useSectionKeywordContext();
+  console.log("provider: " + keyword);
+
   const SampleData = [
     {
       keyword: "Lender disclosure",

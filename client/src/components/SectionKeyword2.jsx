@@ -1,11 +1,9 @@
-import { Select, Button } from "@chakra-ui/react";
-import { useState } from "react";
+import { Select } from "@chakra-ui/react";
 import { useQuery } from "@apollo/client";
 import { GET_KEYWORDS } from "../utils/queries";
 
 const SectionKeyword2 = ({ selectedSection }) => {
   //Hooks
-  const [selectedVal, setselectedVal] = useState("");
   const { loading, data } = useQuery(GET_KEYWORDS, {
     fetchPolicy: "no-cache",
   });
