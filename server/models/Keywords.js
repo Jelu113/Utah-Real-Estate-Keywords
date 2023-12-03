@@ -6,7 +6,7 @@ const keywordSchema = new Schema({
     required: true,
   },
   "statute": {
-    type:Array,
+    type: String,
     required: false
   },
   "statuteURL": {

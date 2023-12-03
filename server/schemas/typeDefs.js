@@ -56,7 +56,7 @@ const typeDefs = gql`
   type Keyword {
     _id: ID!
     keyword: String!
-    statute: [String]
+    statute: String
     statuteURL: String!
     citations: [Citations]
   }
@@ -69,7 +69,7 @@ const typeDefs = gql`
 
     input KeywordInput {
       keyword: String!
-      statute: [String]
+      statute: String
       statuteURL: String
       citations: [CitationInput]
     }

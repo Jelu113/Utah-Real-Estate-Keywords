@@ -22,12 +22,11 @@ import SearchBar from "../components/SearchBar";
 import { useMutation } from "@apollo/client";
 import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
-//import { useState } from "react";
 
 const CreateKeyword = () => {
   const [results, setResults] = useState([]);
 
-  const [addKeyword, { loading, error }] = useMutation(ADD_KEYWORD);
+  const [addKeyword] = useMutation(ADD_KEYWORD);
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
@@ -35,7 +34,7 @@ const CreateKeyword = () => {
         <Formik
           initialValues={{
             keyword: "",
-            statute: [""],
+            statute: "",
             statuteURL: "",
             section: "",
             laws: "",
@@ -52,6 +51,7 @@ const CreateKeyword = () => {
               await addKeyword({
                 variables: { ...values },
               });
+              console.log(values);
             } catch (error) {
               console.log(error);
             }
@@ -116,29 +116,12 @@ const CreateKeyword = () => {
                 <SearchBar setResults={setResults} />
                 <SearchResultsList results={results} />
 
-                <FormControl isInvalid={!!errors.section && touched.section}>
-                  <FormLabel htmlFor="section">Section</FormLabel>
-                  <Field
-                    as={Input}
-                    id="section"
-                    name="section"
-                    type="text"
-                    variant="filled"
-                    validate={(value) => {
-                      if (!value) {
-                        return "Please select a section";
-                      }
-                    }}
-                  />
-                  <FormErrorMessage>{errors.section}</FormErrorMessage>
-                </FormControl>
-
-                <FormControl isInvalid={!!errors.laws && touched.laws}>
-                  <FormLabel htmlFor="laws">Laws</FormLabel>
+                <FormControl isInvalid={!!errors.law && touched.law}>
+                  <FormLabel htmlFor="laws">Law</FormLabel>
                   <Field
                     as={Input}
                     id="law"
-                    name="law"
+                    name="citations[0].laws"
                     type="text"
                     variant="filled"
                     validate={(value) => {
@@ -150,12 +133,12 @@ const CreateKeyword = () => {
                   <FormErrorMessage>{errors.laws}</FormErrorMessage>
                 </FormControl>
 
-                <FormControl isInvalid={!!errors.sublaws && touched.sublaws}>
-                  <FormLabel htmlFor="sublaws">Sublaws</FormLabel>
+                <FormControl isInvalid={!!errors.sublaw && touched.sublaw}>
+                  <FormLabel htmlFor="sublaws">Sublaw</FormLabel>
                   <Field
                     as={Input}
                     id="sublaw"
-                    name="sublaw"
+                    name="citations[0].sublaw"
                     type="text"
                     variant="filled"
                     validate={(value) => {
@@ -164,7 +147,7 @@ const CreateKeyword = () => {
                       }
                     }}
                   />
-                  <FormErrorMessage>{errors.keyword}</FormErrorMessage>
+                  <FormErrorMessage>{errors.sublaw}</FormErrorMessage>
                 </FormControl>
 
                 <Button

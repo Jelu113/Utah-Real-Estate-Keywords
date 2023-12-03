@@ -37,15 +37,6 @@ const SearchBar = ({ setResults }) => {
     }
   };
 
-  //Need to edit this
-  // const sectionNumber = sectionTitles.map((section, index) => {
-  //   <div>
-  //     <tr>
-  //       <td>{section.section_number}</td>
-  //     </tr>
-  //   </div>;
-  // });
-
   const handleChange = (value) => {
     setSearchInput(value);
     fetchData(value);
@@ -63,20 +54,14 @@ const SearchBar = ({ setResults }) => {
           id="search-section"
           name="search-section"
           type="text"
-          placeholder="Search a section number"
+          placeholder="Search a section #"
           onChange={(e) => handleChange(e.target.value)}
           value={searchInput}
         />
-        {/* <table>
-          <tr>
-            <th>{sectionNumber}</th>
-          </tr>
-          {/*  */}
-        {/*</table> */}
       </InputGroup>
     </FormControl>
   );
-
+  console.log(searchInput);
   // const sectionOptions = sectionTitles.map((lawSection) => (
   //   <option key={lawSection.id} value={lawSection.section_number}>
   //     {lawSection.section_number}

@@ -44,9 +44,13 @@ const resolvers = {
     },
     addKeyword: async (_, { input }) => {
       try {
-        const newKeyword = new Keyword(input);
-        const savedKeyword = await newKeyword.save();
-        return savedKeyword;
+        const newKeyword = await Keyword.create({ 
+          keyword: input.keyword,
+          statute: input.statute,
+          statuteURL: input.statuteURL,
+          citations: input.citations
+        });
+        return newKeyword;
       } catch (error) {
         console.error(error);
         throw new Error("Failed to add keyword");
