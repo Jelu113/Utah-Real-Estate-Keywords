@@ -1,33 +1,32 @@
-import { Select, Button} from '@chakra-ui/react'
-import { useState } from 'react'
+import { Select, Button } from "@chakra-ui/react";
+import { useState } from "react";
 import { useQuery } from "@apollo/client";
 import { GET_KEYWORDS } from "../utils/queries";
 
-const SectionKeyword2 = ({selectedSection}) => {
-    //Hooks
-    const [selectedVal, setSelectedKeyword] = useState("");
-    const { loading, data } = useQuery(GET_KEYWORDS, {
-        fetchPolicy: "no-cache",
-    });
+const SectionKeyword2 = ({ selectedSection }) => {
+  //Hooks
+  const [selectedVal, setselectedVal] = useState("");
+  const { loading, data } = useQuery(GET_KEYWORDS, {
+    fetchPolicy: "no-cache",
+  });
 
-const keywordList = data?.keyword || [];
-console.log(keywordList);
+  const keywordList = data?.keyword || [];
+  console.log(keywordList);
 
-const keywordOptions = keywordList.map((keyword) => (
-   <option key={keyword._id} value={keyword.keyword}>
-     {keyword.keyword}
+  const keywordOptions = keywordList.map((keyword) => (
+    <option key={keyword._id} value={keyword.keyword}>
+      {keyword.keyword}
     </option>
-));
+  ));
 
-const handleSectionChange = (e) => {
+  const handleSectionChange = (e) => {
     const selectedVal = e.target.value;
     //setSelectedKeyword(selectedVal);
     console.log(selectedVal);
     console.log(selectedSection);
-};
+  };
 
-
-return (
+  return (
     <>
       <h2 className="sectionText">Select a Keyword</h2>
       {loading ? (
@@ -46,4 +45,3 @@ return (
 };
 
 export default SectionKeyword2;
-
