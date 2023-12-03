@@ -69,6 +69,7 @@ export const GET_KEYWORDS = gql`
       _id
       keyword
     }
+    }
 `;
 
 export const GET_ALL_KEYWORDS = gql`
