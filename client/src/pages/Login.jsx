@@ -29,7 +29,7 @@ const Login = () => {
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
-      <Box bg="white" p={6} rounded="md" w={64} shadow="lg">
+      <Box bg="gray" p={6} rounded="md" w={64} shadow="lg">
         <Formik
           initialValues={{
             email: "",

@@ -125,3 +125,4 @@ const sectionSchema = new Schema({
 const Section = model("Section", sectionSchema);
 
 module.exports = Section;
+

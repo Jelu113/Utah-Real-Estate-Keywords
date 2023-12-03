@@ -23,7 +23,7 @@ export const GET_USER = gql`
 
 
 export const GET_LAW_SECTION_TITLES = gql`
-  query Query {
+  {
     section {
       _id
       section_number
@@ -32,19 +32,11 @@ export const GET_LAW_SECTION_TITLES = gql`
   }
 `;
 
-
-
-
-
-export const GET_KEYWORD = gql`
-    query keyword {
-        keyword
-        statute
-        statuteURL
-        citations {
-            section
-            laws
-            sublaws
-        }
+export const GET_KEYWORDS = gql`
+  query keyword {
+    keyword {
+      _id
+      keyword
     }
-`;
+  }
+`;  

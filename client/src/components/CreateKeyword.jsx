@@ -7,39 +7,24 @@ import {
   FormLabel,
   FormErrorMessage,
   Input,
+  Select,
   Textarea,
   VStack,
 } from "@chakra-ui/react";
 
-import { useQuery } from "@apollo/client";
-import { GET_LAW_SECTION_TITLES } from "../utils/queries";
+import SearchBar from "../components/SearchBar";
+
+//import { useQuery } from "@apollo/client";
+//import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 import { useMutation } from "@apollo/client";
 import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
+//import { useState } from "react";
 
-const SearchBar = () => {
-  const { loading, data } = useQuery(GET_LAW_SECTION_TITLES);
 
-  const sectionTitles = data?.section|| {};
-
-  //Need to edit this
-  const sectionOptions = sectionTitles.map((lawSection) => (
-    <option key={lawSection.id} value={sectionTitles}>
-      {lawSection.section_number}
-    </option>
-  ));
-
-  console.log(sectionOptions);
-
-  return (
-    <FormControl>
-      <FormLabel htmlFor="section-heading"></FormLabel>
-    </FormControl>
-  );
-};
 
 const CreateKeyword = () => {
-  const [addKeyword, {loading, error}] = useMutation(ADD_KEYWORD);
+  const [addKeyword, { loading, error }] = useMutation(ADD_KEYWORD);
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
@@ -49,13 +34,9 @@ const CreateKeyword = () => {
             keyword: "",
             statute: [""],
             statuteURL: "",
-            citations: [
-              {
-                section: "",
-                laws: "",
-                sublaws: "",
-              },
-            ],
+            section: "",
+            laws: "",
+            sublaws: "",
           }}
           onSubmit={async (values) => {
             const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -92,24 +73,94 @@ const CreateKeyword = () => {
                   />
                   <FormErrorMessage>{errors.keyword}</FormErrorMessage>
                 </FormControl>
-                <FormControl isInvalid={!!errors.citations && touched.citations}>
-                  <FormLabel htmlFor="citations">Citations</FormLabel>
+
+                <FormControl isInvalid={!!errors.statute && touched.statute}>
+                  <FormLabel htmlFor="statute">Statute</FormLabel>
                   <Field
                     as={Input}
-                    id="citations"
-                    name="citations"
+                    id="statute"
+                    name="statute"
                     type="text"
                     variant="filled"
                     validate={(value) => {
                       if (!value) {
-                        return "Please enter a citation";
+                        return "Please enter a statute";
                       }
                     }}
                   />
-                  <FormErrorMessage>{errors.citation}</FormErrorMessage>
+                  <FormErrorMessage>{errors.statute}</FormErrorMessage>
                 </FormControl>
-                <FormControl>
 
+                <FormControl
+                  isInvalid={!!errors.statuteURL && touched.statuteURL}
+                >
+                  <FormLabel htmlFor="statuteURL">Statute URL</FormLabel>
+                  <Field
+                    as={Input}
+                    id="statuteURL"
+                    name="statuteURL"
+                    type="text"
+                    variant="filled"
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please enter a statute link";
+                      }
+                    }}
+                  />
+                  <FormErrorMessage>{errors.statuteURL}</FormErrorMessage>
+                </FormControl>
+
+                <SearchBar />
+
+                <FormControl isInvalid={!!errors.section && touched.section}>
+                  <FormLabel htmlFor="section">Section</FormLabel>
+                  <Field
+                    as={Input}
+                    id="section"
+                    name="section"
+                    type="text"
+                    variant="filled"
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please select a section";
+                      }
+                    }}
+                  />
+                  <FormErrorMessage>{errors.section}</FormErrorMessage>
+                </FormControl>
+
+                <FormControl isInvalid={!!errors.laws && touched.laws}>
+                  <FormLabel htmlFor="laws">Laws</FormLabel>
+                  <Field
+                    as={Input}
+                    id="law"
+                    name="law"
+                    type="text"
+                    variant="filled"
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please select a law";
+                      }
+                    }}
+                  />
+                  <FormErrorMessage>{errors.laws}</FormErrorMessage>
+                </FormControl>
+
+                <FormControl isInvalid={!!errors.sublaws && touched.sublaws}>
+                  <FormLabel htmlFor="sublaws">Sublaws</FormLabel>
+                  <Field
+                    as={Input}
+                    id="sublaw"
+                    name="sublaw"
+                    type="text"
+                    variant="filled"
+                    validate={(value) => {
+                      if (!value) {
+                        return "Please select a sublaw";
+                      }
+                    }}
+                  />
+                  <FormErrorMessage>{errors.keyword}</FormErrorMessage>
                 </FormControl>
 
                 <Button
