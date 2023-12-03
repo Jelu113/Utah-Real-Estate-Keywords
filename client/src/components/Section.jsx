@@ -3,6 +3,7 @@ import { useState } from "react";
 import SectionKeyword2 from "./SectionKeyword2";
 import { useQuery } from "@apollo/client";
 import { GET_LAW_SECTION_TITLES } from "../utils/queries";
+import { useSectionKeywordContext } from "../utils/SectionKeywordContext";
 
 const Section = () => {
   // Hooks
@@ -10,9 +11,10 @@ const Section = () => {
   const { loading, data } = useQuery(GET_LAW_SECTION_TITLES, {
     fetchPolicy: "no-cache",
   });
+  const { changeKeyword } = useSectionKeywordContext();
 
   const sectionTitles = data?.section || [];
-  console.log(sectionTitles);
+  // console.log(sectionTitles);
 
   const sectionOptions = sectionTitles.map((section) => (
     <option
@@ -28,10 +30,13 @@ const Section = () => {
     setSelectedSection(selectedVal);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log(event.target[0].value);
-    console.log(event.target[1].value);
+    if (event.target[0].value && event.target[1].value) {
+      console.log(event.target[1].value);
+      await changeKeyword(event.target[1].value);
+      window.location.href = "/keyword-result";
+    }
   };
 
   return (

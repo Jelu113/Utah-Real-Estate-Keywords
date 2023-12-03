@@ -11,6 +11,7 @@ import {
 } from "@apollo/client";
 
 import { setContext } from "@apollo/client/link/context";
+import { SectionKeywordProvider } from "./utils/SectionKeywordContext";
 
 const httpLink = createHttpLink({
   uri: "/graphql",
@@ -33,13 +34,16 @@ const client = new ApolloClient({
 });
 
 function App() {
-
   return (
     <ApolloProvider client={client}>
       <div>
-      <Header className="header"/> 
-      <Outlet />
-      <Footer className= "footer"/>
+        <SectionKeywordProvider>
+          <Header className="header" />
+
+          <Outlet />
+
+          <Footer className="footer" />
+        </SectionKeywordProvider>
       </div>
     </ApolloProvider>
   );
