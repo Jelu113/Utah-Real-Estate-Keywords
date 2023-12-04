@@ -52,7 +52,7 @@ const SearchBar = ({ setResults }) => {
         <Input
           variant="filled"
           id="search-section"
-          name="search-section"
+          name="citation[0].section"
           type="text"
           placeholder="Search a section #"
           onChange={(e) => handleChange(e.target.value)}

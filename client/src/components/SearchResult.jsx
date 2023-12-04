@@ -2,9 +2,18 @@ import { useState } from "react";
 
 import "../styles/SearchResult.css";
 
-const SearchResult = ({result}) => {
+const SearchResult = ({ result }) => {
+    const [savedValue, setSavedValue] = useState("");
+
+
+    const handleClick = (e) => {
+        setSavedValue(result.section_number);
+        }
+
+
+
     return (
-        <div className="search-result" onClick={(e) => alert(`clicked on ${result.section_number}`)}>{result.section_number}</div>
+        <div className="search-result" result="" onClick={handleClick}>{result.section_number}</div>
     )
 }
 

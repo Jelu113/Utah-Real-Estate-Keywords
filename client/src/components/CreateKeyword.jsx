@@ -36,9 +36,13 @@ const CreateKeyword = () => {
             keyword: "",
             statute: "",
             statuteURL: "",
-            section: "",
-            laws: "",
-            sublaws: "",
+            citations: [
+              {
+                section: "",
+                law: "",
+                sublaw: "",
+              },
+            ],
           }}
           onSubmit={async (values) => {
             const token = Auth.loggedIn() ? Auth.getToken() : null;
@@ -48,9 +52,9 @@ const CreateKeyword = () => {
             }
 
             try {
-              await addKeyword({
-                variables: { ...values },
-              });
+              // const { data } = await addKeyword({
+              //   variables: { ...values },
+              // });
               console.log(values);
             } catch (error) {
               console.log(error);
@@ -121,7 +125,7 @@ const CreateKeyword = () => {
                   <Field
                     as={Input}
                     id="law"
-                    name="citations[0].laws"
+                    name="citations[0].law"
                     type="text"
                     variant="filled"
                     validate={(value) => {
