@@ -18,6 +18,9 @@ const resolvers = {
     section: async () => {
       return Section.find();
     },
+    singleSection: async (parent, { section_number }) => {
+      return Section.findOne({ section_number: section_number });
+    },
   },
   Mutation: {
     login: async (parent, { email, password }) => {
