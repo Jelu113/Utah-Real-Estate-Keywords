@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "../styles/SearchResult.css";
+// import "../styles/SearchResult.css";
 
 const SearchResult = ({ result, setSavedValue }) => {
   const handleClick = () => {
