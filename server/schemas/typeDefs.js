@@ -71,6 +71,7 @@ const typeDefs = gql`
     users: [User]
     keyword: [Keyword]
     section: [Section]
+    singleSection(section_number: String!): Section
   }
 
   type Mutation {

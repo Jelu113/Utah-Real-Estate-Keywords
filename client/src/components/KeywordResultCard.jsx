@@ -13,10 +13,9 @@ import {
 import { useSectionKeywordContext } from "../utils/SectionKeywordContext";
 import { useQuery } from "@apollo/client";
 import { GET_ALL_KEYWORDS } from "../utils/queries";
-import { useEffect } from "react";
 
 const KeywordResultCard = () => {
-  const { keyword } = useSectionKeywordContext();
+  const { keyword, changeSection } = useSectionKeywordContext();
   const { loading, data } = useQuery(GET_ALL_KEYWORDS);
 
   console.log("provider: " + keyword);
@@ -84,7 +83,9 @@ const KeywordResultCard = () => {
           </Text>
         </CardBody>
         <CardFooter>
-          <Button>link to sub law text</Button>
+          <Button onClick={() => changeSection(citation.section)}>
+            Click here to change doc
+          </Button>
         </CardFooter>
       </Card>
     ));

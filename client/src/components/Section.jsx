@@ -11,16 +11,13 @@ const Section = () => {
   const { loading, data } = useQuery(GET_LAW_SECTION_TITLES, {
     fetchPolicy: "no-cache",
   });
-  const { changeKeyword } = useSectionKeywordContext();
+  const { changeKeyword, changeSection } = useSectionKeywordContext();
 
   const sectionTitles = data?.section || [];
   // console.log(sectionTitles);
 
   const sectionOptions = sectionTitles.map((section) => (
-    <option
-      key={section._id}
-      value={section.section_number + "." + section.section_title}
-    >
+    <option key={section._id} value={section.section_number}>
       {section.section_number} - {section.section_title}
     </option>
   ));
@@ -33,7 +30,7 @@ const Section = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (event.target[0].value && event.target[1].value) {
-      console.log(event.target[1].value);
+      await changeSection(event.target[0].value);
       await changeKeyword(event.target[1].value);
       window.location.href = "/keyword-result";
     }
