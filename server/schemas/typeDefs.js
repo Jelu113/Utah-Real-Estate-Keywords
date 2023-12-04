@@ -67,12 +67,20 @@ const typeDefs = gql`
         sublaws: String
     }
 
+
     input KeywordInput {
       keyword: String!
       statute: String
       statuteURL: String
       citations: [CitationInput]
     }
+
+  type Query {
+    users: [User]
+    keyword: [Keyword]
+    section: [Section]
+    singleSection(section_number: String!): Section
+  }
 
     input CitationInput {
       section: String
