@@ -1,12 +1,14 @@
 import {
+  Box,
+  Flex,
   Card,
   CardHeader,
   CardBody,
   CardFooter,
-  SimpleGrid,
   Button,
   Heading,
   Text,
+  Center,
 } from "@chakra-ui/react";
 import { useSectionKeywordContext } from "../utils/SectionKeywordContext";
 import { useQuery } from "@apollo/client";
@@ -27,8 +29,25 @@ const KeywordResultCard = () => {
   });
   console.log(keywordFile);
 
+  const keywordTitle = keywordFile && (
+    <Center mb={4} width="85%">
+      <Heading size="2xl">{keywordFile.keyword}</Heading>
+    </Center>
+  );
+
+  const cardStyle = {
+    boxShadow: "black", // Set border color
+  };
+
   const statuteCard = keywordFile && (
-    <Card>
+    <Card
+      boxShadow="xl"
+      mt={4}
+      mb={7}
+      width="60%"
+      ml={{ base: 0, md: 4 }}
+      style={cardStyle}
+    >
       <CardHeader>
         <Heading size="md"> Statute </Heading>
       </CardHeader>
@@ -46,7 +65,14 @@ const KeywordResultCard = () => {
   const citationCards =
     keywordFile &&
     keywordFile.citations.map((citation) => (
-      <Card>
+      <Card
+        boxShadow="xl"
+        key={citation.id}
+        mb={7}
+        width="60%"
+        ml={{ base: 0, md: 4 }}
+        style={cardStyle}
+      >
         <CardHeader>
           <Heading size="md">Citation</Heading>
         </CardHeader>
@@ -63,20 +89,38 @@ const KeywordResultCard = () => {
       </Card>
     ));
 
+  const textAboutCitation = (
+    <Card mt={6} width="85%">
+      <CardHeader>
+        <Heading size="md">Text About Citation</Heading>
+      </CardHeader>
+      <CardBody>
+        <Text mb={4}>
+          Add your text about the citation here. You can provide additional information or context.
+        </Text>
+      </CardBody>
+    </Card>
+  );
+
   if (loading) {
     return <h2> loading </h2>;
   }
 
   return (
-    <>
-      <SimpleGrid
-        spacing={4}
-        templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
-      >
+    <Flex
+      direction={{ base: "column", md: "row" }}
+      align="center"
+      justify="space-between"
+    >
+      <Box flex="1" mr={{ base: 0, md: 4 }}>
         {statuteCard}
         {citationCards}
-      </SimpleGrid>
-    </>
+      </Box>
+      <Box flex="2">
+        {keywordTitle}
+        {textAboutCitation}
+      </Box>
+    </Flex>
   );
 };
 
