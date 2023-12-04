@@ -24,3 +24,19 @@ export const ADD_USER = gql`
         }
     }
 `;
+
+export const ADD_KEYWORD = gql`
+    mutation addKeyword($input: KeywordInput!) {
+        addKeyword(input: $input) {
+                _id
+                keyword
+                statute
+                statuteURL
+                citations {
+                    section
+                    laws
+                    sublaws
+                }
+        }
+    }
+`

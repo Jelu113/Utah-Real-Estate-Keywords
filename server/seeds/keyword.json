@@ -1,7 +1,7 @@
 [
   {
     "keyword": "Lender disclosure",
-    "statute": ["61-2f-401(16), 61-2f-401(22)(iii)(A)"],
+    "statute": "61-2f-401(16), 61-2f-401(22)(iii)(A)",
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
@@ -26,7 +26,7 @@
   },
   {
     "keyword": "False Advertising",
-    "statute": ["61-2f-401(12)"],
+    "statute": "61-2f-401(12)",
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {
@@ -49,7 +49,7 @@
   },
   {
     "keyword": "Incompentency",
-    "statute": ["61-21-401(7)(15)"],
+    "statute": "61-21-401(7)(15)",
     "statuteURL": "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
     "citations": [
       {

@@ -45,11 +45,22 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    addKeyword: async (parent, { keyword }) => {
-      return Keyword.create({ keyword });
+    addKeyword: async (_, { input }) => {
+      try {
+        const newKeyword = await Keyword.create({
+          keyword: input.keyword,
+          statute: input.statute,
+          statuteURL: input.statuteURL,
+          citations: input.citations
+        });
+        return newKeyword;
+      } catch (error) {
+        console.error(error);
+        throw new Error("Failed to add keyword");
+      }
     },
     removeKeyword: async (parent, { keywordId }) => {
-      return Keyword.findOneAndDelete({ _id: keywordId });
+      return Keyword.findOneAndDelete({ _id: keywordId })
     },
   },
 };

@@ -3,7 +3,7 @@ import { Formik, Field } from "formik";
 import {
   Box,
   Button,
-  Checkbox,
+  // Checkbox,
   Flex,
   FormControl,
   FormLabel,
@@ -79,14 +79,14 @@ const Login = () => {
                   />
                   <FormErrorMessage>{errors.password}</FormErrorMessage>
                 </FormControl>
-                <Field
+                {/* <Field
                   as={Checkbox}
                   id="rememberMe"
                   name="rememberMe"
                   color="#333"
                 >
                   Remember me?
-                </Field>
+                </Field> */}
                 <Button
                   type="submit"
                   color="#333"
