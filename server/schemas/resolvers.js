@@ -18,6 +18,10 @@ const resolvers = {
     section: async () => {
       return Section.find();
     },
+
+    singleSection: async (parent, { _id }) => {
+      return Section.findOne({ _id: _id })
+    }
   },
   Mutation: {
     login: async (parent, { email, password }) => {
@@ -44,7 +48,7 @@ const resolvers = {
     },
     addKeyword: async (_, { input }) => {
       try {
-        const newKeyword = await Keyword.create({ 
+        const newKeyword = await Keyword.create({
           keyword: input.keyword,
           statute: input.statute,
           statuteURL: input.statuteURL,

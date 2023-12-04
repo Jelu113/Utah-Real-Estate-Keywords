@@ -28,7 +28,6 @@ export const ADD_USER = gql`
 export const ADD_KEYWORD = gql`
     mutation addKeyword($input: KeywordInput!) {
         addKeyword(input: $input) {
-            keyword {
                 _id
                 keyword
                 statute
@@ -38,7 +37,6 @@ export const ADD_KEYWORD = gql`
                     laws
                     sublaws
                 }
-            }
         }
     }
 `

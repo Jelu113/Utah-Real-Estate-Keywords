@@ -25,6 +25,7 @@ import Auth from "../utils/auth";
 
 const CreateKeyword = () => {
   const [results, setResults] = useState([]);
+  const [searchValue, setSearchValue] = useState("")
 
   const [addKeyword] = useMutation(ADD_KEYWORD);
 
@@ -39,8 +40,8 @@ const CreateKeyword = () => {
             citations: [
               {
                 section: "",
-                law: "",
-                sublaw: "",
+                laws: "",
+                sublaws: "",
               },
             ],
           }}
@@ -52,9 +53,11 @@ const CreateKeyword = () => {
             }
 
             try {
-              // const { data } = await addKeyword({
-              //   variables: { ...values },
-              // });
+              await addKeyword({
+                variables: {
+                  input: { ...values },
+                },
+              });
               console.log(values);
             } catch (error) {
               console.log(error);
@@ -120,12 +123,12 @@ const CreateKeyword = () => {
                 <SearchBar setResults={setResults} />
                 <SearchResultsList results={results} />
 
-                <FormControl isInvalid={!!errors.law && touched.law}>
+                <FormControl isInvalid={!!errors.laws && touched.laws}>
                   <FormLabel htmlFor="laws">Law</FormLabel>
                   <Field
                     as={Input}
-                    id="law"
-                    name="citations[0].law"
+                    id="laws"
+                    name="citations[0].laws"
                     type="text"
                     variant="filled"
                     validate={(value) => {
@@ -137,12 +140,12 @@ const CreateKeyword = () => {
                   <FormErrorMessage>{errors.laws}</FormErrorMessage>
                 </FormControl>
 
-                <FormControl isInvalid={!!errors.sublaw && touched.sublaw}>
+                <FormControl isInvalid={!!errors.sublaws && touched.sublaws}>
                   <FormLabel htmlFor="sublaws">Sublaw</FormLabel>
                   <Field
                     as={Input}
-                    id="sublaw"
-                    name="citations[0].sublaw"
+                    id="sublaws"
+                    name="citations[0].sublaws"
                     type="text"
                     variant="filled"
                     validate={(value) => {
@@ -151,7 +154,7 @@ const CreateKeyword = () => {
                       }
                     }}
                   />
-                  <FormErrorMessage>{errors.sublaw}</FormErrorMessage>
+                  <FormErrorMessage>{errors.sublaws}</FormErrorMessage>
                 </FormControl>
 
                 <Button

@@ -13,9 +13,9 @@ import {
 import { useQuery } from "@apollo/client";
 import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 
-const SearchBar = ({ setResults }) => {
+const SearchBar = ({ setResults, onSearchChange }) => {
   const [searchInput, setSearchInput] = useState("");
-
+  const [searchValue, setSearchValue] = useState("");
   const { loading, data } = useQuery(GET_LAW_SECTION_TITLES);
 
   const fetchData = async (value) => {
@@ -37,10 +37,25 @@ const SearchBar = ({ setResults }) => {
     }
   };
 
+  const handleSearchChange = (event) => {
+    const value = event.target.value;
+    setSearchValue(value);
+
+    if (onSearchChange) {
+      onSearchChange(value);
+    }
+  };
+
   const handleChange = (value) => {
     setSearchInput(value);
     fetchData(value);
   };
+
+  const handleChanger = () => {
+    handleChange();
+    handleSearchChange();
+  }
+
 
   return (
     <FormControl>
@@ -51,17 +66,18 @@ const SearchBar = ({ setResults }) => {
         </InputLeftElement>
         <Input
           variant="filled"
-          id="search-section"
+          id="section"
           name="citation[0].section"
           type="text"
           placeholder="Search a section #"
-          onChange={(e) => handleChange(e.target.value)}
+          //onChange={(e) => handleChange(e.target.value)}
+          onChange={handleChanger}
           value={searchInput}
         />
       </InputGroup>
     </FormControl>
   );
-  console.log(searchInput);
+
   // const sectionOptions = sectionTitles.map((lawSection) => (
   //   <option key={lawSection.id} value={lawSection.section_number}>
   //     {lawSection.section_number}
