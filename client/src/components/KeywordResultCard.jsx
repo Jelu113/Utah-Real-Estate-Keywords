@@ -90,19 +90,6 @@ const KeywordResultCard = () => {
       </Card>
     ));
 
-  const textAboutCitation = (
-    <Card mt={6} width="85%">
-      <CardHeader>
-        <Heading size="md">Text About Citation</Heading>
-      </CardHeader>
-      <CardBody>
-        <Text mb={4}>
-          Add your text about the citation here. You can provide additional information or context.
-        </Text>
-      </CardBody>
-    </Card>
-  );
-
   if (loading) {
     return <h2> loading </h2>;
   }
@@ -117,10 +104,7 @@ const KeywordResultCard = () => {
         {statuteCard}
         {citationCards}
       </Box>
-      <Box flex="2">
-        {keywordTitle}
-        {textAboutCitation}
-      </Box>
+      <Box flex="2">{keywordTitle}</Box>
     </Flex>
   );
 };
