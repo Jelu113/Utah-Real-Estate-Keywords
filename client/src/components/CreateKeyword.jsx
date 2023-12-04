@@ -17,17 +17,36 @@ import SearchResultsList from "../components/SearchResultsList";
 
 import SearchBar from "../components/SearchBar";
 
-//import { useQuery } from "@apollo/client";
-//import { GET_LAW_SECTION_TITLES } from "../utils/queries";
+import { useQuery } from "@apollo/client";
+import { GET_LAW_SECTION_TITLES } from "../utils/queries";
 import { useMutation } from "@apollo/client";
 import { ADD_KEYWORD } from "../utils/mutations";
 import Auth from "../utils/auth";
+import SectionDropDown from "./SectionDropDown";
 
 const CreateKeyword = () => {
   const [results, setResults] = useState([]);
-  const [searchValue, setSearchValue] = useState("")
+  const [searchValue, setSearchValue] = useState("");
 
   const [addKeyword] = useMutation(ADD_KEYWORD);
+
+  const [selectedNumber, setSelectedNumber] = useState("");
+
+  const { loading, data } = useQuery(GET_LAW_SECTION_TITLES);
+
+  const sectionTitles = data?.section || [];
+
+  const sectionNumbers = sectionTitles.map((section) => (
+    <option key={section.id} value={section.section_number}>
+      {section.section_number} - {section.section_title}
+    </option>
+  ));
+
+  const handleSectionChange = (e) => {
+    const selectedVal = e.target.value;
+    setSelectedNumber(selectedVal);
+    console.log(selectedVal);
+  };
 
   return (
     <Flex bg="gray.100" align="center" justify="center" h="100vh">
@@ -36,7 +55,8 @@ const CreateKeyword = () => {
           initialValues={{
             keyword: "",
             statute: "",
-            statuteURL: "",
+            statuteURL:
+              "https://le.utah.gov/xcode/Title61/Chapter2F/61-2f-S401.html?v=C61-2f-S401_2023050320230503",
             citations: [
               {
                 section: "",
@@ -64,7 +84,7 @@ const CreateKeyword = () => {
             }
           }}
         >
-          {({ handleSubmit, errors, touched }) => (
+          {({ handleSubmit, handleChange, errors, touched }) => (
             <form onSubmit={handleSubmit}>
               <VStack spacing={4} align="flex-start">
                 <FormControl isInvalid={!!errors.keyword && touched.keyword}>
@@ -101,7 +121,7 @@ const CreateKeyword = () => {
                   <FormErrorMessage>{errors.statute}</FormErrorMessage>
                 </FormControl>
 
-                <FormControl
+                {/* <FormControl
                   isInvalid={!!errors.statuteURL && touched.statuteURL}
                 >
                   <FormLabel htmlFor="statuteURL">Statute URL</FormLabel>
@@ -118,10 +138,24 @@ const CreateKeyword = () => {
                     }}
                   />
                   <FormErrorMessage>{errors.statuteURL}</FormErrorMessage>
+                </FormControl> */}
+
+                <FormControl>
+                  <FormLabel htmlFor="section">Select a section</FormLabel>
+                  <Field
+                    as={Select}
+                    id="section"
+                    name="citation[0].section"
+                    type="text"
+                    placeholder="Select section"
+                    onChange={handleChange("citations[0].section")}
+                  >
+                    {sectionNumbers}
+                  </Field>
                 </FormControl>
 
-                <SearchBar setResults={setResults} />
-                <SearchResultsList results={results} />
+                {/* <SearchBar setResults={setResults} />
+                <SearchResultsList results={results} /> */}
 
                 <FormControl isInvalid={!!errors.laws && touched.laws}>
                   <FormLabel htmlFor="laws">Law</FormLabel>
