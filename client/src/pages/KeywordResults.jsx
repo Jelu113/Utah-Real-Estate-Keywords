@@ -1,18 +1,22 @@
-import { Card, CardHeader, CardBody, CardFooter,SimpleGrid,Button,Text } from '@chakra-ui/react'
-import { useState } from 'react'
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  SimpleGrid,
+  Button,
+  Text,
+} from "@chakra-ui/react";
+import { useState } from "react";
 //import Header from './'
-import KeywordResultCard from '../components/KeywordResultCard'
+import KeywordResultCard from "../components/KeywordResultCard";
 
-
-const Keyword =  () => {
-
+const Keyword = () => {
   return (
-   <>
-   <div>KEYWORD</div>
-   <KeywordResultCard />
-  </>
-   );
+    <>
+      <KeywordResultCard />
+    </>
+  );
 };
-    
 
 export default Keyword;
