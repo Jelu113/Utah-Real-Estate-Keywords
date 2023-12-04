@@ -52,6 +52,7 @@ const Section = () => {
                 <div>Loading...</div>
               ) : (
                 <Select
+                  borderColor="grey"
                   className="placeholderText"
                   placeholder="Select section"
                   onChange={handleSectionChange}
@@ -60,7 +61,7 @@ const Section = () => {
                 </Select>
               )}
               <SectionKeyword2 selectedSection={selectedSection} />
-              <Button type="submit" value="submit">
+              <Button className="submit" type="submit" value="submit">
                 {" "}
                 Submit{" "}
               </Button>
