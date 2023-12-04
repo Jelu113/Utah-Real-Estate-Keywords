@@ -25,7 +25,7 @@ import Auth from "../utils/auth";
 
 const CreateKeyword = () => {
   const [results, setResults] = useState([]);
-  const [searchValue, setSearchValue] = useState("")
+  //const [searchValue, setSearchValue] = useState("")
 
   const [addKeyword] = useMutation(ADD_KEYWORD);
 

@@ -2,10 +2,8 @@ import { useState } from "react";
 
 import "../styles/SearchResult.css";
 
-const SearchResult = ({ result }) => {
-  const [savedValue, setSavedValue] = useState("");
-
-  const handleClick = (e) => {
+const SearchResult = ({ result, setSavedValue }) => {
+  const handleClick = () => {
     setSavedValue(result.section_number);
   };
 

@@ -11,9 +11,12 @@ import {
 import Auth from "../utils/auth";
 
 const Navbar = () => {
+
+  //const [tabIndex, setTabIndex] = useState(0)
+
   return (
     <>
-      <Tabs position="relative" variant="unstyled">
+      <Tabs position="relative" variant="unstyled" onChange={(index) => setTabIndex(index)}>
         <TabList mt="5px">
           <Tab as={Link} to="/">
             Home
@@ -26,7 +29,13 @@ const Navbar = () => {
               <Tab onClick={Auth.logout}>Logout</Tab>
             </>
           ) : (
-            <>
+              <>
+                
+
+
+
+
+
               <Tab as={Link} to="/create-user">
                 Create User
               </Tab>
