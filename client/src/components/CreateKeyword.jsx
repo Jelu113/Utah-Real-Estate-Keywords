@@ -79,6 +79,8 @@ const CreateKeyword = () => {
                 },
               });
               console.log(values);
+
+              window.location.assign("/");
             } catch (error) {
               console.log(error);
             }

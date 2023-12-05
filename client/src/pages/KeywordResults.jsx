@@ -6,6 +6,7 @@ import {
   SimpleGrid,
   Button,
   Text,
+  Flex
 } from "@chakra-ui/react";
 import { useState } from "react";
 //import Header from './'
@@ -16,8 +17,14 @@ import SectionInfo from "../components/SectionInfo";
 const Keyword = () => {
   return (
     <>
-      <KeywordResultCard />
-      <SectionInfo />
+      <div>
+        <Flex>
+        <KeywordResultCard />
+        <SectionInfo />
+        </Flex>
+     
+      </div>
+      
     </>
   );
 };

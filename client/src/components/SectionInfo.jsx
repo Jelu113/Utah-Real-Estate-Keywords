@@ -63,7 +63,7 @@ const SectionInfo = () => {
 
   return (
     <>
-      <Card>
+      <Card className="section-info-card">
         <CardHeader>
           <Heading size="lg">
             {lawData.section_number} - {lawData.section_title}
