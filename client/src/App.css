@@ -105,3 +105,12 @@ header {
 .submit {
   margin-top: 30px;
 }
+
+
+.keyword-padding {
+  padding: 40px;
+}
+
+.section-info-card {
+  width: 75%;
+}
