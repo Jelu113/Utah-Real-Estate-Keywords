@@ -43,7 +43,7 @@ const KeywordResultCard = () => {
       boxShadow="xl"
       mt={4}
       mb={7}
-      width="60%"
+      width="100%"
       ml={{ base: 0, md: 4 }}
       style={cardStyle}
     >
@@ -68,7 +68,7 @@ const KeywordResultCard = () => {
         boxShadow="xl"
         key={citation.id}
         mb={7}
-        width="60%"
+        width="100%"
         ml={{ base: 0, md: 4 }}
         style={cardStyle}
       >
@@ -84,7 +84,7 @@ const KeywordResultCard = () => {
         </CardBody>
         <CardFooter>
           <Button onClick={() => changeSection(citation.section)}>
-            Click here to change doc
+            Go to Section
           </Button>
         </CardFooter>
       </Card>
@@ -95,17 +95,21 @@ const KeywordResultCard = () => {
   }
 
   return (
-    <Flex
-      direction={{ base: "column", md: "row" }}
-      align="center"
-      justify="space-between"
-    >
-      <Box flex="1" mr={{ base: 0, md: 4 }}>
-        {statuteCard}
-        {citationCards}
-      </Box>
-      <Box flex="2">{keywordTitle}</Box>
-    </Flex>
+    <div>
+      <Flex
+        direction={{ base: "column", md: "column" }}
+        align="center"
+        justify="space-between"
+      >
+        <Box className="keyword-padding" flex="1">
+          {keywordTitle}
+        </Box>
+        <Box flex="1" mr={{ base: 0, md: 4 }}>
+          {statuteCard}
+          {citationCards}
+        </Box>
+      </Flex>
+    </div>
   );
 };
 
