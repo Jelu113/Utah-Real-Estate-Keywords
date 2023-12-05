@@ -111,6 +111,19 @@ header {
   padding: 40px;
 }
 
-.section-info-card {
+/* .section-info-card {
   width: 75%;
-}
+  position: absolute;
+  padding: 20px;
+} */
+/* 
+.card-column {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 100%;
+  border-right: gray;
+  line-height: 50px;
+  z-index: 1;
+} */

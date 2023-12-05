@@ -96,7 +96,7 @@ const KeywordResultCard = () => {
 
   return (
     <div>
-      <Flex
+      <Flex className="card-column"
         direction={{ base: "column", md: "column" }}
         align="center"
         justify="space-between"
