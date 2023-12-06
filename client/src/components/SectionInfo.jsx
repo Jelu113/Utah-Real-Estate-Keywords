@@ -62,7 +62,7 @@ const SectionInfo = () => {
   console.log(lawSublawElements);
 
   return (
-    <>
+    <><div>
       <Card className="section-info-card">
         <CardHeader>
           <Heading size="lg">
@@ -82,6 +82,7 @@ const SectionInfo = () => {
           </Stack>
         </CardBody>
       </Card>
+      </div>
     </>
   );
 };

@@ -88,9 +88,10 @@ header {
 }
 
   .section-info-card {
-  padding: 20px;
+  padding: 40px;
   font:16px/26px Georgia, Garamond, Serif;
   overflow:auto;
+  height:900px;
  } 
 
 .card-column { 
@@ -106,7 +107,7 @@ header {
   margin-top:30px
 }
 
-  h2{
+  h2 {
     font-size: 20px;
     padding:5px;
   }
