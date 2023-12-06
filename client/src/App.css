@@ -114,18 +114,19 @@ header {
 
  .section-info-card {
   position: absolute;
+  height:800px;
   padding: 20px;
-  height:900px;
   border:1px solid #ccc;
   font:16px/26px Georgia, Garamond, Serif;
   overflow:auto;
  }
 
 .card-column {
-  height:500px;
-  width:325px;
-  border:1px solid #ccc;
-  font:16px/26px Georgia, Garamond, Serif;
+  
   overflow:auto;
 }
 
+
+
+
+  

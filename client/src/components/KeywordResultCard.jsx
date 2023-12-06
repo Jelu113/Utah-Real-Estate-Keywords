@@ -23,32 +23,45 @@ const KeywordResultCard = () => {
   const keywordData = data?.keyword || [];
   console.log(keywordData);
 
+  const breakpoints = {
+    base: "0em", // 0px
+    sm: "30em", // ~480px. em is a relative unit and is dependant on the font size.
+    md: "48em", // ~768px
+    lg: "62em", // ~992px
+    xl: "80em", // ~1280px
+    "2xl": "96em", // ~1536px
+  };
   const keywordFile = keywordData.find((keywordFileSection) => {
     return keywordFileSection.keyword === keyword;
   });
   console.log(keywordFile);
 
   const keywordTitle = keywordFile && (
-    <Center mb={4} width="85%">
-      <Heading size="xl">{keywordFile.keyword}</Heading>
+    <Center >
+      <Heading fontSize= {{ base: "15px", md:"20px",lg: "25px"}}
+      paddingTop="15px"
+      >{keywordFile.keyword}</Heading>
     </Center>
   );
 
   const cardStyle = {
     boxShadow: "black", // Set border color
+   
   };
+
+
 
   const statuteCard = keywordFile && (
     <Card
       boxShadow="xl"
-      mt={4}
-      mb={7}
+      mt={2}
+      mb={3}
       width="100%"
       ml={{ base: 0, md: 4 }}
       style={cardStyle}
     >
       <CardHeader>
-        <Heading size="md"> Statute </Heading>
+        <Heading fontSize= {{ base: "15px", md:"15px",lg: "20px"}}> Statute </Heading>
       </CardHeader>
       <CardBody>
         <Text mb={4}>{keywordFile.statute}</Text>
@@ -73,7 +86,7 @@ const KeywordResultCard = () => {
         style={cardStyle}
       >
         <CardHeader>
-          <Heading size="md">Citation</Heading>
+          <Heading fontSize= {{ base: "15px", md:"15px",lg: "20px"}}>Citation</Heading>
         </CardHeader>
         <CardBody>
           <Text mb={4}>
@@ -93,15 +106,23 @@ const KeywordResultCard = () => {
   if (loading) {
     return <h2> loading </h2>;
   }
+  
 
   return (
-    <div>
+    <div
+  
+    >
       <Flex className="card-column"
-        direction={{ base: "column", md: "column" }}
-        align="center"
-        justify="space-between"
-      >
-        <Box className="keyword-padding" flex="1">
+    direction={{ base: "column", md: "column" }}
+    boxSize= {{ base: "160px", md:"200px",lg: "250px"}}
+    height={{ 
+      base: "400px",
+      md: "500px",
+      xl: "600px"
+    }} 
+    align="center"
+    justify="space-between">
+        <Box  w= "100%">
           {keywordTitle}
         </Box>
         <Box flex="1" mr={{ base: 0, md: 4 }}>

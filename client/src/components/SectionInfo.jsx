@@ -69,12 +69,11 @@ const SectionInfo = () => {
             {lawData.section_number} - {lawData.section_title}
           </Heading>
         </CardHeader>
-
         <CardBody>
           <Stack divider={<StackDivider />} spacing="4">
             <Box>
               <Heading size="md" textTransform="uppercase">
-                Laws and sublaws
+                
               </Heading>
               <Text pt="2" fontSize="sm">
                 {lawSublawElements}
