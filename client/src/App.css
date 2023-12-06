@@ -108,11 +108,11 @@ header {
 
 
 .keyword-padding {
-  padding: 40px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
  .section-info-card {
-  width: 75%;
   position: absolute;
   padding: 20px;
   height:900px;
