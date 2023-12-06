@@ -1,14 +1,8 @@
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  SimpleGrid,
-  Button,
-  Text,
+
   Flex
 } from "@chakra-ui/react";
-import { useState } from "react";
+
 //import Header from './'
 import KeywordResultCard from "../components/KeywordResultCard";
 

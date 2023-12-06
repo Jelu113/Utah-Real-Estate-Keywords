@@ -30,7 +30,7 @@ const KeywordResultCard = () => {
 
   const keywordTitle = keywordFile && (
     <Center mb={4} width="85%">
-      <Heading size="2xl">{keywordFile.keyword}</Heading>
+      <Heading size="xl">{keywordFile.keyword}</Heading>
     </Center>
   );
 

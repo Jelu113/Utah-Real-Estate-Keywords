@@ -111,19 +111,21 @@ header {
   padding: 40px;
 }
 
-/* .section-info-card {
+ .section-info-card {
   width: 75%;
   position: absolute;
   padding: 20px;
-} */
-/* 
+  height:900px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+ }
+
 .card-column {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 320px;
-  height: 100%;
-  border-right: gray;
-  line-height: 50px;
-  z-index: 1;
-} */
+  height:500px;
+  width:325px;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+}
+
