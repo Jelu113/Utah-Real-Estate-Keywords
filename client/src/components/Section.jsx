@@ -15,6 +15,14 @@ const Section = () => {
 
   const sectionTitles = data?.section || [];
   // console.log(sectionTitles);
+  const breakpoints = {
+    base: "0em", // 0px
+    sm: "30em", // ~480px. em is a relative unit and is dependant on the font size.
+    md: "48em", // ~768px
+    lg: "62em", // ~992px
+    xl: "80em", // ~1280px
+    "2xl": "96em", // ~1536px
+  };
 
   const sectionOptions = sectionTitles.map((section) => (
     <option key={section._id} value={section.section_number}>
@@ -39,23 +47,20 @@ const Section = () => {
   return (
     <>
       <div className="sections">
-        <div className="selectBoxContainer">
-          <h1> Keyword search</h1>
-          <br />
-          <div className="selectBox">
-            <form onSubmit={handleSubmit}>
-              <h2 className="sectionText">Select a Section</h2>
+       <h1 align ="center"> Keyword search</h1>   
+         <form onSubmit={handleSubmit} >
+              <h2>Select a Section</h2>
               {loading ? (
                 <div>Loading...</div>
               ) : (
-                <Select
+                <Select 
+                  color="color: #333333;"
                   borderColor="grey"
-                  className="placeholderText"
                   placeholder="Select section"
-                  onChange={handleSectionChange}
-                >
+                  onChange={handleSectionChange}>
                   {sectionOptions}
                 </Select>
+                
               )}
               <SectionKeyword2 selectedSection={selectedSection} />
               <Button className="submit" type="submit" value="submit">
@@ -63,9 +68,10 @@ const Section = () => {
                 Submit{" "}
               </Button>
             </form>
-          </div>
-        </div>
+          
+        
       </div>
+      
     </>
   );
 };
