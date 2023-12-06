@@ -97,10 +97,16 @@ header {
   overflow:auto;
 }
 
-h1 {
+.keywordName {
   font-size: 35px;
   padding-bottom: 40px;
+} 
+
+.submit{
+  margin-top:30px
 }
 
-
-  
+  h2{
+    font-size: 20px;
+    padding:5px;
+  }
