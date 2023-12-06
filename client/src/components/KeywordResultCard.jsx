@@ -116,12 +116,13 @@ const KeywordResultCard = () => {
     direction={{ base: "column", md: "column" }}
     boxSize= {{ base: "160px", md:"200px",lg: "250px"}}
     height={{ 
-      base: "400px",
+      base: "500px",
       md: "500px",
       xl: "600px"
     }} 
     align="center"
-    justify="space-between">
+    justify="space-between"
+    border="1px" borderColor="grey">
         <Box  w= "100%">
           {keywordTitle}
         </Box>
