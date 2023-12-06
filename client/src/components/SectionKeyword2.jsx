@@ -31,6 +31,7 @@ const SectionKeyword2 = ({ selectedSection }) => {
         <div>Loading...</div>
       ) : (
         <Select
+       
           borderColor="grey"
           className="placeholderText"
           placeholder="Select keyword"
